@@ -1,0 +1,28 @@
+:root {
+  --md-primary-fg-color:        #0072ff;
+  --md-primary-fg-color--light: #00C3ff;
+  --md-primary-fg-color--dark:  #1E2227;
+}
+
+
+.facebook {
+  color: #4267B2;
+}
+.github {
+  color: #333333;
+}
+.medium {
+  color: #00AB6C;
+}
+.telegram {
+  color: #0088CC;
+}
+.twitter {
+  color: #1DA1F2;
+}
+.youtube {
+  color: #FF0000;
+}
+.bittube {
+  color: #000000;
+}

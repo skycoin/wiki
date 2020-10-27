@@ -1,0 +1,2562 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../../img/Skycoin-Cloud-Blue.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.0.2">
+    
+    
+      
+        <title>Syntax - Skycoin Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.38780c08.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f72e892.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#syntax" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-announce">
+          <div class="md-announce__inner md-grid md-typeset">
+            
+<div align="center">!!! VPN on Skywire <a href="https://github.com/skycoin/skywire/releases">v.0.3.0</a> - More Information <a href="https://www.skycoin.com/blog/posts/skycoin-vpn/">here</a>!!!</div>
+
+          </div>
+        </aside>
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="Skycoin Wiki" class="md-header-nav__button md-logo" aria-label="Skycoin Wiki">
+      
+  <img src="../../../img/Skycoin-Cloud-White.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Skycoin Wiki
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Syntax
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/skycoin/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../" class="md-tabs__link md-tabs__link--active">
+          Software
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../hardware/" class="md-tabs__link">
+          Hardware
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../skyfleet/overview/" class="md-tabs__link">
+          Skyfleet
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../exchanges/" class="md-tabs__link">
+          More
+        </a>
+      
+    </li>
+  
+
+      
+        
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Skycoin Wiki" class="md-nav__button md-logo" aria-label="Skycoin Wiki">
+      
+  <img src="../../../img/Skycoin-Cloud-White.png" alt="logo">
+
+    </a>
+    Skycoin Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/skycoin/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Software
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Software" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Skycoin
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Skycoin" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        <span class="md-nav__icon md-icon"></span>
+        Skycoin
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skycoin/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://explorer.skycoin.com/app/blocks/1" class="md-nav__link">
+      Explorer
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Fiber
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Fiber" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        <span class="md-nav__icon md-icon"></span>
+        Fiber
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fiber/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fiber/fiber-coins/" class="md-nav__link">
+      Fiber-Projects
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Skywire
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Skywire" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        <span class="md-nav__icon md-icon"></span>
+        Skywire
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-2" type="checkbox" id="nav-2-4-2">
+    
+    <label class="md-nav__link" for="nav-2-4-2">
+      Installation
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Installation" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-4-2">
+        <span class="md-nav__icon md-icon"></span>
+        Installation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/installation-overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/installation-windows/" class="md-nav__link">
+      Windows
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/installation-macos/" class="md-nav__link">
+      macOS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/installation-linux/" class="md-nav__link">
+      Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/installation-raspberrypi/" class="md-nav__link">
+      Raspberry Pi & SBCs
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/discovery/" class="md-nav__link">
+      Discovery & Uptime
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-4" type="checkbox" id="nav-2-4-4">
+    
+    <label class="md-nav__link" for="nav-2-4-4">
+      Apps
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Apps" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-4-4">
+        <span class="md-nav__icon md-icon"></span>
+        Apps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/apps/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/apps/proxy/" class="md-nav__link">
+      Proxy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/apps/skychat/" class="md-nav__link">
+      Skychat
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../skywire/apps/vpn/" class="md-nav__link">
+      VPN
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5" checked>
+    
+    <label class="md-nav__link" for="nav-2-5">
+      CX
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="CX" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        <span class="md-nav__icon md-icon"></span>
+        CX
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5-2" type="checkbox" id="nav-2-5-2">
+    
+    <label class="md-nav__link" for="nav-2-5-2">
+      Getting Started
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Getting Started" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-5-2">
+        <span class="md-nav__icon md-icon"></span>
+        Getting Started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../installation-windows/" class="md-nav__link">
+      Windows
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../installation-macos/" class="md-nav__link">
+      macOS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../installation-linux/" class="md-nav__link">
+      Linux
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5-3" type="checkbox" id="nav-2-5-3" checked>
+    
+    <label class="md-nav__link" for="nav-2-5-3">
+      Basics
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Basics" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-5-3">
+        <span class="md-nav__icon md-icon"></span>
+        Basics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Syntax
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Syntax
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    Comments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#declarations" class="md-nav__link">
+    Declarations
+  </a>
+  
+    <nav class="md-nav" aria-label="Declarations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#allowed-names" class="md-nav__link">
+    Allowed Names
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strict-type-system" class="md-nav__link">
+    Strict Type System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primitive-types" class="md-nav__link">
+    Primitive Types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-variables" class="md-nav__link">
+    Global variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#local-variables" class="md-nav__link">
+    Local variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arrays" class="md-nav__link">
+    Arrays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slices" class="md-nav__link">
+    Slices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#literals" class="md-nav__link">
+    Literals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-types" class="md-nav__link">
+    Custom Types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packages" class="md-nav__link">
+    Packages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statements" class="md-nav__link">
+    Statements
+  </a>
+  
+    <nav class="md-nav" aria-label="Statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-and-ifelse" class="md-nav__link">
+    If and if/else
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#else-if" class="md-nav__link">
+    Else if
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-loop" class="md-nav__link">
+    For loop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#goto" class="md-nav__link">
+    Goto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expressions" class="md-nav__link">
+    Expressions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignments-and-initializations" class="md-nav__link">
+    Assignments and Initializations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#affordances" class="md-nav__link">
+    Affordances
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../basics-runtime/" class="md-nav__link">
+      Runtime
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../basics-native-functions/" class="md-nav__link">
+      Native Functions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../basics-running-cx/" class="md-nav__link">
+      Running CX
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../basics-repl/" class="md-nav__link">
+      REPL
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5-4" type="checkbox" id="nav-2-5-4">
+    
+    <label class="md-nav__link" for="nav-2-5-4">
+      Native Packages
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Native Packages" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-5-4">
+        <span class="md-nav__icon md-icon"></span>
+        Native Packages
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../package-time/" class="md-nav__link">
+      time
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../package-os/" class="md-nav__link">
+      os
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../package-gl/" class="md-nav__link">
+      gl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../package-glfw/" class="md-nav__link">
+      glfw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../package-gltext/" class="md-nav__link">
+      gltext
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://cx-tracker.skycoin.com/" class="md-nav__link">
+      CX Tracker
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
+    
+    <label class="md-nav__link" for="nav-2-6">
+      CXO
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="CXO" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-6">
+        <span class="md-nav__icon md-icon"></span>
+        CXO
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cxo/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://cxo.skycoin.com/" class="md-nav__link">
+      CXO Tracker
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7">
+    
+    <label class="md-nav__link" for="nav-2-7">
+      CXFX
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="CXFX" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-7">
+        <span class="md-nav__icon md-icon"></span>
+        CXFX
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cxfx/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cxfx/roadmap/" class="md-nav__link">
+      Roadmap
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Hardware
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Hardware" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Hardware
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skyminer/" class="md-nav__link">
+      Skyminer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Skywallet
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Skywallet" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        Skywallet
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3-2" type="checkbox" id="nav-3-3-2">
+    
+    <label class="md-nav__link" for="nav-3-3-2">
+      Manual
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Manual" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-3-2">
+        <span class="md-nav__icon md-icon"></span>
+        Manual
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-1-checking-the-genuineness/" class="md-nav__link">
+      Checking the genuineness
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-2-initializing-the-wallet/" class="md-nav__link">
+      Initializing the wallet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-3-personalizing-the-wallet/" class="md-nav__link">
+      Personalizing the wallet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-4-firmware-update/" class="md-nav__link">
+      Firmware update
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-5-testing-your-seed/" class="md-nav__link">
+      Testing your seed
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-6-restoring-backup/" class="md-nav__link">
+      Restoring backup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-7-optimizing-the-security/" class="md-nav__link">
+      Optimizing the security
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-8-sending-and-receiving-coins/" class="md-nav__link">
+      Sending and Receiving coins
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-9-miscellaneous-operations/" class="md-nav__link">
+      Miscellaneous operations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywallet/manual-10-troubleshooting/" class="md-nav__link">
+      Troubleshooting
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../hardware/skywalletdk/" class="md-nav__link">
+      Skywallet DK
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Skyfleet
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Skyfleet" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Skyfleet
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../skyfleet/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../skyfleet/captain-sky-comics/" class="md-nav__link">
+      Captain Sky
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      More
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="More" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        More
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../exchanges/" class="md-nav__link">
+      Exchanges
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../buywithsky/" class="md-nav__link">
+      Use SKY/SCH
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../brand/" class="md-nav__link">
+      Brand
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../videos/" class="md-nav__link">
+      Videos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../contribute/" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    Comments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#declarations" class="md-nav__link">
+    Declarations
+  </a>
+  
+    <nav class="md-nav" aria-label="Declarations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#allowed-names" class="md-nav__link">
+    Allowed Names
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strict-type-system" class="md-nav__link">
+    Strict Type System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primitive-types" class="md-nav__link">
+    Primitive Types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-variables" class="md-nav__link">
+    Global variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#local-variables" class="md-nav__link">
+    Local variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arrays" class="md-nav__link">
+    Arrays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slices" class="md-nav__link">
+    Slices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#literals" class="md-nav__link">
+    Literals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-types" class="md-nav__link">
+    Custom Types
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packages" class="md-nav__link">
+    Packages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statements" class="md-nav__link">
+    Statements
+  </a>
+  
+    <nav class="md-nav" aria-label="Statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-and-ifelse" class="md-nav__link">
+    If and if/else
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#else-if" class="md-nav__link">
+    Else if
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-loop" class="md-nav__link">
+    For loop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#goto" class="md-nav__link">
+    Goto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expressions" class="md-nav__link">
+    Expressions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignments-and-initializations" class="md-nav__link">
+    Assignments and Initializations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#affordances" class="md-nav__link">
+    Affordances
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/skycoin/wiki/docs/software/cx/basics-syntax.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="syntax">Syntax</h1>
+<p>In this section, we're going to have a look at how a CX program looks
+like. Basically, the following sections are not going to discuss about
+the logic behind the various CX constructs, i.e. how they
+behave; we're only going to see how they look like.</p>
+<h2 id="comments">Comments</h2>
+<p>Some of the code snippets that follow have comments in them, i.e.,
+blocks of text that are not actually "run" by the CX compiler or
+interpreter. Just like in C, Golang and many other programming
+languages, single line comments are created by placing double slashes
+(//) before the text being commented. For example:</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// Example of adding two 32 bit integers in CX</span>
+
+<span class="nx">i32</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>       <span class="c1">// This will be ignored</span>
+
+<span class="c1">// End of the program</span>
+</code></pre></div>
+<p>Mult-line comments are opened by writing slash-asterisk (/*), and are
+closed by writing asterisk-slash (*/).</p>
+<div class="highlight"><pre><span></span><code><span class="cm">/* This code won&#39;t be executed</span>
+<span class="cm">str.print(&quot;Hello world!&quot;)</span>
+<span class="cm">*/</span>
+</code></pre></div>
+<h2 id="declarations">Declarations</h2>
+<p>A declaration refers to a <em>named</em> element in a program's
+structure, which are described using other constructs, such as
+expressions and other statements. For example: a function can be
+referred by its name and it's constructed by expressions and local
+variable declarations.</p>
+<h3 id="allowed-names">Allowed Names</h3>
+<p>Any name that satisfies the PCRE regular expression
+<code>[_a-zA-Z][_a-zA-Z0-9]*</code> is allowed as an identifier for a declared
+element. In other words, an identifier can start with an underscore
+(<em>_</em>) or any lowercase or uppercase letter, and can be followed by 0
+or more underscores or lowercase or uppercase letters, and any number
+from 0 to 9.</p>
+<h3 id="strict-type-system">Strict Type System</h3>
+<p>One of CX's goals is to provide a very strict type system. The purpose
+of this is to reduce runtime errors as much as possible. In order to
+achieve this goal, many of CX's native functions are constrained to a
+single type signature. For example, if you want to add two 32-bit
+integers, you'd need to use <code>i32.add</code>. In contrast, if you want to add
+two 64-bit integers, you'd use <code>i64.add</code>. These functions can help the
+programmer to ensure that a particular data type is being received or
+sent during a process.</p>
+<p>If the programmer doesn't want to use those type-specific functions,
+CX still provides type inference in some cases. For example, instead
+of writing <code>i32.add(5, 5)</code> you can just write <code>5 + 5</code>. In this case,
+CX is going to see that you're using 32-bit integers, and the parser
+is going to transform that expression to <code>i32.add(5, 5)</code>. However, if
+you try to do <code>5 + 5L</code>, i.e. if you try to add a 32-bit integer to a
+64-bit integer, CX will throw a compile-time error because you're
+mixing types.</p>
+<p>The proper way to handle types in CX is to explicitly parse
+everything. This way one can be sure that you're always going to be
+handling the desired type. So, retaking the previous example, you'd
+need to parse one of them to match the other's type, either
+<code>i32.i64(5) + 5L</code> or <code>5 + i64.i32(5L)</code>.</p>
+<h3 id="primitive-types">Primitive Types</h3>
+<p>There are seven primitive types in CX: <em>bool</em>, <em>str</em>, <em>byte</em>, <em>i32</em>,
+<em>i64</em>, <em>f32</em>, and <em>f64</em>. Those represent Booleans (<em>true</em>
+or <em>false</em>), character strings, bytes, 32-bit integers, 64-bit
+integers, single precision and double precision floating-point
+numbers, respectively.</p>
+<h3 id="global-variables">Global variables</h3>
+<p>Global variables are different from local variables regarding
+scope. Global variables are available to any function defined in a
+package, and to any package that is importing the package that
+contains that global declaration. An example of some global variables
+is shown below.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">var</span> <span class="nx">global1</span> <span class="nx">i32</span>
+<span class="kd">var</span> <span class="nx">global2</span> <span class="nx">i64</span>
+
+<span class="kd">func</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">global1</span><span class="p">)</span>
+    <span class="nx">i64</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">global2</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">global1</span> <span class="p">=</span> <span class="mi">5</span>
+    <span class="nx">global2</span> <span class="p">=</span> <span class="mi">5</span><span class="nx">L</span>
+
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">global1</span><span class="p">)</span>
+    <span class="nx">i64</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">global2</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above we can see that both the <code>main</code> and <code>foo</code>
+functions are printing the values of the two global variables
+defined. They are going to print the same values, as they are
+referring to the same variables.</p>
+<h3 id="local-variables">Local variables</h3>
+<p>In contrast to global variables, local variables are constrained to
+the function where they are declared. This means that is not possible
+for another function to call a variable defined in another function.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">local</span><span class="p">)</span> <span class="c1">// this expression will throw a compile-time error</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">local</span> <span class="nx">i32</span>
+    <span class="nx">local</span> <span class="p">=</span> <span class="mi">5</span>
+
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+    <span class="nx">foo</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>If you try to run the example above, CX will throw an error similar to
+this: <code>error: examples/testing.cx:4 identifier 'local' does not
+exist</code>, so CX will not even try to run that program. If we could
+de-activate CX's compile-time type checking, and the program above
+could make it to the runtime, CX would not print 5 when running
+<code>foo()</code>, as that function is unaware of that variable.</p>
+<h3 id="arrays">Arrays</h3>
+<p>Arrays (or vectors) and multi-dimensional arrays (or matrices) can be
+declared using a syntax similar to C's.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">type</span> <span class="nx">Point</span> <span class="kd">struct</span> <span class="p">{</span>
+    <span class="nx">x</span> <span class="nx">i32</span>
+    <span class="nx">y</span> <span class="nx">i32</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">arr1</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="nx">i32</span>
+    <span class="kd">var</span> <span class="nx">arr2</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="nx">Point</span>
+    <span class="kd">var</span> <span class="nx">arr3</span> <span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span><span class="nx">f32</span>
+
+    <span class="nx">arr1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">=</span> <span class="mi">10</span>
+    <span class="nx">arr2</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">=</span> <span class="mi">20</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above we see the declaration of an array of 5 elements
+of type <em>i32</em>, followed by an array of the same cardinality but of
+type <em>Point</em>, which is a custom type. Custom types are discussed in a
+later section. Lastly, we see an example of a 2x2 matrix of type
+<em>f32</em>.</p>
+<p>Lastly, we can see how we can initialize an array using the bracket
+notation, e.g. <code>arr1[0] = 10</code>.</p>
+<h3 id="slices">Slices</h3>
+<p>Golang-like slices exist in CX (dynamic arrays). Slices are declared
+similarly to arrays, with the only difference that the size is
+omitted.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">type</span> <span class="nx">Point</span> <span class="kd">struct</span> <span class="p">{</span>
+    <span class="nx">x</span> <span class="nx">i32</span>
+    <span class="nx">y</span> <span class="nx">i32</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">slc1</span> <span class="p">[]</span><span class="nx">i32</span>
+    <span class="kd">var</span> <span class="nx">slc2</span> <span class="p">[]</span><span class="nx">Point</span>
+    <span class="kd">var</span> <span class="nx">slc3</span> <span class="p">[][]</span><span class="nx">f32</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Slices, unlike arrays, cannot be directly initialized using the
+bracket notation (unless you use the native function <code>make</code>
+first). You can use the bracket notation to reassign values to a
+slice, once an element associated to the index that you want to use
+already exists, as shown in the example below.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">slc</span> <span class="p">[]</span><span class="nx">i32</span>
+
+    <span class="nx">slc</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">slc</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="nx">slc</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">slc</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+    <span class="nx">slc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">=</span> <span class="mi">10</span>
+    <span class="nx">slc</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="p">=</span> <span class="mi">30</span> <span class="c1">// This is not allowed, as len(slc) == 2, not 3</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>As this behavior is more related to the logic behind slices, it is
+further explained in the <em>Runtime-&gt;Data Structures-&gt;Slices</em> section.</p>
+<h3 id="literals">Literals</h3>
+<p>A literal is any data structure that is not being referenced by any
+variable yet. For example: <code>1</code>, <code>true</code>, <code>[]i32{1, 2, 3}</code>, <code>Point{x:
+10, y: 20}</code>.</p>
+<p>Particularly, it is worth noting the cases of array, slice and struct
+literals.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">type</span> <span class="nx">Point</span> <span class="kd">struct</span> <span class="p">{</span>
+    <span class="nx">x</span> <span class="nx">i32</span>
+    <span class="nx">y</span> <span class="nx">i32</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">a</span> <span class="nx">Point</span>
+    <span class="kd">var</span> <span class="nx">b</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="nx">i32</span>
+    <span class="kd">var</span> <span class="nx">c</span> <span class="p">[]</span><span class="nx">i32</span>
+
+    <span class="nx">a</span> <span class="p">=</span> <span class="nx">Point</span><span class="p">{</span><span class="nx">x</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="nx">y</span><span class="p">:</span> <span class="mi">20</span><span class="p">}</span>
+    <span class="nx">b</span> <span class="p">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="nx">i32</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">}</span>
+    <span class="nx">c</span> <span class="p">=</span> <span class="p">[]</span><span class="nx">i32</span><span class="p">{</span><span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">300</span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above we can see examples of struct (<code>Point{x: 10,
+y: 20}</code>), array (<code>[5]i32{1, 2, 3, 4, 5}</code>), and slice (<code>[]i32{100, 200, 300}</code>)
+literals, in that order. These literals exist to simplify the creation
+of such data structures.</p>
+<h3 id="functions">Functions</h3>
+<p>Functions in CX are similar in syntax to functions in Go. The only
+exception is that named outputs are enforced at the moment (this will
+most likely change in the future).</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">foo</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The example above doesn't do anything, but it illustrates the anatomy
+of a function. In the case of <code>foo</code>, we have an empty function
+declaration, and then we have <code>main</code>, which is defined by a single
+call to <code>foo</code>. Functions can also receive inputs and return outputs,
+as in the example below.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">foo</span> <span class="p">(</span><span class="nx">in</span> <span class="nx">i32</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">in</span><span class="p">)</span> <span class="c1">// this will print 5</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">bar</span> <span class="p">()</span> <span class="p">(</span><span class="nx">out</span> <span class="nx">i32</span><span class="p">){</span>
+    <span class="nx">out</span> <span class="p">=</span> <span class="mi">10</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">foo</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+
+    <span class="kd">var</span> <span class="nx">local</span> <span class="nx">i32</span>
+    <span class="nx">local</span> <span class="p">=</span> <span class="nx">bar</span><span class="p">()</span>
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">local</span><span class="p">)</span> <span class="c1">// this will print 10</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In this case, <code>foo</code> is declared to receive one input parameter, and
+<code>bar</code> is declared to return one output parameter.</p>
+<h3 id="custom-types">Custom Types</h3>
+<p>If primitive types are not enough, you can define your own custom
+types by combining the primitive types and other constructs like
+slices, arrays, and even other custom types.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">type</span> <span class="nx">Point</span> <span class="kd">struct</span> <span class="p">{</span>
+    <span class="nx">x</span> <span class="nx">i32</span>
+    <span class="nx">y</span> <span class="nx">i32</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">p</span> <span class="nx">Point</span>
+    <span class="nx">p</span><span class="p">.</span><span class="nx">x</span> <span class="p">=</span> <span class="mi">10</span>
+    <span class="nx">p</span><span class="p">.</span><span class="nx">y</span> <span class="p">=</span> <span class="mi">20</span>
+
+    <span class="nx">printf</span><span class="p">(</span><span class="s">&quot;Point coordinates: (%d, %d)\n&quot;</span><span class="p">,</span> <span class="nx">p</span><span class="p">.</span><span class="nx">x</span><span class="p">,</span> <span class="nx">p</span><span class="p">.</span><span class="nx">y</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above, we can see a custom type that defines a
+<em>Point</em> as the combination of two 32-bit integers (<em>i32</em>). After
+declaring the custom type, you can start declaring variables of that
+type anywhere in the package where it was declared in. The code in
+<code>foo</code> shows how you can create and use an instance of that structure.</p>
+<h3 id="methods">Methods</h3>
+<p>A variation of functions that are associated to custom types are
+<em>methods</em>.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">type</span> <span class="nx">Point</span> <span class="kd">struct</span> <span class="p">{</span>
+    <span class="nx">x</span> <span class="nx">i32</span>
+    <span class="nx">y</span> <span class="nx">i32</span>
+<span class="p">}</span>
+
+<span class="kd">type</span> <span class="nx">Line</span> <span class="kd">struct</span> <span class="p">{</span>
+    <span class="nx">a</span> <span class="nx">Point</span>
+    <span class="nx">b</span> <span class="nx">Point</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="p">(</span><span class="nx">p</span> <span class="nx">Point</span><span class="p">)</span> <span class="nx">print</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">printf</span><span class="p">(</span><span class="s">&quot;Point coordinates: (%d, %d)\n&quot;</span><span class="p">,</span> <span class="nx">p</span><span class="p">.</span><span class="nx">x</span><span class="p">,</span> <span class="nx">p</span><span class="p">.</span><span class="nx">y</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="p">(</span><span class="nx">l</span> <span class="nx">Line</span><span class="p">)</span> <span class="nx">print</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">printf</span><span class="p">(</span><span class="s">&quot;Line point A: (%d, %d), Line point B: (%d, %d)\n&quot;</span><span class="p">,</span> <span class="nx">l</span><span class="p">.</span><span class="nx">a</span><span class="p">.</span><span class="nx">x</span><span class="p">,</span> <span class="nx">l</span><span class="p">.</span><span class="nx">a</span><span class="p">.</span><span class="nx">y</span><span class="p">,</span> <span class="nx">l</span><span class="p">.</span><span class="nx">b</span><span class="p">.</span><span class="nx">x</span><span class="p">,</span> <span class="nx">l</span><span class="p">.</span><span class="nx">b</span><span class="p">.</span><span class="nx">y</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">l</span> <span class="nx">Line</span>
+    <span class="kd">var</span> <span class="nx">p1</span> <span class="nx">Point</span>
+    <span class="kd">var</span> <span class="nx">p2</span> <span class="nx">Point</span>
+
+    <span class="nx">p1</span><span class="p">.</span><span class="nx">x</span> <span class="p">=</span> <span class="mi">10</span>
+    <span class="nx">p1</span><span class="p">.</span><span class="nx">y</span> <span class="p">=</span> <span class="mi">20</span>
+    <span class="nx">p2</span><span class="p">.</span><span class="nx">x</span> <span class="p">=</span> <span class="mi">11</span>
+    <span class="nx">p2</span><span class="p">.</span><span class="nx">y</span> <span class="p">=</span> <span class="mi">21</span>
+
+    <span class="nx">l</span><span class="p">.</span><span class="nx">a</span> <span class="p">=</span> <span class="nx">p1</span>
+    <span class="nx">l</span><span class="p">.</span><span class="nx">b</span> <span class="p">=</span> <span class="nx">p2</span>
+
+    <span class="nx">p1</span><span class="p">.</span><span class="nb">print</span><span class="p">()</span>
+    <span class="nx">p2</span><span class="p">.</span><span class="nb">print</span><span class="p">()</span>
+    <span class="nx">l</span><span class="p">.</span><span class="nb">print</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above, we define two custom types: <em>Point</em> and
+<em>Line</em>. The type line is defined by two fields of type
+<em>Point</em>, and the type <em>Point</em> is defined as coordinate defined by two
+fields of type <em>i32</em>.</p>
+<p>As a simple example, we create two methods called <code>print</code>, one for the
+type <em>Point</em> and another for the type <em>Line</em>. In the case of
+<code>Point.print</code>, we just print the two coordinates, and in
+the case of <code>Line.print</code> we print the coordinates of the two points
+that define the <em>Line</em> instance.</p>
+<h3 id="packages">Packages</h3>
+<p>In the previous examples we have always been using a single package:
+<code>main</code>. If your program grows too large it's convenient to divide your
+code into different packages.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">foo</span>
+
+<span class="kd">func</span> <span class="nx">fn</span> <span class="p">(</span><span class="nx">in</span> <span class="nx">i32</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">in</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kn">package</span> <span class="nx">bar</span>
+
+<span class="kd">func</span> <span class="nx">fn</span> <span class="p">()</span> <span class="p">(</span><span class="nx">out</span> <span class="nx">i32</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">out</span> <span class="p">=</span> <span class="mi">5</span>
+<span class="p">}</span>
+
+<span class="kn">package</span> <span class="nx">main</span>
+<span class="kn">import</span> <span class="s">&quot;foo&quot;</span>
+<span class="kn">import</span> <span class="s">&quot;bar&quot;</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">foo</span><span class="p">.</span><span class="nx">fn</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c1">// prints 10</span>
+
+    <span class="kd">var</span> <span class="nx">num</span> <span class="nx">i32</span>
+    <span class="nx">num</span> <span class="p">=</span> <span class="nx">bar</span><span class="p">.</span><span class="nx">fn</span><span class="p">()</span>
+
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">num</span><span class="p">)</span> <span class="c1">// prints</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above, we can see how two functions with the same name
+(<code>fn</code>) are declared, each in a separate package. Both of these
+functions have different signatures, as <code>foo.fn</code> accepts a single
+input parameter and <code>bar.fn</code> doesn't accept any inputs but returns a
+single output parameter.</p>
+<p>We can then see how the <code>main</code> package <code>import</code>s both the <code>foo</code> and
+<code>bar</code> packages, to later call each of these functions.</p>
+<h2 id="statements">Statements</h2>
+<p>Statements are different to declarations, as they don't create any
+named elements in a program. They are used to control the flow of a
+program.</p>
+<h3 id="if-and-ifelse">If and if/else</h3>
+<p>The most basic statement is the <em>if</em> statement, which is going to
+execute a block of code only if a condition is true.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="kc">false</span> <span class="p">{</span>
+        <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;This will never print&quot;</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The example above won't do anything, as the condition for the <em>if</em>
+statement is always going to evaluate to <em>false</em>.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="kc">true</span> <span class="p">{</span>
+        <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;This will always print&quot;</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In contrast, the example above will always print.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="kc">true</span> <span class="p">{</span>
+        <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;This will always print&quot;</span><span class="p">)</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;This will never print&quot;</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Lastly, the example above shows how to write an <em>if/else</em> statement in CX.</p>
+<p>As a note about its syntax, the predicates or conditions don't need to
+be enclosed in parentheses, just like in Go.</p>
+<h3 id="else-if">Else if</h3>
+<p>Instead of simply adding one alternative path, you can string together a series
+of <em>else if</em> blocks, which check for as many different conditions as you like.
+Giving you similar functionality as Go's <em>switch</em>/<em>select</em> blocks (containing
+various conditions/cases).</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+   <span class="kd">var</span> <span class="nx">i</span> <span class="nx">i32</span>
+   <span class="nx">i</span> <span class="p">=</span> <span class="mi">0</span>
+
+   <span class="k">if</span> <span class="nx">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
+     <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;i is 0&quot;</span><span class="p">)</span>
+   <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="nx">i</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">{</span>
+     <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;i is 1&quot;</span><span class="p">)</span>
+   <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="nx">i</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">{</span>
+     <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;i is 2&quot;</span><span class="p">)</span>
+   <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+     <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;i is NOT 0, 1 or 2&quot;</span><span class="p">)</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="for-loop">For loop</h3>
+<p>CX's only looping statement is the <em>for</em> loop. Similar to Go, the
+<em>for</em> loop in CX can be used as the <em>while</em> statement in other
+programming languages, and as a traditional <em>for</em> statement.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="kc">true</span> <span class="p">{</span>
+        <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;forever&quot;</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>As the simplest example of a loop, we have the infinite loop shown in
+the example above. In this case, the loop will print the character
+string "forever" indefinitely. If you try this code, remember that you
+can cancel the program's execution by hitting <code>Ctrl-C</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="nx">str</span><span class="p">.</span><span class="nx">eq</span><span class="p">(</span><span class="s">&quot;hi&quot;</span><span class="p">,</span> <span class="s">&quot;hi&quot;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;hi&quot;</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The code above shows another example, one where we use an expression
+as its predicate, rather than a literal <code>true</code> or <code>false</code>. It is worth
+mentioning that you can replace <code>str.eq("hi", "hi")</code> by <code>"hi" == "hi"</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">c</span> <span class="nx">i32</span>
+    <span class="k">for</span> <span class="nx">c</span> <span class="p">=</span> <span class="mi">0</span> <span class="p">;</span> <span class="nx">c</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">c</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The traditional <em>for</em> loop shown in the example above. In languages
+like C, you need to first declare your counter variable, and then you
+have the option to initialize or reassign the counter in the first
+part of the <em>for</em> loop. The second part of the <em>for</em> loop is reserved
+for the predicate, and the last part is usually used to increment the
+counter. Nevertheless, just like in C, there's nothing stopping you
+from doing whatever you want in the first and last parts. However, the
+predicate part needs to be an expression that evaluates to a Boolean.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="nx">c</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">c</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">c</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>A more Go-ish way of declaring and initializing the counter is to use
+an inline declaration, as seen in the example above.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">c</span> <span class="nx">i32</span>
+    <span class="nx">c</span> <span class="p">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="p">;</span> <span class="nx">c</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">c</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Lastly, the for loop can also completely omit the initialization part,
+as seen above.</p>
+<h3 id="goto">Goto</h3>
+<p><code>goto</code> can be used to immediately jump the execution of a program to
+the corresponding labeled expression.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">(</span><span class="nx">out</span> <span class="nx">i32</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">goto</span> <span class="nx">label2</span>
+<span class="nx">label1</span><span class="p">:</span>
+    <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;this should never be reached&quot;</span><span class="p">)</span>
+<span class="nx">label2</span><span class="p">:</span>
+    <span class="nx">str</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="s">&quot;this should be printed&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above, we see how a <code>goto</code> statement forces CX to
+ignore executing the expression labeled as <code>label1</code>, and instead jumps
+to the <code>label2</code> expression.</p>
+<h2 id="expressions">Expressions</h2>
+<p>Expressions are basically function calls. But the term expression also
+takes into consideration the variables that are receiving the
+function's output arguments, the input arguments, and any dereference
+operations.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">(</span><span class="nx">arr</span> <span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="nx">i32</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">arr</span> <span class="p">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="nx">i32</span><span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">i32</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">foo</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>For example, the expression <code>i32.print(foo()[0])</code> in the code above
+consists of two function calls, and the array returned by the call
+to <code>foo</code> is "dereferenced" to its <em>0<sup>th</sup></em> element.</p>
+<h2 id="assignments-and-initializations">Assignments and Initializations</h2>
+<p>As in many other C-like languages, assignments are done using the
+equal (<code>=</code>) sign.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">foo</span> <span class="nx">i32</span>
+    <span class="nx">foo</span> <span class="p">=</span> <span class="mi">5</span>
+    <span class="nx">foo</span> <span class="p">=</span> <span class="mi">50</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the case of the code above, the variable <code>foo</code> is declared and then
+initialized to <code>5</code> using the <code>=</code> sign. Then we reassign the <code>foo</code>
+variable to the value <code>50</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">foo</span> <span class="o">:=</span> <span class="mi">5</span>
+    <span class="nx">foo</span> <span class="p">=</span> <span class="mi">50</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>As in other programming languages, <em>short variable declarations</em> exist
+in CX. The <code>:=</code> token can be used to tell CX to infer a variable's
+type. This way, CX declares and initializes at the same time, as seen
+in the example above.</p>
+<h2 id="affordances">Affordances</h2>
+<p>The affordance system in CX uses a special operator: <code>-&gt;</code>.  This
+operator takes a series of statements that have the form of function
+calls, and transforms them to a series of instructions that can be
+internally interpreted by the affordance system.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kd">func</span> <span class="nx">exprPredicate</span> <span class="p">(</span><span class="nx">expr</span> <span class="nx">Expression</span><span class="p">)</span> <span class="p">(</span><span class="nx">res</span> <span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="nx">expr</span><span class="p">.</span><span class="nx">Operator</span> <span class="o">==</span> <span class="s">&quot;i32.add&quot;</span> <span class="p">{</span>
+        <span class="nx">res</span> <span class="p">=</span> <span class="kc">true</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">prgrmPredicate</span> <span class="p">(</span><span class="nx">prgrm</span> <span class="nx">Program</span><span class="p">)</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="nx">prgrm</span><span class="p">.</span><span class="nx">FreeHeap</span> <span class="p">&gt;</span> <span class="mi">50</span> <span class="p">{</span>
+        <span class="nx">res</span> <span class="p">=</span> <span class="kc">true</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">num1</span> <span class="o">:=</span> <span class="mi">5</span>
+    <span class="nx">num2</span> <span class="o">:=</span> <span class="mi">10</span>
+
+<span class="nx">targetExpr</span><span class="p">:</span>
+    <span class="nx">sum</span> <span class="o">:=</span> <span class="nx">i32</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+    <span class="nx">tgt</span> <span class="o">:=</span> <span class="o">-</span><span class="p">&gt;{</span>
+        <span class="nx">pkg</span><span class="p">(</span><span class="nx">main</span><span class="p">)</span>
+        <span class="nx">fn</span><span class="p">(</span><span class="nx">main</span><span class="p">)</span>
+        <span class="nx">expr</span><span class="p">(</span><span class="nx">targetExpr</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="nx">fltrs</span> <span class="o">:=</span> <span class="o">-</span><span class="p">&gt;{</span>
+        <span class="nx">filter</span><span class="p">(</span><span class="nx">exprPredicate</span><span class="p">)</span>
+        <span class="nx">filter</span><span class="p">(</span><span class="nx">prgrmPredicate</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="nx">aff</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">tgt</span><span class="p">)</span>
+    <span class="nx">aff</span><span class="p">.</span><span class="nb">print</span><span class="p">(</span><span class="nx">fltrs</span><span class="p">)</span>
+
+    <span class="nx">affs</span> <span class="o">:=</span> <span class="nx">aff</span><span class="p">.</span><span class="nx">query</span><span class="p">(</span><span class="nx">fltrs</span><span class="p">,</span> <span class="nx">tgt</span><span class="p">)</span>
+
+    <span class="nx">aff</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="nx">affs</span><span class="p">,</span> <span class="nx">tgt</span><span class="p">)</span>
+    <span class="nx">aff</span><span class="p">.</span><span class="nx">of</span><span class="p">(</span><span class="nx">affs</span><span class="p">,</span> <span class="nx">tgt</span><span class="p">)</span>
+
+    <span class="nx">aff</span><span class="p">.</span><span class="nx">inform</span><span class="p">(</span><span class="nx">affs</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">tgt</span><span class="p">)</span>
+    <span class="nx">aff</span><span class="p">.</span><span class="nx">request</span><span class="p">(</span><span class="nx">affs</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">tgt</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../installation-linux/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Linux
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../basics-runtime/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Runtime
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://www.skycoin.com/" target="_blank" rel="noopener" title="www.skycoin.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/Skycoinproject" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.linkedin.com/company/skycoin" target="_blank" rel="noopener" title="www.linkedin.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://t.me/Skycoin" target="_blank" rel="noopener" title="t.me" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://discord.gg/EgBenrW" target="_blank" rel="noopener" title="discord.gg" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://medium.com/skycoin" target="_blank" rel="noopener" title="medium.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.reddit.com/r/skycoin" target="_blank" rel="noopener" title="www.reddit.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.instagram.com/skycoinproject/" target="_blank" rel="noopener" title="www.instagram.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.youtube.com/channel/UC_rRSG_Db1D-rnmU20b_kRg" target="_blank" rel="noopener" title="www.youtube.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.facebook.com/SkycoinOfficial/" target="_blank" rel="noopener" title="www.facebook.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.77e55a48.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.9554a270.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: ['header.autohide', 'navigation.instant', 'navigation.tabs', 'toc.autohide'],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

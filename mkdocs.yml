@@ -1,0 +1,153 @@
+site_name: Skycoin Wiki
+
+nav:
+      - Home: index.md
+      - Software:
+            - Overview:                     software\index.md
+            - Skycoin: 
+                - Introduction:             software\skycoin\index.md
+                - Explorer:                 https://explorer.skycoin.com/app/blocks/1                     
+            - Fiber:                        
+                - Introduction:             software\fiber\index.md
+                - Fiber-Projects:              software\fiber\fiber-coins.md
+
+            - Skywire:        
+                - Introduction:             software\skywire\index.md
+                #- Architecture:            software\skywire\architecture.md
+                - Installation: 
+                    - Overview:             software\skywire\installation-overview.md
+                    - Windows:              software\skywire\installation-windows.md
+                    - macOS:                software\skywire\installation-macos.md
+                    - Linux:                software\skywire\installation-linux.md
+                    - Raspberry Pi & SBCs:  software\skywire\installation-raspberrypi.md
+                    #- Docker:
+                #- Authentication:          software\skywire\authentication.md
+                #- Whitelisting:            software\skywire\whitelisting.md
+                - Discovery & Uptime:       software\skywire\discovery.md
+                - Apps:
+                    - Overview:             software\skywire\apps\overview.md
+                    - Proxy:                software\skywire\apps\proxy.md
+                    - Skychat:              software\skywire\apps\skychat.md
+                    - VPN:                  software\skywire\apps\vpn.md
+
+
+            - CX:
+              - Introduction:               software\cx\index.md
+              - Getting Started:
+                  - Windows:                software\cx\installation-windows.md
+                  - macOS:                  software\cx\installation-macos.md
+                  - Linux:                  software\cx\installation-linux.md
+              - Basics:
+                  - Syntax:                 software\cx\basics-syntax.md
+                  - Runtime:                software\cx\basics-runtime.md
+                  - Native Functions:       software\cx\basics-native-functions.md
+                  - Running CX:             software\cx\basics-running-cx.md
+                  - REPL:                   software\cx\basics-repl.md
+              - Native Packages:
+                  - time:                   software\cx\package-time.md
+                  - os:                     software\cx\package-os.md
+                  - gl:                     software\cx\package-gl.md
+                  - glfw:                   software\cx\package-glfw.md
+                  - gltext:                 software\cx\package-gltext.md
+              - CX Tracker:                 https://cx-tracker.skycoin.com/
+
+            - CXO:                         
+                - Introduction:             software\cxo\index.md
+                - CXO Tracker:              https://cxo.skycoin.com/
+
+            - CXFX:                        
+                - Introduction:             software\cxfx\index.md
+                - Roadmap:                  software\cxfx\roadmap.md
+
+            #- DMSG:                        software\dmsg\index.md
+
+            #- KittyCash:                    https://kittycash.io/home
+
+      - Hardware:
+            - Overview:                     hardware\index.md
+            - Skyminer:                     hardware\skyminer\index.md
+            - Skywallet:
+                - Overview:                 hardware\skywallet\index.md
+                - Manual:
+                    - Checking the genuineness:     hardware\skywallet\manual-1-checking-the-genuineness.md
+                    - Initializing the wallet:      hardware\skywallet\manual-2-initializing-the-wallet.md
+                    - Personalizing the wallet:     hardware\skywallet\manual-3-personalizing-the-wallet.md
+                    - Firmware update:              hardware\skywallet\manual-4-firmware-update.md
+                    - Testing your seed:            hardware\skywallet\manual-5-testing-your-seed.md
+                    - Restoring backup:             hardware\skywallet\manual-6-restoring-backup.md
+                    - Optimizing the security:      hardware\skywallet\manual-7-optimizing-the-security.md
+                    - Sending and Receiving coins:  hardware\skywallet\manual-8-sending-and-receiving-coins.md
+                    - Miscellaneous operations:     hardware\skywallet\manual-9-miscellaneous-operations.md
+                    - Troubleshooting:              hardware\skywallet\manual-10-troubleshooting.md
+            - Skywallet DK:                         hardware\skywalletdk\index.md
+
+      - Skyfleet: 
+            - Overview:             skyfleet\overview.md
+            - Captain Sky:          skyfleet\captain-sky-comics.md
+            #- Skytipbot:            "https://t.me/skytipbot"
+            #- Skywagerbot:          "https://t.me/skywagerbot"
+            #- SkycoinPalace:        "https://t.me/skycoinpalace"
+            #- MoojieBetBot:         "https://t.me/MoojieBetBot"
+
+      - More:
+            - Exchanges:            exchanges.md
+            - Use SKY/SCH:          buywithsky.md
+            - Brand:                brand.md     
+            - Videos:               videos.md
+      - Contribute: contribute.md
+      #- About: about.md
+
+theme: 
+  name: material
+  logo: img/Skycoin-Cloud-White.png
+  favicon: img/Skycoin-Cloud-Blue.png
+  custom_dir: overrides
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.tabs
+    - toc.autohide
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.skycoin.com/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Skycoinproject
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/skycoin
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/Skycoin
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/EgBenrW
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/skycoin
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/skycoin
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/skycoinproject/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UC_rRSG_Db1D-rnmU20b_kRg
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/SkycoinOfficial/
+
+repo_url: https://github.com/skycoin
+edit_uri: wiki/docs/
