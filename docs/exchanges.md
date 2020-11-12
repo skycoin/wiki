@@ -26,6 +26,7 @@
 |[Coinsuper](https://www.coinsuper.com/)|any|-|
 |[Coinswitch](https://exchange.skycoin.com)|any|-|
 |[Exolis](https://exolix.com/)|any|-|
+|[InstaEx](https://instaex.io)|any|-|
 |[InstaSwap](https://instaswap.io/)|any|-|
 |[SimpleSwap](https://simpleswap.io/)|any|-|
 |[StealthEX](https://stealthex.io)|any|-|
