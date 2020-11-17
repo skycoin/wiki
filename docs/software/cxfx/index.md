@@ -8,51 +8,9 @@
 ![commits-per-year][commit-activity-one-year-image]
 ![last-commit][commit-last-image]
 
-CXFX is a 3D Game Engine, that will deliver all the things needed to develop a Game of your choice.
-What will be possible and what already is you can see on the [Roadmap](./roadmap).<br>
-CXFX supports:
-
-* macOS
-* Windows
-* Linux
-* Android
-* iOS.
-
-If you want to help here is [How to contribute](./how-to-contribute).
-
-## Getting Started
-
-> TODO
-<!--* [Installation of CXFX](./installation)-->
-
-## Basics
-
-> TODO
-
-## Tutorials
-
-> Here we will link all known links that use CXFX in the future
-
-<!--* [Basic Tutorials](./basic-tutorials)-->
-
-## Open-Source Projects
-
-[Skylight](https://github.com/SkycoinProject/cxfx/tree/master/games/skylight)
-
-
-## Social Networks
-
-### Github
-
-* [CXFX Development Repository](https://github.com/SkycoinProject/cxfx/blob/develop/README.md)
-
-### Telegram
-
-* [Skycxfx](https://t.me/Skycxfx)
-
-### Twitter
-
-* [skycoincxfx](https://twitter.com/skycoincxfx)
+|About|Setup|User Documentation|Developer Documentation|Social Networks|
+|:--:|:--:|:--:|:--:|:--:|
+|<a href="about/"><img src="../../img/navigation/about.png" alt="about" width="50" height="50"></a>|<a href="setup/"><img src="../../img/navigation/setup.png" alt="setup" width="50" height="50"></a>|<a href="userdocs/overview"><img src="../../img/navigation/userdoc.png" alt="userdoc" width="50" height="50"></a>|<a href="devdocs/overview"><img src="../../img/navigation/devdoc.png" alt="devdoc" width="50" height="50"></a>|<a href="social/"><img src="../../img/navigation/social.png" alt="social" width="50" height="50"></a>|
 
 [build-status-branch-develop]: https://travis-ci.com/SkycoinProject/cxfx.svg?branch=develop
 [build-status-url-develop]: https://travis-ci.com/SkycoinProject/cxfx

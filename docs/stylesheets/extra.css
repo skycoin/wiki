@@ -26,3 +26,8 @@
 .bittube {
   color: #000000;
 }
+
+@font-face {
+  font-family: "Skycoin";
+  src: "../fonts/Skycoin-Bold.otf";
+}

@@ -1,0 +1,1 @@
+>   TODO: text about the Skycoin Project, the vision, how to contribute/apply, contacts and so on

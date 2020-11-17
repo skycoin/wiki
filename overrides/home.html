@@ -1,0 +1,210 @@
+<!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+{% extends "main.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+  <!--{{ super() }}-->
+
+  <!-- Additional styles for landing page -->
+  <style>
+
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+      /*display: none;*/
+    }
+
+    .md-header-nav__button{
+      display: none;
+    }
+
+    .md-header-nav__title{
+      display: none;
+    }
+
+    .md-search{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+
+    }
+
+    /* Remove spacing, as we cannot hide it completely */
+    .md-main__inner {
+      margin: 0;
+    }
+
+    /* Hide main content for now */
+    .md-content {
+      display: none;
+    }
+
+    /* Hide table of contents */
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary {
+        display: none;
+      }
+    }
+
+    /* Hide navigation */
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+
+    .tx-container{
+      text-align: center;
+    }
+
+    .banner:hover {opacity: 0.7;}
+    .banner{
+      border-radius: 5px;
+    }
+  </style>
+
+  <!-- Hero for landing page -->
+  <section class="tx-container">
+    <div class="md-grid md-typeset">
+      <div class="tx-hero">
+
+        <!-- Hero image -->
+        <div class="tx-hero__image">
+          <img
+            src="img/Skycoin-Cloud-Blue-shorted.png"
+            alt=""
+            width="300"
+            height="50"
+            draggable="false"
+          >
+        </div>
+        
+        <!-- Hero content -->
+        <div class="tx-hero__content">
+          <h1>Skycoin Wiki</h1>
+          <p>{{ config.site_description }}</p>
+          <a
+            href="software/"
+            title="Software"
+            class="md-button md-button--primary"
+          >
+            Software
+          </a>
+          <a
+            href="hardware/"
+            title="Hardware"
+            class="md-button md-button--primary"
+          >
+            Hardware
+          </a>
+          <a
+            href="skyfleet/overview"
+            title="Skyfleet"
+            class="md-button md-button--primary"
+          >
+            Skyfleet
+          </a>
+          <a
+            href="exchanges/"
+            title="More"
+            class="md-button md-button--primary"
+          >
+            More
+          </a>
+          <br>
+          <br>
+          <a
+            href="news"
+            title="News"
+          >
+          <img
+            class="banner"
+            src="img/navigation/banner-news.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+          <br>
+          <a
+            href="meetups"
+            title="Meetups & Workshops"
+          >
+          <img
+          class="banner"
+            src="img/navigation/banner-meetups.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+          <br>
+          <a
+            href="videos"
+            title="Media"
+          >
+          <img
+            class="banner"
+            src="img/navigation/banner-media.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+          <br>
+          <a
+            href="partnerships"
+            title="Partnerships"
+          >
+          <img
+            class="banner"
+            src="img/navigation/banner-partnerships.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+          <br>
+          <a
+            href="contribute"
+            title="Contribute"
+          >
+          <img
+            class="banner"
+            src="img/navigation/banner-contribute.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}

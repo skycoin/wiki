@@ -1,98 +1,96 @@
 # Roadmap
 
-Well this is actually not a roadmap, but something similar:
+Actually not a roadmap, but something similar:
 
-## Wip:
-
-- :hammer_and_wrench: math:
-  - :white_check_mark: matrix
-    - :white_check_mark: basic matrix operations
-  - :white_check_mark: vector
-  - :white_check_mark: quaternion
-  - :hammer_and_wrench: spline
-- :hammer_and_wrench: graphics:
-  - :hammer_and_wrench: textures:
-    - :hammer_and_wrench: texture 2d
-      - :white_check_mark: generate mipmaps
-      - :hammer_and_wrench: load mipmaps
-    - :hammer_and_wrench: texture cube
-      - :white_check_mark: generate mipmaps
-      - :hammer_and_wrench: load mipmaps
-    - :hammer_and_wrench: texture array
-    - :hammer_and_wrench: texture 3d
-    - :hammer_and_wrench: texture compression
-    - :hammer_and_wrench: srgb
-  - :hammer_and_wrench: shaders:
-    - :white_check_mark: shader permutations
-    - :hammer_and_wrench: shader hot reload
-    - :hammer_and_wrench: shader reflection (parse glsl and extract uniforms)
-    - :hammer_and_wrench: shader uniform binding in gui
-  - :hammer_and_wrench: rendering:
-    - :hammer_and_wrench: physically based renderer
-      - :white_check_mark: kronos implementation
-        - :hammer_and_wrench: debug
-      - :white_check_mark: diffuse irradiance
-      - :white_check_mark: specular irradiance
-      - :white_check_mark: hdr maps
-      - :hammer_and_wrench: custom brdf
-      - :hammer_and_wrench: realtime cubemap
-    - :white_check_mark: normal map
-    - :white_check_mark: emmissive map
-    - :white_check_mark: occlusion map
-    - :white_check_mark: output scene depth in a texture
-    - :white_check_mark: multiple render targets
-    - :white_check_mark: order independent transparency
-    - :hammer_and_wrench: particles
-      - :hammer_and_wrench: moving emitters
-    - :hammer_and_wrench: anti aliasing
-    - :hammer_and_wrench: atmospheric scattering
-  - :hammer_and_wrench: terrain
-- :hammer_and_wrench: audio:
-  - :white_check_mark: wav 8bps/16bps
-  - :hammer_and_wrench: wav f32/f64
-  - :hammer_and_wrench: 3d audio
-  - :hammer_and_wrench: audio streaming:
-  - :hammer_and_wrench: compressed audio
-- :hammer_and_wrench: phycics:
-  - :hammer_and_wrench: collision/intersection/response
-    - :hammer_and_wrench: ellipsoid/triangle
-    - :hammer_and_wrench: ellipsoid/ellipsoid
-    - :hammer_and_wrench: ray/ellipsoid
-    - :hammer_and_wrench: ray/OBB
-    - :hammer_and_wrench: ray/AABB
-  - :white_check_mark: gravity
-  - :hammer_and_wrench: torque
-- :hammer_and_wrench: cameras:
-  - :white_check_mark: free camera
-  - :white_check_mark: first person camera
-  - :white_check_mark: third person camera
-  - :white_check_mark: smooth motions
-  - :hammer_and_wrench: cinematic camera
-- :hammer_and_wrench: gltf support (loader/renderer/exporter):
-  - :white_check_mark: flat mesh
-  - :white_check_mark: textured mesh
-  - :white_check_mark: hierarchical mesh
-  - :white_check_mark: pbr materials
-  - :white_check_mark: skinning
-  - :white_check_mark: animations
-  - :hammer_and_wrench: cameras
-  - :hammer_and_wrench: lights
-  - :hammer_and_wrench: exporter
-- :hammer_and_wrench: 2d gui toolkit:
-  - :white_check_mark: game screens
-  - :white_check_mark: label
-  - :white_check_mark: picture
-  - :white_check_mark: scrollbar
-  - :white_check_mark: list
-  - :hammer_and_wrench: json serialization
-- :hammer_and_wrench: application:
-  - :white_check_mark: resize events
-  - :white_check_mark: toggle fullscreen
-  - :hammer_and_wrench: cli
-  - :hammer_and_wrench: mobile:
-    - :hammer_and_wrench: virtual keyboard
-    - :hammer_and_wrench: ios
-    - :white_check_mark: android
-- :hammer_and_wrench: skycoin:
-  - :hammer_and_wrench: cxo
-  - :hammer_and_wrench: cxchain
+* [ ] **math:**
+    * [x] matrix
+        * [x] basic matrix operations
+    * [x] vector
+    * [x] quaternion
+    * [ ] spline
+* [ ] **graphics:**
+    * [ ] *textures:*
+        * [ ] texture 2d
+          * [x] generate mipmaps
+          * [ ] load mipmaps
+        * [ ] texture cube
+          * [x] generate mipmaps
+          * [ ] load mipmaps
+        * [ ] texture array
+        * [ ] texture 3d
+        * [ ] texture compression
+        * [ ] srgb
+    * [ ] *shaders:*
+        * [x] shader permutations
+        * [ ] shader hot reload
+        * [ ] shader reflection (parse glsl and extract uniforms)
+        * [ ] shader uniform binding in gui
+    * [ ] *rendering:*
+        * [ ] physically based renderer
+            * [x] kronos implementation
+                * [ ] debug
+            * [x] diffuse irradiance
+            * [x] specular irradiance
+            * [x] hdr maps
+            * [ ] custom brdf
+            * [ ] realtime cubemap
+        * [x] normal map
+        * [x] emmissive map
+        * [x] occlusion map
+        * [x] output scene depth in a texture
+        * [x] multiple render targets
+        * [x] order independent transparency
+        * [ ] particles
+          * [ ] moving emitters
+        * [ ] anti aliasing
+        * [ ] atmospheric scattering
+        * [ ] terrain
+* [ ] **audio:**
+    * [x] wav 8bps/16bps
+    * [ ] wav f32/f64
+    * [ ] 3d audio
+    * [ ] audio streaming:
+    * [ ] compressed audio
+* [ ] **phycics:**
+    * [ ] collision/intersection/response
+      * [ ] ellipsoid/triangle
+      * [ ] ellipsoid/ellipsoid
+      * [ ] ray/ellipsoid
+      * [ ] ray/OBB
+      * [ ] ray/AABB
+    * [x] gravity
+    * [ ] torque
+* [ ] **cameras:**
+    * [x] free camera
+    * [x] first person camera
+    * [x] third person camera
+    * [x] smooth motions
+    * [ ] cinematic camera
+* [ ] **gltf support (loader/renderer/exporter):**
+    * [x] flat mesh
+    * [x] textured mesh
+    * [x] hierarchical mesh
+    * [x] pbr materials
+    * [x] skinning
+    * [x] animations
+    * [ ] cameras
+    * [ ] lights
+    * [ ] exporter
+* [ ] **2d gui toolkit:**
+    * [x] game screens
+    * [x] label
+    * [x] picture
+    * [x] scrollbar
+    * [x] list
+    * [ ] json serialization
+* [ ] **application:**
+    * [x] resize events
+    * [x] toggle fullscreen
+    * [ ] cli
+    * [ ] *mobile:*
+        * [ ] virtual keyboard
+        * [ ] ios
+        * [x] android
+* [ ] **skycoin:**
+    * [ ] cxo
+    * [ ] cxchains

@@ -4,17 +4,16 @@ If you want to help to make this wiki great you have got different options.<br>
 Either you install all dependencies or you open an issue.
 
 === "DIY (git & mkdocs)"
-    1. Make a Github Account
-    2. Clone this repository
-    3. Install mkdocs
-    4. Pull-Request your changes
+    1. Clone this repository
+    2. [Install mkdocs](https://www.mkdocs.org/#installation)
+    3. Pull-Request your changes
 
-    !!! note "Change News Header"
-        You can change the information of the header in the file overrides/main.html
-               
+=== "DIY (edit online)"
+    1. Click on the pencil icon on the site you want to edit 
+    2. Sign in to github with your github account
+    3. Edit the site and do a pull-request
+
 === "Open an issue"
-
-    If you find a typo or want text to be added you also can open an issue and either
-    write what the typo is or post the text and the position where you want it to be added.
-
-    Just open an issue [here](https://github.com/skycoin/wiki/issues)
+    1. Click on the issue icon on the site you want to open an issue for
+    2. Sign in to github with your github account
+    3. Insert a title for your issue and describe it in the comment section
