@@ -10,16 +10,16 @@ Tampering or damage can be anything from a small tear on the package to a packag
     Do not accept a shipment which seems to be damaged in any such way
 
 === "Front"
-    ![Untampered_Shipment_Font](img/manual/Skywallet-Untampered-Edit-Back-Side.jpg?raw=true)
+    ![Untampered_Shipment_Font](img/Skywallet-Untampered-Edit-Back-Side.jpg?raw=true)
 
 === "Back"
-    ![Untampered_Shipment_Back](img/manual/Skywallet-Untampered-Edit-Front-Side.jpg?raw=true)
+    ![Untampered_Shipment_Back](img/Skywallet-Untampered-Edit-Front-Side.jpg?raw=true)
 
 === "Sticker"
     !!! note
-    Please ensure that the holographic sticker with the Skycoin logo on the Skywallet box is not broken.
+        Please ensure that the holographic sticker with the Skycoin logo on the Skywallet box is not broken.
 
-    ![Holographic_Sticker](img/manual/Skywallet-Untampered-Edit-Sticker.jpg?raw=true)
+    ![Holographic_Sticker](img/Skywallet-Untampered-Edit-Sticker.jpg?raw=true)
 
 ## Checking the Firmware
 
@@ -45,7 +45,7 @@ However, it is vital to check that your Skywallet is not compromised before usin
 
         Along with the Skycoin Logo.
 
-        ![Welcome_Message](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_03.png?raw=true)
+        ![Welcome_Message](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_03.png?raw=true)
 
         A Skywallet that is being used for the first time will not have a firmware installed.
 
@@ -61,7 +61,7 @@ However, it is vital to check that your Skywallet is not compromised before usin
 
         Along with the Skycoin Logo.
 
-        ![Needs_Seed](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_04.png?raw=true)
+        ![Needs_Seed](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_04.png?raw=true)
 
         If you get a "Needs Seed!" message on your first use, it means that your Skywallet is not a new one and has a firmware already initialized.
 

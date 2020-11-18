@@ -48,7 +48,7 @@ After successfully checking that your Skywallet is genuine, you can begin with t
 
     Once you have connected the Skywallet to the USB port, open the Skycoin Desktop Wallet.
 
-    If it is the first time you are using your Skywallet, please make sure to go through the following section of the user manual, [Checking the Genuineness of your Skywallet](./manual-1-checking the genuineness), to ensure that you are using a genuine Skywallet.
+    If it is the first time you are using your Skywallet, please make sure to go through the following section of the user manual, [Checking the Genuineness of your Skywallet](../01-checking-the-genuineness), to ensure that you are using a genuine Skywallet.
 
     The instructions for a Desktop Wallet which is used for the first time and an already configured Desktop Wallet are different.
 
@@ -62,7 +62,7 @@ After successfully checking that your Skywallet is genuine, you can begin with t
 
         Upon pressing the “Using a hardware wallet?” button, the display screen on your Skywallet will show a welcome message:
 
-        ![Welcome_Msg](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_03.png?raw=true)
+        ![Welcome_Msg](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_03.png?raw=true)
 
         To configure your Skywallet for the first time, you have to install the firmware for the Skywallet, as explained in Step 5.
 
@@ -70,7 +70,7 @@ After successfully checking that your Skywallet is genuine, you can begin with t
 
         If you are **not** using your Desktop Wallet for the first time, then on connecting the Skywallet via USB, the following window will be displayed.
 
-        ![All_Wallets](img/manual/Initialization_All_Wallets.png?raw=true)
+        ![All_Wallets](img/Initialization_All_Wallets.png?raw=true)
 
         The window will display a list of all the Wallets that are already configured in your Desktop Wallet. 
 
@@ -81,7 +81,7 @@ After successfully checking that your Skywallet is genuine, you can begin with t
 
         On pressing “Hardware Wallet” button, the display screen on the Skywallet will show a welcome message:
 
-        ![Welcome_Msg](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_03.png?raw=true)
+        ![Welcome_Msg](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_03.png?raw=true)
 
         Once the welcome message is displayed on the Skywallet screen, you can proceed to install the firmware.
 
@@ -89,7 +89,7 @@ After successfully checking that your Skywallet is genuine, you can begin with t
 
     To indicate the beginning of the firmware installation, the Desktop Wallet will show the following window:
 
-    ![Firmware_Installation](img/manual/Initialization_firmware_installation.png?raw=true)
+    ![Firmware_Installation](img/Initialization_firmware_installation.png?raw=true)
 
     You can click on continue to start installing the firmware for your Skywallet.
 
@@ -106,7 +106,7 @@ After successfully checking that your Skywallet is genuine, you can begin with t
 
     Simultaneously, the following window will be displayed by the Desktop Wallet.
 
-    ![HW_Detection](img/manual/Initialization_unconfigured_wallet.png?raw=true)
+    ![HW_Detection](img/Initialization_unconfigured_wallet.png?raw=true)
 
     In this window, you can select two options :
 
@@ -122,18 +122,18 @@ After successfully checking that your Skywallet is genuine, you can begin with t
 
         Once the configuration is complete, the following window will be displayed.
 
-        ![Configured_Wallet](img/manual/Initialization_Configured_Wallet.png?raw=true)
+        ![Configured_Wallet](img/Initialization_Configured_Wallet.png?raw=true)
 
         You can use this window to change the name of your Skywallet. After which you can click on the “Close” button to close the window.
 
-        ![Changed_Wallet_Name](img/manual/Initialization_Changed_Wallet_Name.PNG?raw=true)
+        ![Changed_Wallet_Name](img/Initialization_Changed_Wallet_Name.PNG?raw=true)
 
     === "Step 6.2: Restore backup"
 
         If you have already made a backup of a previously used Skywallet and need to restore it on the new Skywallet, then you can opt for the Restore Backup option.
 
-        The restoration process is explained in detail in this section - [Restore Configuration](./manual-6-restoring-backup)
+        The restoration process is explained in detail in this section - [Restore Configuration](../06-restoring-backup)
 
         If the Skywallet is **not** connected or not detected by your computer, then the following error message will be displayed:
 
-        ![Error_Msg](img/manual/Initialization_Last.png?raw=true)
+        ![Error_Msg](img/Initialization_Last.png?raw=true)

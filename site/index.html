@@ -1,3 +1,22 @@
+<!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -6,6 +25,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Welcome to our wiki! Navigate with the buttons below or search for a keyword.">
+      
       
       
       <link rel="shortcut icon" href="img/Skycoin-Cloud-Blue.png">
@@ -13,7 +34,7 @@
     
     
       
-        <title>Skycoin Wiki</title>
+        <title>Skycoin Wiki - Skycoin Wiki</title>
       
     
     
@@ -26,13 +47,25 @@
     
     
     
-      
+
         
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
-      
-    
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback"
+        />
+<style>
+  body, input {
+    font-family: "Roboto",
+      Skycoin, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  }
+  pre, code, kbd {
+    font-family: "Roboto Mono",
+      SFMono-Regular, Consolas, Menlo, monospace;
+  }
+</style>
+
+
     
     
       <link rel="stylesheet" href="stylesheets/extra.css">
@@ -57,18 +90,20 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#welcome-to-the-skycoin-wiki" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
         <aside class="md-announce">
           <div class="md-announce__inner md-grid md-typeset">
             
-<div align="center">!!! VPN on Skywire <a href="https://github.com/skycoin/skywire/releases">v.0.3.0</a> - More Information <a href="https://www.skycoin.com/blog/posts/skycoin-vpn/">here</a>!!!</div>
+<style>
+  .announce{
+      text-align: center;
+    }
+</style>
+<div class="announce">
+<p>!!! This wiki is in <span style="color:MediumSeaGreen;"><b>ALPHA</b></span> state. There may be outdated data. If you find errors please use the <span style="color:Tomato;">issue / edit feature</span> on the right upper corner of each site   !!!</p>
+</div>
 
           </div>
         </aside>
@@ -93,7 +128,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Home
+              Skycoin Wiki
             
           </span>
         </div>
@@ -139,7 +174,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    github.com/skycoin
   </div>
 </a>
       </div>
@@ -150,6 +185,7 @@
     <div class="md-container" data-md-component="container">
       
       
+  <!--
         
           
 
@@ -221,11 +257,206 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     </ul>
   </div>
 </nav>
         
-      
+      -->
+
+  <!-- Additional styles for landing page -->
+  <style>
+
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+      /*display: none;*/
+    }
+
+    .md-header-nav__button{
+      display: none;
+    }
+
+    .md-header-nav__title{
+      display: none;
+    }
+
+    .md-search{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+
+    }
+
+    /* Remove spacing, as we cannot hide it completely */
+    .md-main__inner {
+      margin: 0;
+    }
+
+    /* Hide main content for now */
+    .md-content {
+      display: none;
+    }
+
+    /* Hide table of contents */
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary {
+        display: none;
+      }
+    }
+
+    /* Hide navigation */
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+
+    .tx-container{
+      text-align: center;
+    }
+
+    .banner:hover {opacity: 0.7;}
+    .banner{
+      border-radius: 5px;
+    }
+  </style>
+
+  <!-- Hero for landing page -->
+  <section class="tx-container">
+    <div class="md-grid md-typeset">
+      <div class="tx-hero">
+
+        <!-- Hero image -->
+        <div class="tx-hero__image">
+          <img
+            src="img/Skycoin-Cloud-Blue-shorted.png"
+            alt=""
+            width="300"
+            height="50"
+            draggable="false"
+          >
+        </div>
+        
+        <!-- Hero content -->
+        <div class="tx-hero__content">
+          <h1>Skycoin Wiki</h1>
+          <p>Welcome to our wiki! Navigate with the buttons below or search for a keyword.</p>
+          <a
+            href="software/"
+            title="Software"
+            class="md-button md-button--primary"
+          >
+            Software
+          </a>
+          <a
+            href="hardware/"
+            title="Hardware"
+            class="md-button md-button--primary"
+          >
+            Hardware
+          </a>
+          <a
+            href="skyfleet/overview"
+            title="Skyfleet"
+            class="md-button md-button--primary"
+          >
+            Skyfleet
+          </a>
+          <a
+            href="exchanges/"
+            title="More"
+            class="md-button md-button--primary"
+          >
+            More
+          </a>
+          <br>
+          <br>
+          <a
+            href="news"
+            title="News"
+          >
+          <img
+            class="banner"
+            src="img/navigation/banner-news.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+          <br>
+          <a
+            href="meetups"
+            title="Meetups & Workshops"
+          >
+          <img
+          class="banner"
+            src="img/navigation/banner-meetups.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+          <br>
+          <a
+            href="videos"
+            title="Media"
+          >
+          <img
+            class="banner"
+            src="img/navigation/banner-media.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+          <br>
+          <a
+            href="partnerships"
+            title="Partnerships"
+          >
+          <img
+            class="banner"
+            src="img/navigation/banner-partnerships.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+          <br>
+          <a
+            href="contribute"
+            title="Contribute"
+          >
+          <img
+            class="banner"
+            src="img/navigation/banner-contribute.png"
+            alt=""
+            width="510"
+            height="50"
+            draggable="false"
+          >
+          </a>
+      </div>
+    </div>
+  </section>
+
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
           
@@ -251,7 +482,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    github.com/skycoin
   </div>
 </a>
     </div>
@@ -269,69 +500,10 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Home
-        <span class="md-nav__icon md-icon"></span>
-      </label>
     
     <a href="." class="md-nav__link md-nav__link--active">
       Home
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#workshops" class="md-nav__link">
-    Workshops
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#meetups" class="md-nav__link">
-    Meetups
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#news" class="md-nav__link">
-    News
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#media" class="md-nav__link">
-    Media
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#partnerships" class="md-nav__link">
-    Partnerships
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -397,7 +569,31 @@
 
   <li class="md-nav__item">
     <a href="software/skycoin/" class="md-nav__link">
-      Introduction
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skycoin/about/" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skycoin/social/" class="md-nav__link">
+      Social
     </a>
   </li>
 
@@ -447,7 +643,7 @@
 
   <li class="md-nav__item">
     <a href="software/fiber/" class="md-nav__link">
-      Introduction
+      Overview
     </a>
   </li>
 
@@ -497,39 +693,6 @@
 
   <li class="md-nav__item">
     <a href="software/skywire/" class="md-nav__link">
-      Introduction
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-2" type="checkbox" id="nav-2-4-2">
-    
-    <label class="md-nav__link" for="nav-2-4-2">
-      Installation
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="Installation" data-md-level="3">
-      <label class="md-nav__title" for="nav-2-4-2">
-        <span class="md-nav__icon md-icon"></span>
-        Installation
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="software/skywire/installation-overview/" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -541,7 +704,52 @@
 
 
   <li class="md-nav__item">
-    <a href="software/skywire/installation-windows/" class="md-nav__link">
+    <a href="software/skywire/about/" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-3" type="checkbox" id="nav-2-4-3">
+    
+    <label class="md-nav__link" for="nav-2-4-3">
+      Setup
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Setup" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        Setup
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/setup/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/setup/windows/" class="md-nav__link">
       Windows
     </a>
   </li>
@@ -553,7 +761,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/skywire/installation-macos/" class="md-nav__link">
+    <a href="software/skywire/setup/macos/" class="md-nav__link">
       macOS
     </a>
   </li>
@@ -565,7 +773,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/skywire/installation-linux/" class="md-nav__link">
+    <a href="software/skywire/setup/linux/" class="md-nav__link">
       Linux
     </a>
   </li>
@@ -577,8 +785,20 @@
 
 
   <li class="md-nav__item">
-    <a href="software/skywire/installation-raspberrypi/" class="md-nav__link">
+    <a href="software/skywire/setup/raspberrypi/" class="md-nav__link">
       Raspberry Pi & SBCs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/setup/docker.md" class="md-nav__link">
+      Docker
     </a>
   </li>
 
@@ -593,9 +813,54 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-4" type="checkbox" id="nav-2-4-4">
+    
+    <label class="md-nav__link" for="nav-2-4-4">
+      User Docs
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="User Docs" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-4-4">
+        <span class="md-nav__icon md-icon"></span>
+        User Docs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="software/skywire/discovery/" class="md-nav__link">
-      Discovery & Uptime
+    <a href="software/skywire/userdocs/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/userdocs/authentication/" class="md-nav__link">
+      Authentication
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/userdocs/whitelisting/" class="md-nav__link">
+      Whitelisting
     </a>
   </li>
 
@@ -607,14 +872,14 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-4" type="checkbox" id="nav-2-4-4">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-4-4" type="checkbox" id="nav-2-4-4-4">
     
-    <label class="md-nav__link" for="nav-2-4-4">
+    <label class="md-nav__link" for="nav-2-4-4-4">
       Apps
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Apps" data-md-level="3">
-      <label class="md-nav__title" for="nav-2-4-4">
+    <nav class="md-nav" aria-label="Apps" data-md-level="4">
+      <label class="md-nav__title" for="nav-2-4-4-4">
         <span class="md-nav__icon md-icon"></span>
         Apps
       </label>
@@ -639,7 +904,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/skywire/apps/proxy/" class="md-nav__link">
+    <a href="software/skywire/apps/proxy/userdoc/" class="md-nav__link">
       Proxy
     </a>
   </li>
@@ -651,7 +916,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/skywire/apps/skychat/" class="md-nav__link">
+    <a href="software/skywire/apps/skychat/userdoc/" class="md-nav__link">
       Skychat
     </a>
   </li>
@@ -663,7 +928,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/skywire/apps/vpn/" class="md-nav__link">
+    <a href="software/skywire/apps/vpn/userdoc/" class="md-nav__link">
       VPN
     </a>
   </li>
@@ -671,6 +936,85 @@
         
       </ul>
     </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-5" type="checkbox" id="nav-2-4-5">
+    
+    <label class="md-nav__link" for="nav-2-4-5">
+      Dev Docs
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Dev Docs" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-4-5">
+        <span class="md-nav__icon md-icon"></span>
+        Dev Docs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/devdocs/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/devdocs/architecture/" class="md-nav__link">
+      Architecture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/social/" class="md-nav__link">
+      Social
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/skywire/discovery/" class="md-nav__link">
+      Discovery & Uptime
+    </a>
   </li>
 
         
@@ -707,40 +1051,7 @@
 
   <li class="md-nav__item">
     <a href="software/cx/" class="md-nav__link">
-      Introduction
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5-2" type="checkbox" id="nav-2-5-2">
-    
-    <label class="md-nav__link" for="nav-2-5-2">
-      Getting Started
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="Getting Started" data-md-level="3">
-      <label class="md-nav__title" for="nav-2-5-2">
-        <span class="md-nav__icon md-icon"></span>
-        Getting Started
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="software/cx/installation-windows/" class="md-nav__link">
-      Windows
+      Overview
     </a>
   </li>
 
@@ -751,26 +1062,9 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/installation-macos/" class="md-nav__link">
-      macOS
+    <a href="software/cx/about/" class="md-nav__link">
+      About
     </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="software/cx/installation-linux/" class="md-nav__link">
-      Linux
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
         
@@ -784,13 +1078,13 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5-3" type="checkbox" id="nav-2-5-3">
     
     <label class="md-nav__link" for="nav-2-5-3">
-      Basics
+      Setup
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Basics" data-md-level="3">
+    <nav class="md-nav" aria-label="Setup" data-md-level="3">
       <label class="md-nav__title" for="nav-2-5-3">
         <span class="md-nav__icon md-icon"></span>
-        Basics
+        Setup
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -801,8 +1095,8 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/basics-syntax/" class="md-nav__link">
-      Syntax
+    <a href="software/cx/setup/overview/" class="md-nav__link">
+      Overview
     </a>
   </li>
 
@@ -813,8 +1107,8 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/basics-runtime/" class="md-nav__link">
-      Runtime
+    <a href="software/cx/setup/windows/" class="md-nav__link">
+      Windows
     </a>
   </li>
 
@@ -825,8 +1119,8 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/basics-native-functions/" class="md-nav__link">
-      Native Functions
+    <a href="software/cx/setup/macos/" class="md-nav__link">
+      macOS
     </a>
   </li>
 
@@ -837,20 +1131,8 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/basics-running-cx/" class="md-nav__link">
-      Running CX
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="software/cx/basics-repl/" class="md-nav__link">
-      REPL
+    <a href="software/cx/setup/linux/" class="md-nav__link">
+      Linux
     </a>
   </li>
 
@@ -870,11 +1152,130 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5-4" type="checkbox" id="nav-2-5-4">
     
     <label class="md-nav__link" for="nav-2-5-4">
+      User Docs
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="User Docs" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-5-4">
+        <span class="md-nav__icon md-icon"></span>
+        User Docs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cx/userdocs/overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5-4-2" type="checkbox" id="nav-2-5-4-2">
+    
+    <label class="md-nav__link" for="nav-2-5-4-2">
+      Basics
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Basics" data-md-level="4">
+      <label class="md-nav__title" for="nav-2-5-4-2">
+        <span class="md-nav__icon md-icon"></span>
+        Basics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cx/userdocs/basics-syntax/" class="md-nav__link">
+      Syntax
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cx/userdocs/basics-runtime/" class="md-nav__link">
+      Runtime
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cx/userdocs/basics-native-functions/" class="md-nav__link">
+      Native Functions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cx/userdocs/basics-running-cx/" class="md-nav__link">
+      Running CX
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cx/userdocs/basics-repl/" class="md-nav__link">
+      REPL
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5-4-3" type="checkbox" id="nav-2-5-4-3">
+    
+    <label class="md-nav__link" for="nav-2-5-4-3">
       Native Packages
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Native Packages" data-md-level="3">
-      <label class="md-nav__title" for="nav-2-5-4">
+    <nav class="md-nav" aria-label="Native Packages" data-md-level="4">
+      <label class="md-nav__title" for="nav-2-5-4-3">
         <span class="md-nav__icon md-icon"></span>
         Native Packages
       </label>
@@ -887,7 +1288,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/package-time/" class="md-nav__link">
+    <a href="software/cx/userdocs/package-time/" class="md-nav__link">
       time
     </a>
   </li>
@@ -899,7 +1300,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/package-os/" class="md-nav__link">
+    <a href="software/cx/userdocs/package-os/" class="md-nav__link">
       os
     </a>
   </li>
@@ -911,7 +1312,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/package-gl/" class="md-nav__link">
+    <a href="software/cx/userdocs/package-gl/" class="md-nav__link">
       gl
     </a>
   </li>
@@ -923,7 +1324,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/package-glfw/" class="md-nav__link">
+    <a href="software/cx/userdocs/package-glfw/" class="md-nav__link">
       glfw
     </a>
   </li>
@@ -935,7 +1336,7 @@
 
 
   <li class="md-nav__item">
-    <a href="software/cx/package-gltext/" class="md-nav__link">
+    <a href="software/cx/userdocs/package-gltext/" class="md-nav__link">
       gltext
     </a>
   </li>
@@ -943,6 +1344,23 @@
         
       </ul>
     </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cx/social/" class="md-nav__link">
+      Social
+    </a>
   </li>
 
         
@@ -991,7 +1409,19 @@
 
   <li class="md-nav__item">
     <a href="software/cxo/" class="md-nav__link">
-      Introduction
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cxo/about/" class="md-nav__link">
+      About
     </a>
   </li>
 
@@ -1041,7 +1471,19 @@
 
   <li class="md-nav__item">
     <a href="software/cxfx/" class="md-nav__link">
-      Introduction
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="software/cxfx/about/" class="md-nav__link">
+      About
     </a>
   </li>
 
@@ -1106,10 +1548,48 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Skyminer
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Skyminer" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        <span class="md-nav__icon md-icon"></span>
+        Skyminer
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href="hardware/skyminer/" class="md-nav__link">
-      Skyminer
+      Overview
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="hardware/skyminer/about.md" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -1151,16 +1631,49 @@
           
 
 
+  <li class="md-nav__item">
+    <a href="hardware/skyminer/about.md" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3-2" type="checkbox" id="nav-3-3-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3-3" type="checkbox" id="nav-3-3-3">
     
-    <label class="md-nav__link" for="nav-3-3-2">
+    <label class="md-nav__link" for="nav-3-3-3">
+      User Docs
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="User Docs" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        User Docs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3-3-1" type="checkbox" id="nav-3-3-3-1">
+    
+    <label class="md-nav__link" for="nav-3-3-3-1">
       Manual
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Manual" data-md-level="3">
-      <label class="md-nav__title" for="nav-3-3-2">
+    <nav class="md-nav" aria-label="Manual" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-3-3-1">
         <span class="md-nav__icon md-icon"></span>
         Manual
       </label>
@@ -1173,7 +1686,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-1-checking-the-genuineness/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/01-checking-the-genuineness.md" class="md-nav__link">
       Checking the genuineness
     </a>
   </li>
@@ -1185,7 +1698,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-2-initializing-the-wallet/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/02-initializing-the-wallet.md" class="md-nav__link">
       Initializing the wallet
     </a>
   </li>
@@ -1197,7 +1710,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-3-personalizing-the-wallet/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/03-personalizing-the-wallet.md" class="md-nav__link">
       Personalizing the wallet
     </a>
   </li>
@@ -1209,7 +1722,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-4-firmware-update/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/04-firmware-update.md" class="md-nav__link">
       Firmware update
     </a>
   </li>
@@ -1221,7 +1734,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-5-testing-your-seed/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/05-testing-your-seed.md" class="md-nav__link">
       Testing your seed
     </a>
   </li>
@@ -1233,7 +1746,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-6-restoring-backup/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/06-restoring-backup.md" class="md-nav__link">
       Restoring backup
     </a>
   </li>
@@ -1245,7 +1758,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-7-optimizing-the-security/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/07-optimizing-the-security.md" class="md-nav__link">
       Optimizing the security
     </a>
   </li>
@@ -1257,7 +1770,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-8-sending-and-receiving-coins/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/08-sending-and-receiving-coins.md" class="md-nav__link">
       Sending and Receiving coins
     </a>
   </li>
@@ -1269,7 +1782,7 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-9-miscellaneous-operations/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/09-miscellaneous-operations.md" class="md-nav__link">
       Miscellaneous operations
     </a>
   </li>
@@ -1281,9 +1794,14 @@
 
 
   <li class="md-nav__item">
-    <a href="hardware/skywallet/manual-10-troubleshooting/" class="md-nav__link">
+    <a href="hardware/skywallet/manual/10-troubleshooting.md" class="md-nav__link">
       Troubleshooting
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -1359,6 +1877,30 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="skyfleet/brand/" class="md-nav__link">
+      Brand
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="skyfleet/videos/" class="md-nav__link">
+      Videos
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -1421,20 +1963,56 @@
   </li>
 
         
-          
-          
-          
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="news/" class="md-nav__link">
+      News
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="meetups/" class="md-nav__link">
+      Meetups
+    </a>
+  </li>
+
+    
+      
+      
+      
 
 
   <li class="md-nav__item">
     <a href="videos/" class="md-nav__link">
-      Videos
+      Media
     </a>
   </li>
 
-        
-      </ul>
-    </nav>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="partnerships/" class="md-nav__link">
+      Partnerships
+    </a>
   </li>
 
     
@@ -1450,6 +2028,30 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="timeline/" class="md-nav__link">
+      Timeline
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="about/" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -1457,158 +2059,61 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#workshops" class="md-nav__link">
-    Workshops
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#meetups" class="md-nav__link">
-    Meetups
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#news" class="md-nav__link">
-    News
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#media" class="md-nav__link">
-    Media
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#partnerships" class="md-nav__link">
-    Partnerships
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-                
-                  <a href="https://github.com/skycoin/wiki/docs/index.md" title="Edit this page" class="md-content__button md-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-                  </a>
-                
-                
-                <!--![SkycoinProject](img/header/skycoin.png?raw=true)-->
-
-<h1 id="welcome-to-the-skycoin-wiki">Welcome to the Skycoin Wiki!</h1>
-<p>Here you can find all you have to know about the projects and products of Skycoin.
-If you have further questions, you are always welcomed on <a href="https://t.me/Sykycoin">Telegram</a> and <a href="https://www.reddit.com/r/skycoin/">Reddit</a>.</p>
-<!--[Roadmap of the SkycoinProject](./Roadmap)-->
-
-<h2 id="workshops">Workshops</h2>
-<blockquote>
-<p>Here we will list and or link all upcoming workshops regarding Skycoin's projects.</p>
-</blockquote>
-<h2 id="meetups">Meetups</h2>
-<p>Join the <a href="https://t.me/SkycoinMeetups">Skycoin Meetups Telegram Group</a> for more information.</p>
-<ul>
-<li><del>Thursday, 2019 Oct 17<sup>th</sup> 6-8pm at the New York City Blockchain Center</del></li>
-<li><del>Saturday, 2019 Oct 19<sup>th</sup>   4pm at the Cryptospace Los Angeles</del></li>
-<li><del>Thursday, 2019 Dec  5<sup>th</sup> 6-8pm at the New York City Blockchain Center</del></li>
-<li><del>Saturday, 2019 Dec  7<sup>th</sup>   4pm at the Cryptospace Los Angeles</del></li>
-<li><del>Friday,   2020 May  8<sup>th</sup> 7-9pm at Meetup.com (FR)</del></li>
-</ul>
-<h2 id="news">News</h2>
-<blockquote>
-<p>TODO: keep up to date</p>
-</blockquote>
-<p><a href="https://www.skycoin.com/blog/"><strong>Skycoin Blog</strong></a></p>
-<h2 id="media">Media</h2>
-<details class="info"><summary>Bitcoin Is a Digital Asset Says Intermediate People’s Court in China</summary><p><a href="https://cointelegraph.com/news/bitcoin-is-a-digital-asset-says-intermediate-peoples-court-in-china"> <img src="https://images.cointelegraph.com/images/1434_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9iYTZiODJlZDk5N2Y3OWNhNzVkNTQ2NTE0Zjk5YjczZi5qcGc=.jpg"></a></p>
-</details>
-<details class="info"><summary>Total Vindication for Skycoin Founder in ‘Kidnapping’ Case</summary><p><a href="https://medium.com/@cryptofray/total-vindication-for-skycoin-founder-in-kidnapping-case-ef7fdac2c914"> <img src="https://miro.medium.com/max/2000/1*7VHI1l_OrHsCOBn0RSC-0A.jpeg" height="150"></a></p>
-</details>
-<details class="info"><summary>Skycoin lawsuit affirms Bitcoin is legitimate property in China</summary><p><a href="https://link.medium.com/jPbOKcaSi6"> <img src="https://miro.medium.com/max/2000/1*whWYKBMFVg3mw9uxmMqZDQ.jpeg" height="150"></a></p>
-</details>
-<h2 id="partnerships">Partnerships</h2>
-<details class="info"><summary>LBank - Genesis Community Node</summary><p><a href="https://pbs.twimg.com/media/ECAK6EsU8AELlA8.jpg"> <img src="/img/media/lbank-genesis-community-node.jpg" width="250" height="140"></a></p>
-</details>
-<details class="info"><summary>NYC Blockchain Center - Growth Level member</summary><p><a href="https://twitter.com/blockchain_nyc/status/1175770772951973888"> <img src="/img/media/nyc-blockchain-center.jpg" width="400" height="200"></a></p>
-</details>
-<details class="info"><summary>Jiangxi University of Software Professional Technology</summary><p><a href="https://medium.com/skycoin/skycoin-partners-with-jiangxi-university-of-software-professionals-3c886e3080e5"> <img src="https://miro.medium.com/max/1251/1*C_rHf13Uwyg6shcR981vaw.png" width="400" height="200"></a></p>
-</details>
-                
               
-              
-                
 
 
-              
+
+
             </article>
           </div>
         </div>
       </main>
       
-        
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-        
-          <a href="software/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Overview
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
-  
+
+  <!-- Further information -->
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
         
         Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        <a
+          href="https://squidfunk.github.io/mkdocs-material/"
+          target="_blank" rel="noopener"
+        >
           Material for MkDocs
         </a>
       </div>
+
+      <!-- Social links -->
       
   <div class="md-footer-social">
     

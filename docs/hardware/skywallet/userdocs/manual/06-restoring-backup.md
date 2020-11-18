@@ -21,9 +21,9 @@ To begin the restoration process follow these steps:
     Once the Skywallet is connected, you will see a welcome message on its display, which also denotes the genuineness of your Skywallet. 
 
     !!! info
-        If you want to know more how to check the genuineness of your Skywallet go to [Checking the Genuineness of your Skywallet](./manual-1-checking-the-genuineness)
+        If you want to know more how to check the genuineness of your Skywallet go to [Checking the Genuineness of your Skywallet](../01-checking-the-genuineness)
 
-    ![Welcome_Msg](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_03.png?raw=true)
+    ![Welcome_Msg](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_03.png?raw=true)
 
 === "Step 3"
 
@@ -39,7 +39,7 @@ To begin the restoration process follow these steps:
 
     If it is not your first-time use of the Desktop Wallet, then all the Wallets configured using your Desktop Wallet will appear in a list.
 
-    ![Wallet list in Desktop Wallet](img/manual/Restore%20Wallet%20-%201.PNG?raw=true)
+    ![Wallet list in Desktop Wallet](img/Restore%20Wallet%20-%201.PNG?raw=true)
 
     In this case, proceed to click on the **Hardware Wallet** button, at the bottom.
 
@@ -50,7 +50,7 @@ To begin the restoration process follow these steps:
     Proceed to click on the **Restore backup** button.
 
     Upon clicking "Restore backup" button, the Skywallet will start asking you to enter each words of your Seed by their position.
-    ![Restore_Backup](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_08.png?raw=true)
+    ![Restore_Backup](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_08.png?raw=true)
 
     !!! info
         The sequence of these positions will be random, i.e., the first word asked to be entered might be the word at position #6, but the next word might be the word at position #11 and so on.

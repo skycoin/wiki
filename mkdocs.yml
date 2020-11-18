@@ -122,16 +122,16 @@ nav:
           #- Setup:
           - User Docs:
             - Manual:
-              - Checking the genuineness:       hardware\skywallet\manual\01-checking-the-genuineness.md
-              - Initializing the wallet:        hardware\skywallet\manual\02-initializing-the-wallet.md
-              - Personalizing the wallet:       hardware\skywallet\manual\03-personalizing-the-wallet.md
-              - Firmware update:                hardware\skywallet\manual\04-firmware-update.md
-              - Testing your seed:              hardware\skywallet\manual\05-testing-your-seed.md
-              - Restoring backup:               hardware\skywallet\manual\06-restoring-backup.md
-              - Optimizing the security:        hardware\skywallet\manual\07-optimizing-the-security.md
-              - Sending and Receiving coins:    hardware\skywallet\manual\08-sending-and-receiving-coins.md
-              - Miscellaneous operations:       hardware\skywallet\manual\09-miscellaneous-operations.md
-              - Troubleshooting:                hardware\skywallet\manual\10-troubleshooting.md
+              - Checking the genuineness:       hardware\skywallet\userdocs\manual\01-checking-the-genuineness.md
+              - Initializing the wallet:        hardware\skywallet\userdocs\manual\02-initializing-the-wallet.md
+              - Personalizing the wallet:       hardware\skywallet\userdocs\manual\03-personalizing-the-wallet.md
+              - Firmware update:                hardware\skywallet\userdocs\manual\04-firmware-update.md
+              - Testing your seed:              hardware\skywallet\userdocs\manual\05-testing-your-seed.md
+              - Restoring backup:               hardware\skywallet\userdocs\manual\06-restoring-backup.md
+              - Optimizing the security:        hardware\skywallet\userdocs\manual\07-optimizing-the-security.md
+              - Sending and Receiving coins:    hardware\skywallet\userdocs\manual\08-sending-and-receiving-coins.md
+              - Miscellaneous operations:       hardware\skywallet\userdocs\manual\09-miscellaneous-operations.md
+              - Troubleshooting:                hardware\skywallet\userdocs\manual\10-troubleshooting.md
           #- Dev Docs:
           #- Social:
 

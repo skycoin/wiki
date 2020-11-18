@@ -3,9 +3,9 @@
 !!! info
     To send or receive coins using your Skywallet, you have to initialize and personalize your Skywallet first. Details on how to initialize and personalize your Skywallet can be found in the following chapters:
 
-    [Initialization of your Skywallet](./manual-2-initializing-the-wallet)
+    [Initialization of your Skywallet](../02-initializing-the-wallet)
 
-    [Personalization of your Skywallet](./manual-3-personalizing-the-wallet)
+    [Personalization of your Skywallet](../03-personalizing-the-wallet)
 
 Once you have completed the initialization and personalization of your Skywallet, you can see your Skywallet in the list of Wallets configured using your Desktop Wallet.
 
@@ -26,7 +26,7 @@ Once you have completed the initialization and personalization of your Skywallet
 
         However, only the partial address will be visible for you.
 
-        ![Partial Address of Skywallet](img/manual/Sending%20and%20Receiving%20-%201.PNG?raw=true)
+        ![Partial Address of Skywallet](img/Sending%20and%20Receiving%20-%201.PNG?raw=true)
 
     === "Step 4"
         Click on the **Press to Show** button.
@@ -65,7 +65,7 @@ Once you have completed the initialization and personalization of your Skywallet
         === "Step 3"
             Click on the **Send** tab.
 
-            ![Simple Send tab](img/manual/Sending%20and%20Receiving%20-%202.PNG?raw=true)
+            ![Simple Send tab](img/Sending%20and%20Receiving%20-%202.PNG?raw=true)
 
             !!! note
                 When you click on the Send tab, by default, the Simple Send option is selected.
@@ -85,9 +85,9 @@ Once you have completed the initialization and personalization of your Skywallet
         === "Step 7"
             Click on the **Preview** button to get a preview of your transaction, you can once again verify all the data entered.
 
-            ![Preview button](img/manual/Sending%20and%20Receiving%20-%203.PNG?raw=true)
+            ![Preview button](img/Sending%20and%20Receiving%20-%203.PNG?raw=true)
 
-            ![Preview of Transaction](img/manual/Sending%20and%20Receiving%20-%204.PNG?raw=true)
+            ![Preview of Transaction](img/Sending%20and%20Receiving%20-%204.PNG?raw=true)
 
         === "Step 8"
             After verifying the entered data, click on the **Send** button to proceed with your transaction.
@@ -95,9 +95,9 @@ Once you have completed the initialization and personalization of your Skywallet
         === "Step 9"
             Once you click on the "Send" button, a confirmation message will be displayed on your Skywallet.
 
-            ![Skywallet_Send_Cnfrm](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_11-2.png?raw=true)
+            ![Skywallet_Send_Cnfrm](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_11-2.png?raw=true)
 
-            ![Skywallet_Send_Cnfrm](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_11-1.png?raw=true)
+            ![Skywallet_Send_Cnfrm](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_11-1.png?raw=true)
 
             !!! warning
                 Please make sure that the receiving Wallet address entered by you and the one displayed by the Skywallet in the confirmation message is the same.  
@@ -130,7 +130,7 @@ Once you have completed the initialization and personalization of your Skywallet
         === "Step 4**
             When you click on the Send tab, by default, the Simple Send option is selected, to select Advanced Send option click on the **Advanced Send** button next to the "Simple Send" button.
 
-            ![Advanced Send tab](img/manual/Sending%20and%20Receiving%20-%205.PNG?raw=true)
+            ![Advanced Send tab](img/Sending%20and%20Receiving%20-%205.PNG?raw=true)
 
         === "Step 5**
             Click on the drop-down arrow in the first box - **Select Wallet**, to select your Skywallet from the list.
@@ -168,14 +168,14 @@ Once you have completed the initialization and personalization of your Skywallet
         === "Step 13**
             Once all these data are entered or selected, you can reverify this by clicking on the **Preview** button, which shows a preview of your transaction with all the details.
 
-            ![Preview Transaction](img/manual/Sending%20and%20Receiving%20-%206.PNG?raw=true) 
+            ![Preview Transaction](img/Sending%20and%20Receiving%20-%206.PNG?raw=true) 
 
         === "Step 14**
             After reviewing and verifying all the data, you can click on the "Send" button. Once you click on the "Send" button, a confirmation message will be displayed on your Skywallet.
 
-            ![Skywallet_Send_Cnfrm](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_11-2.png?raw=true)
+            ![Skywallet_Send_Cnfrm](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_11-2.png?raw=true)
 
-            ![Skywallet_Send_Cnfrm](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_11-1.png?raw=true)
+            ![Skywallet_Send_Cnfrm](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_11-1.png?raw=true)
 
             !!! note
                 Please make sure that the receiving Wallet addresses entered by you and those displayed by the Skywallet in the confirmation message are the same.  

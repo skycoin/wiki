@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Here are some of the most common issues you might encounter when using a Skywallet and the best possible resolutions for troubleshooting these issues. 
+Here are some of the most common issues you might encounter when using a Skywallet and the best possible resolutions for troubleshooting these issues.
 
 If you do not find a resolution for your issue, make sure you contact the support team via - **[store.skycoin.com/pages/support](store.skycoin.com/pages/support)**.
 
@@ -28,7 +28,7 @@ You can use the Seed of your Skywallet to **Wipe the Device** and then restore t
 
 The wiped device will not have a PIN code set, and it is recommended that you immediately set a PIN code that is easy to remember but at the same time not easy to guess.
 
-You can visit the following chapter to know more about setting a PIN and the security recommendations for your Skywallet - **[Optimize account security](./manual-7-optimizing-the-security).**
+You can visit the following chapter to know more about setting a PIN and the security recommendations for your Skywallet - **[Optimize account security](../07-optimizing-the-security).**
 
 ## 3. Too Many Transactions Issue
 
@@ -39,5 +39,5 @@ You can visit the following chapter to know more about setting a PIN and the sec
 
 To still transfer your funds, you can split up your transaction into multiple transactions and then send the coins.
 
-!!! note 
+!!! note
     This issue will be fixed in a future update.

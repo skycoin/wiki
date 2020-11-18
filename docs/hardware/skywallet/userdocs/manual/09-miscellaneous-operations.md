@@ -2,11 +2,11 @@
 
 The basic initialization and personalization operations are mentioned in the chapters:
 
-* [Initialization of your Skywallet](./manual-2-initializing-the-wallet)
+* [Initialization of your Skywallet](../02-initializing-the-wallet)
 
-* [Personalization of your Skywallet](./manual-3-personalizing-the-wallet) 
+* [Personalization of your Skywallet](../03-personalizing-the-wallet)
 
-However, you can also perform some additional operations on your Skywallet like: 
+However, you can also perform some additional operations on your Skywallet like:
 
 * Renaming your Skywallet.
 
@@ -45,13 +45,13 @@ You can check your Skywallet in the Wallet list to see the changed name.
 **NOTE 1 - To remove a Skywallet from the Wallet list you don't need to connect it to your computer necessarily.**
 
 **NOTE 2 - This whole operation only removes the Skywallet from the Wallet list and does not wipe the device**.  
-To know more about how to wipe your Skywallet to remove any personalizations, visit the following chapter - [Personalization of your Skywallet](./manual-3-personalizing-the-wallet).  
+To know more about how to wipe your Skywallet to remove any personalizations, visit the following chapter - [Personalization of your Skywallet](../03-personalizing-the-wallet).  
 
-Also if you want to add the device back to the Wallet list, you can follow the same steps in the chapter - [Initialization of your Skywallet](./manual-2-initializing-the-wallet).
+Also if you want to add the device back to the Wallet list, you can follow the same steps in the chapter - [Initialization of your Skywallet](../02-initializing-the-wallet).
 
 ## Checking the Firmware Version of Your Skywallet
 
-The firmware is essential for your Skywallet to work properly. You can check the following chapter to know more about firmware and how to update it periodically - [Update Firmware](./manual-4-firmware-update).
+The firmware is essential for your Skywallet to work properly. You can check the following chapter to know more about firmware and how to update it periodically - [Update Firmware](../04-firmware-update).
 
 To check the current firmware version of your Skywallet, you can follow these steps:
 
@@ -65,4 +65,4 @@ To check the current firmware version of your Skywallet, you can follow these st
 
 **Step 5** - You can check for the firmware version in the following window, which appears when you select the Skywallet from the Wallet list.
 
-![Firmware Version](img/manual/Misc%20-%201.PNG?raw=true)
+![Firmware Version](img/Misc%20-%201.PNG?raw=true)

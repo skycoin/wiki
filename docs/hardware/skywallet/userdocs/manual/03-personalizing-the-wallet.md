@@ -10,7 +10,7 @@ Once the Desktop Wallet is opened, click on the **Hardware Wallet** button in th
 
 Once you click on the "Hardware Wallet" button, the following window will appear:
 
-![Hardware Wallet Window](img/manual/Personalization%20-%201.PNG?raw=true)
+![Hardware Wallet Window](img/Personalization%20-%201.PNG?raw=true)
 
 
 When you use the Skywallet for the first time, you will find two warnings associated with **Creating a Backup** and **Setting a Pin**, displayed in the Desktop Wallet window.
@@ -33,9 +33,9 @@ Following are the options available in this window:
 
     After accepting this warning message, the Skywallet will start to display the words in your Seed one by one.
 
-    ![Seed_1](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_05-1.png?raw=true)
+    ![Seed_1](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_05-1.png?raw=true)
 
-    ![Seed_2](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_05-2?raw=true)
+    ![Seed_2](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_05-2?raw=true)
 
     **You need to note down each of these words and store it in a secure location.**
 
@@ -47,7 +47,7 @@ Following are the options available in this window:
 
     **Note - After completing the Backup process, you cannot repeat the same. Hence it is essential to note the Seed down during this process. Once you have completed the backup process, the "Create a backup" button will be replaced by "Confirm Seed" button.**
 
-    To ensure optimal security, please make sure to go through this section of the user manual - [Optimize account security](./manual-7-optimizing-the-security)
+    To ensure optimal security, please make sure to go through this section of the user manual - [Optimize account security](../07-optimizing-the-security)
 
 === "Create  PIN code"
 
@@ -57,7 +57,7 @@ Following are the options available in this window:
 
     Once you click on the button "Create PIN code" the following window will appear on the Desktop Wallet:
 
-    ![Keypad to enter the PIN code](img/manual/Personalization%20-%202.PNG?raw=true)
+    ![Keypad to enter the PIN code](img/Personalization%20-%202.PNG?raw=true)
 
     <it is mentioned in the wiki page that the hash symbol which is currently used to mask the numbers in the keypad will be changed to dot if so then the latest version screenshot will be needed>
 
@@ -78,7 +78,7 @@ Following are the options available in this window:
 
     However, if you are using the number pad then note that **the position of the number in the matrix is what decides which number you are entering.**
 
-    ![Matrix](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_06.png?raw=true)
+    ![Matrix](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_06.png?raw=true)
 
     <!--An example comment using a single number on the position of the number keypad and the position of number in the matrix-->
 
@@ -95,9 +95,9 @@ Following are the options available in this window:
 
     Upon clicking the "Change PIN Code" button, the Hardware Wallet window will show you a keypad similar to the one you used to create the PIN code.
 
-    ![Matrix](img/manual/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_06.png?raw=true)
+    ![Matrix](img/Skywallet%20Screen%20Mockup%20Edit_Skywallet%20Black_06.png?raw=true)
     
-    ![Keypad to enter the PIN code](img/manual/Personalization%20-%202.PNG?raw=true)
+    ![Keypad to enter the PIN code](img/Personalization%20-%202.PNG?raw=true)
 
     You can enter the PIN code by utilizing the number matrix displayed by the Skywallet in the same way you used it for creating the PIN code.
 
@@ -113,7 +113,7 @@ Following are the options available in this window:
 
     After accepting the confirmation message, you will be asked to enter the PIN code of your Skywallet. Once entered and comfirmed, the PIN code of your Skywallet will be deleted.
 
-    To ensure optimal security, please make sure to go through this section of the user manual - [Optimize account security](./manual-7-optimizing-the-security)
+    To ensure optimal security, please make sure to go through this section of the user manual - [Optimize account security](../07-optimizing-the-security)
 
 === "Wipe the device"
 
@@ -128,4 +128,4 @@ Following are the options available in this window:
     
     The firmware updates of your Skywallet cannot be deleted and will remain the same as before even after the deletion process.
 
-    You can also restore all your coins by using the Seed of a previously configured Skywallet, details on how to restore your Skywallet are available on this section [Restore Backup](./manual-6-restoring-backup).
+    You can also restore all your coins by using the Seed of a previously configured Skywallet, details on how to restore your Skywallet are available on this section [Restore Backup](../06-restoring-backup).

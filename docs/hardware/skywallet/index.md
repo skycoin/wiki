@@ -8,20 +8,20 @@
 
 The Hardware Wallet of the Skycoin Project is able to hold your private keys for you so your lovely coins can't get stolen. At the moment the wallet only supports Skycoin and CoinHours, but in the future you will be able to store a lot of other coins or even use your Wallet for authentification and more.
 
-[Youtube: "Skywallet - Coming to a Sky-store near you!"](https://www.youtube.com/watch?v=f_I6N4TUzCo)
+:fontawesome-brands-youtube:{: .youtube } [Skywallet - Coming to a Sky-store near you!](https://www.youtube.com/watch?v=f_I6N4TUzCo)
 
 ## Manual
 
- [1. Checking the genuineness](./manual-1-checking-the-genuineness)<br>
- [2. Initializing the wallet](./manual-2-initializing-the-wallet)<br>
- [3. Personalizing the wallet](./manual-3-personalizing-the-wallet)<br>
- [4. Firmware Update](./manual-4-firmware-update)<br>
- [5. Testing your Seed](./manual-5-testing-your-seed)<br>
- [6. Restoring Backup](./manual-6-restoring-backup)<br>
- [7. Optimizing the Security](./manual-7-optimizing-the-security)<br>
- [8. Sending and Receiving Coins](./manual-8-sending-and-receiving-coins)<br>
- [9. Miscellaneous Operations](./manual-9-miscellaneous-operations)<br>
-[10. Troubleshooting](./manual-10-troubleshooting)
+ [1. Checking the genuineness](./userdocs/manual/01-checking-the-genuineness)<br>
+ [2. Initializing the wallet](./userdocs/manual/02-initializing-the-wallet)<br>
+ [3. Personalizing the wallet](./userdocs/manual/03-personalizing-the-wallet)<br>
+ [4. Firmware Update](./userdocs/manual/04-firmware-update)<br>
+ [5. Testing your Seed](./userdocs/manual/05-testing-your-seed)<br>
+ [6. Restoring Backup](./userdocs/manual/06-restoring-backup)<br>
+ [7. Optimizing the Security](./userdocs/manual/07-optimizing-the-security)<br>
+ [8. Sending and Receiving Coins](./userdocs/manual/08-sending-and-receiving-coins)<br>
+ [9. Miscellaneous Operations](./userdocs/manual/09-miscellaneous-operations)<br>
+[10. Troubleshooting](./userdocs/manual/10-troubleshooting)
 
 ## Supported Coins
 
