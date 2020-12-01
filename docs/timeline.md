@@ -4,9 +4,9 @@
 
 > Format: YYYY/MM/DD
 
-### 2020/11/12 **Wiki**
+### 2020/12/xx **Wiki**
 
-Some text about the wiki, bla bla bla.
+First time wiki online.
 
 ### 2020/10/11 **Skywire VPN beta**
 

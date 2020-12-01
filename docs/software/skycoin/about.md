@@ -31,7 +31,7 @@ Medium Article Audio Version: [Telegram Message Link](https://t.me/SkyfleetNews/
 
 ### What are coin hours?
 
-Coin hours are a parallel currency within the Skycoin blockchain, alongside skycoins.  Coin hours are used to pay transaction fees in the network.  In the future, coin hours will be used in other applications beyond the Skycoin cryptocurrency, such as [Skywire](../../Skywire/wiki).
+Coin hours are a parallel currency within the Skycoin blockchain, alongside skycoins.  Coin hours are used to pay transaction fees in the network.  In the future, coin hours will be used in other applications beyond the Skycoin cryptocurrency, such as [Skywire](../../skywire/wiki).
 
 Coin hours are generated based upon the age of coins in a transaction output.
 
@@ -61,21 +61,20 @@ Transactions are prioritized for inclusion in a block by their coin hour burn fe
 
 ## Wallets
 
-There are three options to hold Skycoin and generate SCH while holding.
+There are two options to hold Skycoin and generate SCH while holding. Software and Hardware wallets.
 
-### Software
+=== "Software"
 
-Desktop: Windows, MacOS, Linux<br>
-Mobile:Android, iOS<br>
+    **Desktop**: Windows, MacOS, Linux<br>
+    **Mobile**: Android, iOS<br>
 
-Download your wallet from the official Website [here](https://www.skycoin.com/downloads/)
+    Download your wallet from the official Website [here](https://www.skycoin.com/downloads/)
 
-### Hardware
+=== "Hardware"
 
-At the moment you can hold SKY only on the Skywallet.<br>
-Read more [here](../../hardware/skywallet/index.md)<br>
-Buy it from the [offical store](https://store.skycoin.com/products/skywallet)
-
+    At the moment you can hold SKY only on the **Skywallet**.<br>
+    Read more [here](../../hardware/skywallet/index.md)<br>
+    Buy it from the [offical store](https://store.skycoin.com/products/skywallet)
 
 ## Exchanges
 

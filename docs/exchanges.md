@@ -1,4 +1,4 @@
-# Centralized Exchanges
+## Centralized Exchanges
 
 |Name|SKY-Pairs|SCH-Pairs|
 |:--|:--|:--|
@@ -13,13 +13,13 @@
 |[Resfinex](https://trade.resfinex.com/trade/SKY_USDT)|GRT, USDT|-|
 |[WhiteBIT](https://whitebit.com/trade/SKY_USDT)|USDT|-|
 
-# Decentralized Exchanges
+## Decentralized Exchanges
 
 |Name|SKY-Pairs|SCH-Pairs|
 |:--|:--|:--|
 |[XBTS DEX](https://ex.xbts.io)|any|any|
 
-# Coin Swaps
+## Coin Swaps
 
 |Name|SKY-Pairs|SCH-Pairs|
 |:--|:--|:--|
@@ -33,7 +33,7 @@
 |[Swaplab](https://swaplab.cc)|any|-|
 |[SwapSpace](https://swapspace.co)|any|-|
 
-# Fiat
+## Fiat
 
 |Name|SKY-Pairs|SCH-Pairs|
 |:--|:--|:--|
