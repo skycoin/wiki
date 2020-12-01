@@ -11,7 +11,7 @@
 ## Interviews & More
 ### 2020
 
-:fontawesome-regular-play-circle:{: .bittube } 11/30: (CryptoRicht) Skycoin based decentralised ISP Launches! [1](https://bittube.tv/post/581b3992-7ceb-4f5c-8108-f544f715203d)<br>
+:fontawesome-regular-play-circle:{: .bittube } 11/30: (CryptoRich) Skycoin based decentralised ISP Launches! [1](https://bittube.tv/post/581b3992-7ceb-4f5c-8108-f544f715203d)<br>
 :fontawesome-regular-play-circle:{: .bittube }  11/13: (CryptoRich)  SYNTH SPEAKS! - November 2020 Update [1](https://bittube.tv/post/b5295cf5-f957-461c-b50c-2aa384ee3041) [2](https://bittube.tv/post/e9bf768d-a797-4ba3-9631-29c2fe43df5d) [3](https://bittube.tv/post/1bcf4d71-e43a-458f-9544-e3bfd01b0292)<br>
 :fontawesome-brands-youtube:{: .youtube } 10/15: (CryptoRich) SYNTH SPEAKS! - Oct 2020 Update [1](https://www.youtube.com/watch?v=KlToUhn9-jM&feature=youtu.be) [2](https://www.youtube.com/watch?v=ag8Kty670zs&feature=youtu.be)<br>
 :fontawesome-brands-youtube:{: .youtube } 08/10: (Adam Stokes) LATEST from Skycoin (SKY) - An August 2020 Interview with Synth [1](https://www.youtube.com/watch?v=anBn_PA3vJg&feature=youtu.be)<br>
