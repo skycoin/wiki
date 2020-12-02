@@ -38,6 +38,7 @@ nav:
               - Docker:               software\skywire\setup\docker.md
           - User Docs:
               - Overview:             software\skywire\userdocs\overview.md
+              - Rules:                software\skywire\userdocs\rules.md
               - Authentication:       software\skywire\userdocs\authentication.md
               - Whitelisting:         software\skywire\userdocs\whitelisting.md
               - Apps:
@@ -48,6 +49,7 @@ nav:
           - Dev Docs:
               - Overview:             software\skywire\devdocs\overview.md
               - Architecture:         software\skywire\devdocs\architecture.md 
+              - Transports:           software\skywire\devdocs\transports.md
           - Social:                   software\skywire\social.md
           - Discovery & Uptime:       software\skywire\discovery.md
 
@@ -113,8 +115,11 @@ nav:
         - Skyminer:
           - Overview:                           hardware\skyminer\index.md
           - About:                              hardware\skyminer\about.md
-          #- Setup:
-          #- User Docs:
+          - Userdocs:
+            - Assembly:                         hardware\skyminer\assembly.md
+            - Software:                         hardware\skyminer\setup.md
+            - Networking:                       hardware\skyminer\networking.md
+            #- User Docs:
           #- Dev Docs:
           #- Social:
         

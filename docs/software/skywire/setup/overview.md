@@ -8,18 +8,18 @@ To install you have got different options depending on your hardware and your os
 
 === "Linux"
 
-    If you want to install skywire on linux distributions please follow the tutorial [here](../installation-linux).<br>
+    If you want to install skywire on linux distributions please follow the tutorial [here](../linux).<br>
 
 === "macOS"
 
-    For the tutorial on macOS please read through [this](../installation-macos).<br>
+    For the tutorial on macOS please read through [this](../macos).<br>
 
 === "Windows 10"
 
     !!! warning
         At the moment on Windows 10 you only can install a hypervisor to remotely configure your visors.
     
-    To install a hypervisor on windows have a look at the tutorial [here](../installation-windows).
+    To install a hypervisor on windows have a look at the tutorial [here](../windows).
 
 === "Raspberry Pi & SBCs"
 
@@ -35,4 +35,4 @@ To install you have got different options depending on your hardware and your os
         *   tty enabled
         *   network-manager installed.
 
-    To set up a skywire visor from scratch on a raspberry pi follow the tutorial [here](../installation-raspberrypi).
+    To set up a skywire visor from scratch on a raspberry pi follow the tutorial [here](../raspberrypi).

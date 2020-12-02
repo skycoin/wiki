@@ -5,6 +5,7 @@
 
 ## Articles
 
+### 2020/05/06
 **Cointelegraph** - [Bitcoin Is a Digital Asset Says Intermediate People's Court in China](https://cointelegraph.com/news/bitcoin-is-a-digital-asset-says-intermediate-peoples-court-in-china)
 
 **Medium** - [Total Vindication for Skycoin Founder in 'Kidnapping' Case](https://medium.com/@cryptofray/total-vindication-for-skycoin-founder-in-kidnapping-case-ef7fdac2c914)
