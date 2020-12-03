@@ -5,12 +5,12 @@ Here is an overview about all things that have been made by them:
 
 ## Art
 
-* [Captain SKY - Comics](/skyfleet/captain-sky-comics/)
-* [Sticker and Wallpaper](/skyfleet/brand/)
+* [Captain SKY - Comics](captain-sky-comics.md)
+* [Sticker and Wallpaper](brand.md)
 
 ## Videos
 
-* [List of Videos and Channels](/skyfleet/videos/)
+* [List of Videos and Channels](videos.md)
 
 ## Companies developing on skycoin products
 
