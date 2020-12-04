@@ -35,7 +35,7 @@
 
 |Products|Purpose|Website|Telegram|Github|More|
 |:--|:--|:--:|:--:|:--:|:--:|
-|[CXO](/software/cxo)|Immutable Objects System|<a href="https://www.skycoin.com/cxo/"> <img src="https://cdn.freebiesupply.com/logos/thumbs/1x/skycoin-logo.png" width="50"></a>|<a href="https://t.me/SkycoinCXO"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/512px-Telegram_2019_Logo.svg.png" width="30"></a>|<a href="http://github.com/SkycoinProject/cxo"> <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F25%2F25231.png&f=1" width="30"></a>|
+|[CXO](/software/cxo)|Immutable Objects System|<a href="https://www.skycoin.com/cxo/"> <img src="https://cdn.freebiesupply.com/logos/thumbs/1x/skycoin-logo.png" width="50"></a>|<a href="https://t.me/SkycoinCXO"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/512px-Telegram_2019_Logo.svg.png" width="30"></a>|<a href="http://github.com/skycoin/cxo"> <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F25%2F25231.png&f=1" width="30"></a>|
 |[dmsg](/software/dmsg)|Distributed messaging system|
 
 
@@ -76,12 +76,12 @@
 |:--|:--|:--|
 |[Slot-Machine](https://github.com/galah4d/casino-cx)|
 |[CrappyBall](https://github.com/atang152/crappyBall-cx)|Flappy-Bird Clone|
-|[Pac Man CX](https://github.com/SkycoinProject/cx-games/tree/master/Pac-Man-CX-by-Galah4d)|Pacman 2D Clone|
+|[Pac Man CX](https://github.com/skycoin/cx-games/tree/master/Pac-Man-CX-by-Galah4d)|Pacman 2D Clone|
 |[Pacman 3D](https://github.com/galah4d/pacman-3d)|Pacman 3D Clone
-|[Snake by Lunier](https://github.com/SkycoinProject/cx-games/tree/master/Snake-by-Lunier)|Snake Clone|
-|[SynthCat Brick Breaker](https://github.com/SkycoinProject/cx-games/tree/master/SynthCat-Brick-Breaker-by-RedCurse)
-|[Whacky Stack](https://github.com/SkycoinProject/cx-games/tree/master/Whacky-Stack)|Tetris Clone|
-|[Ridge Blaster](https://github.com/SkycoinProject/cx-games/tree/master/ridge-blaster)|Dig-N-Rig Clone|
+|[Snake by Lunier](https://github.com/skycoin/cx-games/tree/master/Snake-by-Lunier)|Snake Clone|
+|[SynthCat Brick Breaker](https://github.com/skycoin/cx-games/tree/master/SynthCat-Brick-Breaker-by-RedCurse)
+|[Whacky Stack](https://github.com/skycoin/cx-games/tree/master/Whacky-Stack)|Tetris Clone|
+|[Ridge Blaster](https://github.com/skycoin/cx-games/tree/master/ridge-blaster)|Dig-N-Rig Clone|
 |[Space Invaders](https://github.com/taekwondouglas/space-invaders)|Space Invaders Clone|using CX-Chains|
 |[CX Asteroids](https://github.com/0pcom/cx-asteroids)|Asteroids Clone|Documentation in wiki|
-|[Skylight](https://github.com/SkycoinProject/cxfx/tree/master/games/skylight)|Goldeneye Clone|uses CXFX|
+|[Skylight](https://github.com/skycoin/cxfx/tree/master/games/skylight)|Goldeneye Clone|uses CXFX|

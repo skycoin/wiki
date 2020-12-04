@@ -10,11 +10,11 @@ Usage of the Skywire Whitelisting System is required to be eligible for testnet 
 </div>
 <br>
 
-Using the system requires a verified user account created in the [Skywire authentication system](https://auth.skycoin.com), please check out the [Skywire authentication system user guide](https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Authentication-System) in case you need help with creating a user account.
+Using the system requires a verified user account created in the [Skywire authentication system](https://auth.skycoin.com), please check out the [Skywire authentication system user guide](authentication.md) in case you need help with creating a user account.
  
 <div align="center">
 <em>Disclaimer: Previous data records, submitted via skycoin.com/whitelist were imported into the new system. You were informed to verify your imported data, please do so immediately if you haven't done that already.<br><br>
-<u>Important note for people that had a DIY miner and an official miner in the old mikecrm system:</u> you will only get to keep one Skycoin wallet reward address in the whitelisting system. Please refer to the <a href="https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Whitelisting-System#usage">usage</a> section of this guide in case you need help with changing your Skycoin wallet reward address.
+<u>Important note for people that had a DIY miner and an official miner in the old mikecrm system:</u> you will only get to keep one Skycoin wallet reward address in the whitelisting system. Please refer to the <a href="#usage">usage</a> section of this guide in case you need help with changing your Skycoin wallet reward address.
 </em>
 </div>
 <br>
@@ -70,7 +70,7 @@ User accounts that do not have a valid Skycoin wallet reward address registered 
 ***
 
 ### Account Creation
-Please refer to the [Skywire authentication system user guide](https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Authentication-System) in case you need help with creating a user account in the [Skywire authentication system](https://auth.skycoin.com).
+Please refer to the [Skywire authentication system user guide](authentication.md) in case you need help with creating a user account in the [Skywire authentication system](https://auth.skycoin.com).
 
 <div align="center"><strong><u>Using the Skywire whitelisting system requires a verified Skywire authentication system user account.</strong></u><br><br>
 <em>In case you were a participant of the testnet prior to the launch of the Skywire whitelisting system</em>, i.e. you submitted a Skywire testnet application using the form previously hosted at skycoin.com/whitelist, <em>you already have an account waiting for you.</em><br><br>
@@ -127,7 +127,7 @@ The following steps should be executed upon the first login:
 ![wlist_account_info_address_added](https://raw.githubusercontent.com/Asgaror/skywire/binary_data_storage/pictures/whitelisting_system/wlist_account_info_address.png)
 
 <div align="center">
-<em>You may change your Skycoin wallet reward address whenever you want. Please note that changes will only be recognized for the reward distribution if they were submitted within the calendar month of the respective month's reward distribution. Refer to the <a href="https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Whitelisting-System/#change-data">Change Data</a> section in case you need help with changing your data.</em>
+<em>You may change your Skycoin wallet reward address whenever you want. Please note that changes will only be recognized for the reward distribution if they were submitted within the calendar month of the respective month's reward distribution. Refer to the <a href="#change-data">Change Data</a> section in case you need help with changing your data.</em>
 </div>
 <br>
 
@@ -138,13 +138,13 @@ The following steps should be executed upon the first login:
 
 <div align="center"><b>Official Skyminer cannot be created via the application form. Please contact support if you need guidance with registering your official Skyminer.</b></div>
 
-The following section will guide you on how to submit a DIY application. Submitted whitelist application data must comply with the [Skywire mainnet rules](https://github.com/skycoinproject/skywire-mainnet/blob/master/mainnet_rules.md) and meet the [requirements](https://github.com/skycoinproject/skywire-mainnet/blob/master/mainnet_rules.md#the-form).
+The following section will guide you on how to submit a DIY application. Submitted whitelist application data must comply with the [Skywire mainnet rules](rules.md) and meet the [requirements](rules.md#the-form).
 
-<div align="center"><em>Please note that manually opening a new application always results in the creation of a new miner. In case you simply want to add public keys/more boards to an already approved miner, please refer to the <a href="https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Whitelisting-System#auto-application-creation">Auto-Application Creation</a> section and the <a href="https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Whitelisting-System#modify-public-keys">Modify Public Keys</a> section for detailed instructions how to add more public keys/boards to your miner.</em>
+<div align="center"><em>Please note that manually opening a new application always results in the creation of a new miner. In case you simply want to add public keys/more boards to an already approved miner, please refer to the <a href="#auto-application-creation">Auto-Application Creation</a> section and the <a href="#modify-public-keys">Modify Public Keys</a> section for detailed instructions how to add more public keys/boards to your miner.</em>
 </div>
 <br>
 
-* <b>Please log in to the <a href="https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Whitelisting-System#first-login">Skywire whitelisting system</a> and visit the <code>Whitelist Form</code> page by using the menu bar on the left:</b>
+* <b>Please log in to the <a href="#first-login">Skywire whitelisting system</a> and visit the <code>Whitelist Form</code> page by using the menu bar on the left:</b>
 
 ![wlist_application_empty](https://raw.githubusercontent.com/Asgaror/skywire/binary_data_storage/pictures/whitelisting_system/wlist_application_empty.png)
 
@@ -189,7 +189,7 @@ In case your application was `APPROVED` you will find an approved DIY miner one 
 Please refer to the [Review Data](#review-data) or [Change Data](#change-data) section in case you want to review or change your data.
 
 ### Application DECLINED
-In case your application was `DECLINED` it means you have missed some of the requirements listed in the [Skywire mainnet rules article](https://github.com/skycoinproject/skywire-mainnet/blob/master/mainnet_rules.md).
+In case your application was `DECLINED` it means you have missed some of the requirements listed in the [Skywire mainnet rules article](rules.md).
 <div align="center"><em>Any interaction with your application triggers email notifications being sent that update you on the status update and include a comment made by the admin that reviewed your application. Make sure to check your emails regularly!</em>
 </div>
 
@@ -197,7 +197,7 @@ In case your application was `DECLINED`, your application form will look like th
 
 ![whitelisting_application_declined](https://raw.githubusercontent.com/Asgaror/skywire/binary_data_storage/pictures/whitelisting_system/wlist_application_declined.png)
 
-* <b><u>As long as your application was<code>DECLINED</code> and not <code>DISABLED</code> you are able to resubmit the form to fix any flaws.</u> Please refer to the <a href="https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Whitelisting-System#application-disabled">Application DISABLED</a> section in case your application was disabled.</b>
+* <b><u>As long as your application was<code>DECLINED</code> and not <code>DISABLED</code> you are able to resubmit the form to fix any flaws.</u> Please refer to the <a href="#application-disabled">Application DISABLED</a> section in case your application was disabled.</b>
 
 ![whitelisting_application_declined_fixed](https://raw.githubusercontent.com/Asgaror/skywire/binary_data_storage/pictures/whitelisting_system/wlist_application_declined_fixed.png)
 
@@ -312,7 +312,7 @@ A popup will inform you about the creation of an automated application in case y
 <div align="center">
 <img src="https://raw.githubusercontent.com/Asgaror/skywire/binary_data_storage/pictures/whitelisting_system/wlist_miner_overview_change_added_popup.png" alt="Empty cell for new and additional public key." />
 <p>
- Please refer to the <a href="https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Whitelisting-System#auto-application-creation">Auto-Application Creation</a> section for detailed instructions in case you surpassed your approved public key quantity.
+ Please refer to the <a href="#auto-application-creation">Auto-Application Creation</a> section for detailed instructions in case you surpassed your approved public key quantity.
 </p>
 </div>
 
@@ -345,7 +345,7 @@ Please request a new password reset token by clicking on 'Forgot your password?'
 
 Check your inbox and assign a new password by following the link in the email you'll receive.
 
-Log in to the [Skywire Whitelisting System](https://whitelist.skycoin.com) and proceed with the steps starting [here](https://github.com/skycoinproject/skywire-mainnet/wiki/Skywire-Whitelisting-System#first-login).
+Log in to the [Skywire Whitelisting System](https://whitelist.skycoin.com) and proceed with the steps starting [here](#first-login).
 
 ### "I cannot see any data in the system"
 If you're logged into the system but cannot see your data except the option to change your password you're logged into _the wrong system_.

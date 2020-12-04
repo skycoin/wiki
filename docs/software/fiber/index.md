@@ -10,7 +10,7 @@ https://medium.com/skyfleet-captains-log/launch-your-ico-on-skycoin-fiber-bda2a9
 
 Links:
 
-https://github.com/skycoinproject/skycoin/blob/ebfab5447157123159aec83e39f279e05f0fe34f/cmd/newcoin/README.md
+https://github.com/skycoin/skycoin/blob/ebfab5447157123159aec83e39f279e05f0fe34f/cmd/newcoin/README.md
 
 https://medium.com/@bigookie/do-you-want-to-build-a-skycoin-node-f8a0548617f0
 

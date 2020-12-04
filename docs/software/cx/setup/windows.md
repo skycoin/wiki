@@ -9,7 +9,7 @@
     2. **Compiling from Source** - better to customize your cx-options, also necessary for CX-Chains
 
 === "Binary Releases"
-    1. Download the latest version of cx.exe from [https://github.com/SkycoinProject/cx/releases](https://github.com/SkycoinProject/cx/releases)
+    1. Download the latest version of cx.exe from [https://github.com/skycoin/cx/releases](https://github.com/skycoin/cx/releases)
     2. Unzip into the destination folder you want to have your CX-files.<br>
     *For example:  D:\Programs\CX*
     3. Setup Environment Variables to get access to your cx.exe through the terminal:
@@ -62,7 +62,7 @@
             ```
         3.2 Make a new variable called **CXPATH** with the value: 
             ``` sh
-            %USERPROFILE%\go\src\github.com\SkycoinProject\cx
+            %USERPROFILE%\go\src\github.com\skycoin\cx
             ```
         3.3 Make sure the Environment Variables from Step 1 are also set:
             ``` sh
@@ -76,9 +76,9 @@
 
         4.2 get github repo by typing in:
         ``` sh
-        mkdir -p %GOPATH%\src\github.com\SkycoinProject\
-        cd %GOPATH%\src\github.com\SkycoinProject\
-        git clone https://github.com/SkycoinProject/cx.git
+        mkdir -p %GOPATH%\src\github.com\skycoin\
+        cd %GOPATH%\src\github.com\skycoin\
+        git clone https://github.com/skycoin/cx.git
         ```
 
         4.2 To install cx type in:

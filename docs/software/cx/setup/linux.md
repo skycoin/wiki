@@ -7,7 +7,7 @@
     2. **Compiling from Source** - better to customize your cx-options, also necessary for CX-Chains
 
 === "Binary Releases"
-    1. Download the latest version of cx from [https://github.com/SkycoinProject/cx/releases](https://github.com/SkycoinProject/cx/releases)
+    1. Download the latest version of cx from [https://github.com/skycoin/cx/releases](https://github.com/skycoin/cx/releases)
         ``` sh
         TODO: terminal command
         ```
@@ -113,7 +113,7 @@
 
     2. Download CX's respository with:
         ``` sh
-        go get github.com/SkycoinProject/cx/cx/...
+        go get github.com/skycoin/cx/cx/...
         ```
 
     3. Navigate to CX's repository and run:

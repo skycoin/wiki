@@ -3,7 +3,7 @@ To use the time-Functions you first have to import it:
 ```go 
 import "time" 
 ```
-[Source Code](https://github.com/SkycoinProject/cx/blob/develop/cx/op_time.go)
+[Source Code](https://github.com/skycoin/cx/blob/develop/cx/op_time.go)
 
 ## time.Sleep
 By calling this function you force the code to pause the given amount of milliseconds
