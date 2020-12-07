@@ -19,3 +19,7 @@
 :fontawesome-brands-youtube:{: .youtube } 05/14: (Adam Stokes) Skycoin update - Latest interview with Synth 2020 [1](https://youtu.be/xFRH-6TyLXg)<br>
 :fontawesome-regular-play-circle:{: .bittube } 05/04: (CryptoRich)  SYNTH SPEAKS! - Bitcoin Halving, Skycoin Secrets, Covid ... [1](https://bittube.tv/post/e65b095e-8199-4071-b625-336acf149ee6) [2](https://bittube.tv/post/cca1cee0-cc9b-47a2-bc38-3942b7bb6a70) [3](https://bittube.tv/post/a003ba75-4029-4b08-af23-c8f223e932ba) [4](https://bittube.tv/post/fd7436fb-0068-4f37-8418-2a4a46a3171e) [5](https://bittube.tv/post/b5640660-22e5-48f1-8f98-a678665ae293) [6](https://bittube.tv/post/2c6f52a0-51dd-4f54-be95-fd730db29752)<br>
 :fontawesome-brands-youtube:{: .youtube } 01/06: (Adam Stokes) Skycoin update - Synth and Stokesy [1](https://www.youtube.com/watch?v=JADmYmmrw-8) [2](https://www.youtube.com/watch?v=Cxp9qHz7apU)<br>
+
+### 2019
+
+:fontawesome-brands-youtube:{: .youtube } 02/06: (Hashoshi) Skycoin Review (Skycoin 2019- Ethereum Developer's Review! [1](https://www.youtube.com/watch?v=b3qb29sulvU)
