@@ -30,6 +30,7 @@ Here is a list of things that skycoin is working on in the near future:
 
 - v0.4
     This release will include the following features:  
+    
         Automatic transport setup
         VPN UI
         Combine Visor and Hypervisor concepts

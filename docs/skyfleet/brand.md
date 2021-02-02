@@ -6,8 +6,8 @@ Here you have got a small collection of beautiful things members of skyfleet cam
 |<img src="../img/brand/sticker/skywire-sticker-all.png" alt="skywire all" width="100" height="100">|[.png](../img/brand/sticker/Skywire-sticker-all.png)|-|
 |<img src="../img/brand/sticker/skywire-sticker-available-here.png" alt="skywire available here" width="100" height="100">|[.png](../img/brand/sticker/skywire-available-here.png)|-|
 |<img src="../img/brand/sticker/skywire-sticker-more-info.png" alt="skywire more info" width="100" height="100">|[.png](../img/brand/sticker/skywire-sticker-more-info.png.png)|-|
-|<img src="../img/brand/sticker..-patch-white.png" alt="skyfleet patch white" width="100" height="100">|[.png](../img/brand/sticker..-patch-white.png)|-|
-|<img src="../img/brand/sticker..-patch-blue.png" alt="skyfleet patch blue" width="100" height="100">|[.png](../img/brand/sticker..-patch-blue.png)|-|
+|<img src="../img/brand/sticker/skyfleet-patch-white.png" alt="skyfleet patch white" width="100" height="100">|[.png](../img/brand/sticker/skyfleet-patch-white.png)|-|
+|<img src="../img/brand/sticker/skyfleet-patch-blue.png" alt="skyfleet patch blue" width="100" height="100">|[.png](../img/brand/sticker/skyfleet-patch-blue.png)|-|
 
 ### Wallpaper
 

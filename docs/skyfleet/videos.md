@@ -1,3 +1,8 @@
+
+## Official Videos
+
+As they are from Skycoin they can be found [here](../videos.md)
+
 ## Skyfleet Channels
 
 ### Pure Skyfleet
@@ -12,6 +17,8 @@
 ### 2021
 
 :fontawesome-regular-play-circle:{: .bittube } 01/24: (CryptoRich) SKYCOIN - SYNTH SPEAKS - SKYCOIN UPDATE JAN 2021 [1](https://bittube.tv/post/6db6afb6-11ef-440c-94b0-b7754390d7d1) [2](https://bittube.tv/post/b6d25ec4-c7a7-4c38-a1f0-83cf4ae61ce9) [3](https://bittube.tv/post/eef270f7-5e43-4066-8c22-36b34adb82d7)<br>
+:fontawesome-brands-youtube:{: .youtube } 01/19: (Crypto Tonight) CRYPTO MANIA WITH SKYCOIN! [1](https://youtu.be/OJQhQCg3Y0g)<br>
+:fontawesome-brands-youtube:{: .youtube } 01/19: (Freedom Unchained) Freedom, Social Media, Internet 3.0 and Skycoin with Mister KittyFace CX Developer [1](https://youtu.be/XxODIxRpiAE)
 
 ### 2020
 
@@ -26,4 +33,4 @@
 
 ### 2019
 
-:fontawesome-brands-youtube:{: .youtube } 02/06: (Hashoshi) Skycoin Review (Skycoin 2019- Ethereum Developer's Review! [1](https://www.youtube.com/watch?v=b3qb29sulvU)
+:fontawesome-brands-youtube:{: .youtube } 02/06: (Hashoshi) Skycoin Review (Skycoin 2019 - Ethereum Developer's Review!) [1](https://www.youtube.com/watch?v=b3qb29sulvU)
