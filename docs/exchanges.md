@@ -4,6 +4,7 @@
 |:--|:--|:--|
 |[Binance](https://binance.com)|BTC, BNB|-|
 |[Bitbns](https://bitbns.com)|USDT, INR|-|
+|[Coinsbit](https://coinsbit.io/)|BTC,ETH,USD|-|
 |[ExMarkets](https://exmarkets.com/trade/sky-usdt)|USDT|-|
 |[FINEXBOX](http://www.finexbox.com)|BTC|-|
 |[HotBit](https://www.hotbit.io/exchange?symbol=SKY_USDT)|USDT|-|
