@@ -61,6 +61,10 @@ nav:
             - Windows:                software\cx\setup\windows.md
             - macOS:                  software\cx\setup\macos.md
             - Linux:                  software\cx\setup\linux.md
+            - Programming Tools:
+              - VS Code:              software\cx\setup\vscode.md
+              - Emacs:                software\cx\setup\emacs.md
+              - Atom:                 software\cx\setup\atom.md
           - User Docs:
               - Overview:             software\cx\userdocs\overview.md
               - Basics:
