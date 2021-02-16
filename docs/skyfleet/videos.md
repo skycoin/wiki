@@ -24,6 +24,7 @@ As they are from Skycoin they can be found [here](../videos.md)
 ## Interviews
 ### 2021
 
+:fontawesome-brands-youtube:{: .youtube } 02/14: (Adam Stokes) Latest about Skycoin, crypto and the world 2021  [►](https://www.youtube.com/watch?v=WeUsP20ipQY)<br>
 :fontawesome-regular-play-circle:{: .bittube } 01/24: (CryptoRich) SKYCOIN - SYNTH SPEAKS - SKYCOIN UPDATE JAN 2021 [1](https://bittube.tv/post/6db6afb6-11ef-440c-94b0-b7754390d7d1) [2](https://bittube.tv/post/b6d25ec4-c7a7-4c38-a1f0-83cf4ae61ce9) [3](https://bittube.tv/post/eef270f7-5e43-4066-8c22-36b34adb82d7)<br>
 :fontawesome-brands-youtube:{: .youtube } 01/19: (Crypto Tonight) CRYPTO MANIA WITH SKYCOIN! [►](https://youtu.be/OJQhQCg3Y0g)<br>
 :fontawesome-brands-youtube:{: .youtube } 01/19: (Freedom Unchained) Freedom, Social Media, Internet 3.0 and Skycoin with Mister KittyFace CX Developer [►](https://youtu.be/XxODIxRpiAE)

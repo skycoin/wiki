@@ -10,9 +10,4 @@
 
 ## Telegram Bots and Groups
 
-[Skytipbot](https://t.me/skytipbot)
-[Skywagerbot](https://t.me/skywagerbot)
-[skypalace](https://t.me/skycoinpalace)
-[moojiebetbot](https://t.me/MoojieBetBot)
-
-<!-- TODO: Telegram Bots and Groups-->
+Bots from skyfleet are listed [here](https://skycoin.github.io/wiki/skyfleet/overview/#telegram-bots)
