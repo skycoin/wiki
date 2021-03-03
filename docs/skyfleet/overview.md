@@ -16,7 +16,7 @@ Here is an overview about all things that have been made by them:
 
 ### Skywire
 
-* [Launch ISP](https://mailchi.mp/e50c69388444/launchisp)
+* [UNWYRED ISP](https://unwyred.com.au/)
 
 ## Telegram Bots
 
