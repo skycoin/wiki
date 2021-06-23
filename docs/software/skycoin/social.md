@@ -3,7 +3,6 @@
 ### Telegram
 * [Skycoin](https://t.me/Skycoin)
 * [Skycoin Trading (Price Discussion)](https://t.me/SkycoinTrading)
-* [Skycoin News](https://t.me/SkycoinNews)
 * [Skyfleet News](https://t.me/SkyfleetNews)
 
 ### Reddit
