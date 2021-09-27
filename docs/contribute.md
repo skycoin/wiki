@@ -10,7 +10,7 @@ Either you install all dependencies or you open an issue.
         `pip install mkdocs-material`  
         see also [here](https://squidfunk.github.io/mkdocs-material/getting-started/)
         +   Install git-revision-date plugin with  
-        `pip3 install mkdocs-git-revision-date-localized-plugin`
+        `pip3 install mkdocs-git-revision-date-plugin`
         +   Install macros-plugin with  
         `pip install mkdocs-macros-plugin`
     3. Test your changes with local build
