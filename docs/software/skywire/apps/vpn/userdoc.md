@@ -9,7 +9,7 @@
         Setting up a Skywire VPN Client is currently only documented for Linux und MacOS. A guide for setting up Skywire VPN on Windows will follow. Installers and a more streamlined UI for setting up VPN connections will be available with the next release.
 
     !!! note
-        In order to use Skywire VPN, you need to install Skywire on your computer. Follow [this guide](../installation-overview.md) to install Skywire. The rest of this guide assumes that you have installed both the Skywire Visor and Skywire Hypervisor and generated configuration files.
+        In order to use Skywire VPN, you need to install Skywire on your computer. Follow [this guide](../../setup/overview.md) to install Skywire. The rest of this guide assumes that you have installed both the Skywire Visor and Skywire Hypervisor and generated configuration files.
 
     Once you have Skywire installed, you can either continue setting up the Skywire VPN Client through the Hypervisor UI or via CLI (terminal).
 

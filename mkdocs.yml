@@ -129,7 +129,7 @@ nav:
         
         - Skywallet:
           - Overview:                           hardware\skywallet\index.md
-          - About:                              hardware\skyminer\about.md
+          - About:                              hardware\skywallet\about.md
           #- Setup:
           - User Docs:
             - Manual:
