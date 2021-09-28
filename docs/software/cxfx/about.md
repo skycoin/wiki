@@ -1,6 +1,6 @@
 
 CXFX is a 3D Game Engine, that will deliver all the things needed to develop a Game of your choice.
-What will be possible and what already is you can see on the [Roadmap](./roadmap).<br>
+What will be possible and what already is you can see on the [Roadmap](../roadmap).<br>
 CXFX supports:
 
 * macOS
