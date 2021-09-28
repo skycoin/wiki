@@ -1,11 +1,11 @@
 ## Basics & Documentation
 
 === "Basics"
-    + [Syntax](./basics-syntax)
-    + [Runtime](./basics-runtime)
-    + [Native Functions](./basics-native-functions)
-    + [Running CX](./basics-running-cx)
-    + [REPL](./basics-repl)
+    + [Syntax](../basics-syntax)
+    + [Runtime](../basics-runtime)
+    + [Native Functions](../basics-native-functions)
+    + [Running CX](../basics-running-cx)
+    + [REPL](../basics-repl)
 
 === "Documentation"
     * [CX Documentation & Book](https://www.skycoin.com/cx/)
@@ -14,11 +14,11 @@
 
 |Package|Purpose|more Info|
 |:--|:--|:--|
-|[time](./package-time)|time measuring & code pausing||
-|[os](./package-os)|operating system||
-|[gl](./package-gl)|graphics|[opengl.org](https://www.opengl.org/resources/libraries/)|
-|[glfw](./package-glfw)|windows handling|[glfw.org](https://www.glfw.org/)|
-|[gltext](./package-gltext)|font rendering|[github.com/go-gl/gltext](https://github.com/go-gl/gltext)
+|[time](../package-time)|time measuring & code pausing||
+|[os](..package-os)|operating system||
+|[gl](../package-gl)|graphics|[opengl.org](https://www.opengl.org/resources/libraries/)|
+|[glfw](../package-glfw)|windows handling|[glfw.org](https://www.glfw.org/)|
+|[gltext](../package-gltext)|font rendering|[github.com/go-gl/gltext](https://github.com/go-gl/gltext)
 
 ## Libraries
 
