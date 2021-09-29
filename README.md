@@ -15,7 +15,8 @@ Please keep the folder structure organized. <br>
     - **setup**:    *holds a setup guide for available operating sytems (one file per os)*
     - **userdocs**: *all documentation for people using this product*
 
-If you want to contribute to this wiki please have a look at [Contribute](https://skycoin.github.io/wiki/contribute/).
+
+
 You are always welcomed to **open issues** or **do pull-requests** to suggest improvements or errors on the wiki.
 
 # Setup
