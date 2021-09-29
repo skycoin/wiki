@@ -25,7 +25,6 @@
     + Start your browser and go to the displayed IP (e.g. htps://localhost:8000)  
             
     #### **Note**
-            You can now change your files and save them,
-            mkdocs will recognize this and rebuild the site locally.
+    You can now change your files and save them, mkdocs will recognize this and rebuild the site locally.
 
 4. Pull-Request your changes
