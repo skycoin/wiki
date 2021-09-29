@@ -1,4 +1,4 @@
-# wiki
+# Wiki
 
 [**Go to wiki Site >>**](https://skycoin.github.io/wiki/)
 
@@ -15,5 +15,38 @@ Please keep the folder structure organized. <br>
     - **setup**:    *holds a setup guide for available operating sytems (one file per os)*
     - **userdocs**: *all documentation for people using this product*
 
-If you want to contribute to this wiki please have a look at [Contribute](https://skycoin.github.io/wiki/contribute/).
+
+
 You are always welcomed to **open issues** or **do pull-requests** to suggest improvements or errors on the wiki.
+
+# Setup
+
+1. Clone this repository
+2. Install Dependencies 
+    +   Install Material for MkDocs with  
+        ```
+         pip install mkdocs-material 
+        ```  
+
+        See also [here](https://squidfunk.github.io/mkdocs-material/getting-started/)  
+    +   Install git-revision-date plugin with  
+        ```
+        pip3 install mkdocs-git-revision-date-plugin
+        ```
+
+    +   Install macros-plugin with  
+        ```
+        pip install mkdocs-macros-plugin
+        ```
+
+3. Test your changes with local build
+    +   move into folder wiki and start with command 
+        ```
+        mkdocs serve
+        ```
+    + Start your browser and go to the displayed IP (e.g. htps://localhost:8000)  
+            
+    #### **Note**
+    You can now change your files and save them, mkdocs will recognize this and rebuild the site locally.
+
+4. Pull-Request your changes
