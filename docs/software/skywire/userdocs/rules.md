@@ -29,7 +29,7 @@ Based on this central rule, each whitelisted person is eligible for receiving re
 * one DIY miner with up to 8 (eight) nodes
 
 <div align="center"><b>You must use the <a href="https://whitelist.skycoin.com">Skywire Whitelisting System</a> to keep your submitted data up to date</b>
-<br><em> Read<a href="whitelisting.md"> the Skywire whitelisting system user guide</a> to familiarize yourself with the new system.</em></div>
+<br><em> Read<a href='../whitelisting'> the Skywire whitelisting system user guide</a> to familiarize yourself with the new system.</em></div>
 <br>
 Different locations are required due to the fact that we want to spread out the meshnet and not create built-up areas. This prevents paying people to simply run single board computers (SBC) and to require them to provide a service to the network.
 

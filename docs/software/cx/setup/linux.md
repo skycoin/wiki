@@ -141,4 +141,4 @@
 
 ## Next Step
 
-The next step should be to search for a development environment that fits you to code as easy as possible. Have a look into [Programming Tools](../#programming-tools) to find and setup your favorite Code Editor.
+The next step should be to search for a development environment that fits you to code as easy as possible. Have a look into [Programming Tools](../overview#programming-tools) to find and setup your favorite Code Editor.

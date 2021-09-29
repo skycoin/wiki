@@ -31,7 +31,7 @@ Medium Article Audio Version: [Telegram Message Link](https://t.me/SkyfleetNews/
 
 ### What are coin hours?
 
-Coin hours are a parallel currency within the Skycoin blockchain, alongside skycoins.  Coin hours are used to pay transaction fees in the network.  In the future, coin hours will be used in other applications beyond the Skycoin cryptocurrency, such as [Skywire](../../skywire/wiki).
+Coin hours are a parallel currency within the Skycoin blockchain, alongside skycoins.  Coin hours are used to pay transaction fees in the network.  In the future, coin hours will be used in other applications beyond the Skycoin cryptocurrency, such as [Skywire](../../skywire/about).
 
 Coin hours are generated based upon the age of coins in a transaction output.
 
