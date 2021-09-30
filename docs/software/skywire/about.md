@@ -14,4 +14,4 @@ Skywire is the new Internet. It is making online life safer, faster, and more pr
 
 ## Adoption Plan
 
-![Adoption Plan](../img/skywire-adoption-plan.jpg?raw=true)
+![Adoption Plan](img/skywire-adoption-plan.jpg)

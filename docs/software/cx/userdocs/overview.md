@@ -15,7 +15,7 @@
 |Package|Purpose|more Info|
 |:--|:--|:--|
 |[time](../package-time)|time measuring & code pausing||
-|[os](..package-os)|operating system||
+|[os](../package-os)|operating system||
 |[gl](../package-gl)|graphics|[opengl.org](https://www.opengl.org/resources/libraries/)|
 |[glfw](../package-glfw)|windows handling|[glfw.org](https://www.glfw.org/)|
 |[gltext](../package-gltext)|font rendering|[github.com/go-gl/gltext](https://github.com/go-gl/gltext)

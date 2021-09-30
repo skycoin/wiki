@@ -10,7 +10,7 @@ The Hardware Wallet of the Skycoin Project is able to hold your private keys for
 
 :fontawesome-brands-youtube:{: .youtube } [Skywallet - Coming to a Sky-store near you!](https://www.youtube.com/watch?v=f_I6N4TUzCo)
 
-## Manual
+<!-- ## Manual
 
  [1. Checking the genuineness](./userdocs/manual/01-checking-the-genuineness)<br>
  [2. Initializing the wallet](./userdocs/manual/02-initializing-the-wallet)<br>
@@ -21,7 +21,7 @@ The Hardware Wallet of the Skycoin Project is able to hold your private keys for
  [7. Optimizing the Security](./userdocs/manual/07-optimizing-the-security)<br>
  [8. Sending and Receiving Coins](./userdocs/manual/08-sending-and-receiving-coins)<br>
  [9. Miscellaneous Operations](./userdocs/manual/09-miscellaneous-operations)<br>
-[10. Troubleshooting](./userdocs/manual/10-troubleshooting)
+[10. Troubleshooting](./userdocs/manual/10-troubleshooting) -->
 
 ## Supported Coins
 
