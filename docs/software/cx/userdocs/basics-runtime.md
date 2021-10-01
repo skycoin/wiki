@@ -1098,5 +1098,5 @@ expression depending on the command.
 
 ## Affordances
 
-![CX Affordances](./img/affordances.png)
+![CX Affordances](../img/affordances.png)
 

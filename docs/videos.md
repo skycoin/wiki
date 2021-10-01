@@ -4,9 +4,6 @@
 
 [:fontawesome-brands-youtube:{: .youtube } Skycoin](https://www.youtube.com/channel/UCzLASufel2No4vSt4rudHSQ)
 
-## Skyfleet Videos
-
-As they are from Skyfleet they are listed [here](skyfleet/videos.md)
 
 ## Roadmap Talks
 

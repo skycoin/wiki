@@ -12,18 +12,11 @@ nav:
         - Skycoin: 
           - Overview:                 software\skycoin\index.md
           - About:                    software\skycoin\about.md
-          #- Setup:                   
-          #- User Docs: 
-          #- Dev Docs: 
           - Social:                   software\skycoin\social.md
           - Explorer:                 https://explorer.skycoin.com/app/blocks/1       
 
         - Fiber:                        
           - Overview:                 software\fiber\index.md
-          #- About:
-          #- Setup:
-          #- User Docs:
-          #- Dev Docs:
           - Fiber-Projects:           software\fiber\fiber-coins.md
 
         - Skywire:
@@ -36,16 +29,7 @@ nav:
               - Linux:                software\skywire\setup\linux.md
               - Raspberry Pi & SBCs:  software\skywire\setup\raspberrypi.md
               - Docker:               software\skywire\setup\docker.md
-          - User Docs:
-              - Overview:             software\skywire\userdocs\overview.md
-              - Rules:                software\skywire\userdocs\rules.md
-              - Authentication:       software\skywire\userdocs\authentication.md
-              - Whitelisting:         software\skywire\userdocs\whitelisting.md
-              - Apps:
-                - Overview:           software\skywire\apps\overview.md
-                - Proxy:              software\skywire\apps\proxy\userdoc.md
-                - Skychat:            software\skywire\apps\skychat\userdoc.md
-                - VPN:                software\skywire\apps\vpn\userdoc.md              
+                  
           - Dev Docs:
               - Overview:             software\skywire\devdocs\overview.md
               - Architecture:         software\skywire\devdocs\architecture.md 
@@ -79,80 +63,34 @@ nav:
                 - gl:                 software\cx\userdocs\package-gl.md
                 - glfw:               software\cx\userdocs\package-glfw.md
                 - gltext:             software\cx\userdocs\package-gltext.md
-          #- Dev Docs:
+          
           - Social:                   software\cx\social.md
           - CX Tracker:               https://cx-tracker.skycoin.com/
 
         - CXO: 
           - Overview:                 software\cxo\index.md        
           - About:                    software\cxo\about.md
-          #- Setup:
-          #- User Docs:
-          #- Dev Docs:
-          #- Social:
           - CXO Tracker:              https://cxo.skycoin.com/
 
         - CXFX:                        
           - Overview:                 software\cxfx\index.md
           - About:                    software\cxfx\about.md
-          #- Setup:
-          #- User Docs:
-          #- Dev Docs:
-          #- Social:
           - Roadmap:                  software\cxfx\roadmap.md
-
-        #- DMSG:                      software\dmsg\index.md
-          #- Overview:                software\dmsg\overview.md
-          #- About:                   software\dmsg\about.md
-          #- Setup:
-          #- User Docs:
-          #- Dev Docs:
-          #- Social:
-
-        #- Teller:
-
-        #- KittyCash:                 https://kittycash.io/home
-
 
       - Hardware:
         - Overview:                             hardware\index.md
         - Skyminer:
           - Overview:                           hardware\skyminer\index.md
-          - About:                              hardware\skyminer\about.md
-          - Userdocs:
-            - Assembly:                         hardware\skyminer\assembly.md
-            - Software:                         hardware\skyminer\setup.md
-            - Networking:                       hardware\skyminer\networking.md
-            #- User Docs:
-          #- Dev Docs:
-          #- Social:
+          - About:                              hardware\skyminer\about.md                              
+          - Setup:                              hardware\skyminer\setup.md
+          - Software:                           hardware\skyminer\setup_software.md
+          - Networking:                         hardware\skyminer\networking.md    
         
         - Skywallet:
           - Overview:                           hardware\skywallet\index.md
           - About:                              hardware\skywallet\about.md
-          #- Setup:
-          - User Docs:
-            - Manual:
-              - Checking the genuineness:       hardware\skywallet\userdocs\manual\01-checking-the-genuineness.md
-              - Initializing the wallet:        hardware\skywallet\userdocs\manual\02-initializing-the-wallet.md
-              - Personalizing the wallet:       hardware\skywallet\userdocs\manual\03-personalizing-the-wallet.md
-              - Firmware update:                hardware\skywallet\userdocs\manual\04-firmware-update.md
-              - Testing your seed:              hardware\skywallet\userdocs\manual\05-testing-your-seed.md
-              - Restoring backup:               hardware\skywallet\userdocs\manual\06-restoring-backup.md
-              - Optimizing the security:        hardware\skywallet\userdocs\manual\07-optimizing-the-security.md
-              - Sending and Receiving coins:    hardware\skywallet\userdocs\manual\08-sending-and-receiving-coins.md
-              - Miscellaneous operations:       hardware\skywallet\userdocs\manual\09-miscellaneous-operations.md
-              - Troubleshooting:                hardware\skywallet\userdocs\manual\10-troubleshooting.md
-          #- Dev Docs:
-          #- Social:
-
-        - Skywallet DK:                         hardware\skywalletdk\index.md
-
-      - Skyfleet: 
-        - Overview:             skyfleet\overview.md
-        - Captain Sky:          skyfleet\captain-sky-comics.md
-        - Brand:                skyfleet\brand.md
-        - Videos:               skyfleet\videos.md
+          
+        - Skywallet HDK:                         hardware\skywalletdk\index.md
 
       - More:
         - Exchanges:            exchanges.md

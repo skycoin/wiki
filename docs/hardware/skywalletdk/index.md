@@ -1,4 +1,4 @@
-# Skywallet DK
+# Skywallet HDK
 
 ![HDK_Specs](./img/skywallet.jpg)
 
