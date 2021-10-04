@@ -8,89 +8,89 @@ header_news: >-
 nav:
       - Home: index.md
       - Software:
-        - Overview:                   software\index.md
+        - Overview:                   software/index.md
         - Skycoin: 
-          - Overview:                 software\skycoin\index.md
-          - About:                    software\skycoin\about.md
-          - Social:                   software\skycoin\social.md
+          - Overview:                 software/skycoin/index.md
+          - About:                    software/skycoin/about.md
+          - Social:                   software/skycoin/social.md
           - Explorer:                 https://explorer.skycoin.com/app/blocks/1       
 
         - Fiber:                        
-          - Overview:                 software\fiber\index.md
-          - Fiber-Projects:           software\fiber\fiber-coins.md
+          - Overview:                 software/fiber/index.md
+          - Fiber-Projects:           software/fiber/fiber-coins.md
 
         - Skywire:
-          - Overview:                 software\skywire\index.md        
-          - About:                    software\skywire\about.md
+          - Overview:                 software/skywire/index.md        
+          - About:                    software/skywire/about.md
           - Setup: 
-              - Overview:             software\skywire\setup\overview.md
-              - Windows:              software\skywire\setup\windows.md
-              - macOS:                software\skywire\setup\macos.md
-              - Linux:                software\skywire\setup\linux.md
-              - Raspberry Pi & SBCs:  software\skywire\setup\raspberrypi.md
-              - Docker:               software\skywire\setup\docker.md
+              - Overview:             software/skywire/setup/overview.md
+              - Windows:              software/skywire/setup/windows.md
+              - macOS:                software/skywire/setup/macos.md
+              - Linux:                software/skywire/setup/linux.md
+              - Raspberry Pi & SBCs:  software/skywire/setup/raspberrypi.md
+              - Docker:               software/skywire/setup/docker.md
                   
           - Dev Docs:
-              - Overview:             software\skywire\devdocs\overview.md
-              - Architecture:         software\skywire\devdocs\architecture.md 
-              - Transports:           software\skywire\devdocs\transports.md
-          - Social:                   software\skywire\social.md
-          - Discovery & Uptime:       software\skywire\discovery.md
+              - Overview:             software/skywire/devdocs/overview.md
+              - Architecture:         software/skywire/devdocs/architecture.md 
+              - Transports:           software/skywire/devdocs/transports.md
+          - Social:                   software/skywire/social.md
+          - Discovery & Uptime:       software/skywire/discovery.md
 
         - CX:
-          - Overview:                 software\cx\index.md
-          - About:                    software\cx\about.md
+          - Overview:                 software/cx/index.md
+          - About:                    software/cx/about.md
           - Setup:
-            - Overview:               software\cx\setup\overview.md
-            - Windows:                software\cx\setup\windows.md
-            - macOS:                  software\cx\setup\macos.md
-            - Linux:                  software\cx\setup\linux.md
+            - Overview:               software/cx/setup/overview.md
+            - Windows:                software/cx/setup/windows.md
+            - macOS:                  software/cx/setup/macos.md
+            - Linux:                  software/cx/setup/linux.md
             - Programming Tools:
-              - VS Code:              software\cx\setup\vscode.md
-              - Emacs:                software\cx\setup\emacs.md
-              - Atom:                 software\cx\setup\atom.md
+              - VS Code:              software/cx/setup/vscode.md
+              - Emacs:                software/cx/setup/emacs.md
+              - Atom:                 software/cx/setup/atom.md
           - User Docs:
-              - Overview:             software\cx\userdocs\overview.md
+              - Overview:             software/cx/userdocs/overview.md
               - Basics:
-                - Syntax:             software\cx\userdocs\basics-syntax.md
-                - Runtime:            software\cx\userdocs\basics-runtime.md
-                - Native Functions:   software\cx\userdocs\basics-native-functions.md
-                - Running CX:         software\cx\userdocs\basics-running-cx.md
-                - REPL:               software\cx\userdocs\basics-repl.md
+                - Syntax:             software/cx/userdocs/basics-syntax.md
+                - Runtime:            software/cx/userdocs/basics-runtime.md
+                - Native Functions:   software/cx/userdocs/basics-native-functions.md
+                - Running CX:         software/cx/userdocs/basics-running-cx.md
+                - REPL:               software/cx/userdocs/basics-repl.md
               - Native Packages:
-                - time:               software\cx\userdocs\package-time.md
-                - os:                 software\cx\userdocs\package-os.md
-                - gl:                 software\cx\userdocs\package-gl.md
-                - glfw:               software\cx\userdocs\package-glfw.md
-                - gltext:             software\cx\userdocs\package-gltext.md
+                - time:               software/cx/userdocs/package-time.md
+                - os:                 software/cx/userdocs/package-os.md
+                - gl:                 software/cx/userdocs/package-gl.md
+                - glfw:               software/cx/userdocs/package-glfw.md
+                - gltext:             software/cx/userdocs/package-gltext.md
           
-          - Social:                   software\cx\social.md
+          - Social:                   software/cx/social.md
           - CX Tracker:               https://cx-tracker.skycoin.com/
 
         - CXO: 
-          - Overview:                 software\cxo\index.md        
-          - About:                    software\cxo\about.md
+          - Overview:                 software/cxo/index.md        
+          - About:                    software/cxo/about.md
           - CXO Tracker:              https://cxo.skycoin.com/
 
         - CXFX:                        
-          - Overview:                 software\cxfx\index.md
-          - About:                    software\cxfx\about.md
-          - Roadmap:                  software\cxfx\roadmap.md
+          - Overview:                 software/cxfx/index.md
+          - About:                    software/cxfx/about.md
+          - Roadmap:                  software/cxfx/roadmap.md
 
       - Hardware:
-        - Overview:                             hardware\index.md
+        - Overview:                             hardware/index.md
         - Skyminer:
-          - Overview:                           hardware\skyminer\index.md
-          - About:                              hardware\skyminer\about.md                              
-          - Setup:                              hardware\skyminer\setup.md
-          - Software:                           hardware\skyminer\setup_software.md
-          - Networking:                         hardware\skyminer\networking.md    
+          - Overview:                           hardware/skyminer/index.md
+          - About:                              hardware/skyminer/about.md                              
+          - Setup:                              hardware/skyminer/setup.md
+          - Software:                           hardware/skyminer/setup_software.md
+          - Networking:                         hardware/skyminer/networking.md    
         
         - Skywallet:
-          - Overview:                           hardware\skywallet\index.md
-          - About:                              hardware\skywallet\about.md
+          - Overview:                           hardware/skywallet/index.md
+          - About:                              hardware/skywallet/about.md
           
-        - Skywallet HDK:                         hardware\skywalletdk\index.md
+        - Skywallet HDK:                         hardware/skywalletdk/index.md
 
       - More:
         - Exchanges:            exchanges.md
