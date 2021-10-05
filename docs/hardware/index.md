@@ -1,7 +1,7 @@
 # Hardware Overview
 
-[Skywallet](/hardware/skywallet/)  
+[Skywallet](skywallet/)  
 
-[Skywallet HDK](/hardware/skywalletdk/)  
+[Skywallet HDK](skywalletdk/)  
 
-[Skyminer](/hardware/skyminer/)
+[Skyminer](skyminer/)

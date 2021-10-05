@@ -1,14 +1,14 @@
 # Software Overview
 
-[Skycoin](/software/skycoin/)  
+[Skycoin](skycoin/)  
 
-[Fiber](/software/fiber/)  
+[Fiber](fiber/)  
 
-[Skywire](/software/skywire/)  
+[Skywire](skywire/)  
 
-[CX](/software/cx/)  
+[CX](cx/)  
 
-[CXO](/software/cxo/)  
+[CXO](cxo/)  
 
-[CXFX](/software/cxfx/)
+[CXFX](cxfx/)
 
