@@ -25,12 +25,12 @@ After starting up the visor, the UI will be exposed by default on `localhost:800
 ## Add remote hypervisor
 Every visor can be controlled by one or more hypervisors. To allow a hypervisor to access a visor, the PubKey of the hypervisor needs to be specified in the configuration file. You can add a remote hypervisor to the config with:
 ```
-$ skywire-cli visor update-config --hypervisor-pks <public-key>
+$ ./skywire-cli visor update-config --hypervisor-pks <public-key>
 ```
 
 # **Run skywire-visor**
 skywire-visor hosts apps and is an applications gateway to the Skywire network.
 skywire-visor requires a valid configuration to be provided. If you want to run a VPN client locally, run the visor as sudo.
 ```
-$ sudo skywire-visor -c skywire-config.json
+$ sudo ./skywire-visor -c skywire-config.json
 ```
