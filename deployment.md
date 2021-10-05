@@ -1,8 +1,8 @@
 ## Deploying the Project
 
-* `checkout` to the branch where you maintain the source documentation for your project
-* `git pull` the branch 
-* run the following command:
+* Checkout to the `main` branch. Make sure you have synchronized the latest changes by running `git pull`. 
+* Afterwards build and deploy the wiki to Github Pages by running
+  the following command:
     ``` 
     mkdocs gh-deploy
     ```
