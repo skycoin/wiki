@@ -1,3 +1,4 @@
+# make help as goal target
 .DEFAULT_GOAL := help
 
 deploy: ##Deploys the project to the github pages.
@@ -9,4 +10,4 @@ serve: ##Builds the document.
 	mkdocs serve
 
 help:
-	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
