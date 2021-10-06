@@ -1,5 +1,35 @@
 # **Build**
-Skywire requires a Golang version of 1.13 or higher.
+Skywire requires a Golang version of 1.16 or higher.
+=== "Debian"
+    - Install GO with the following command:
+    ```
+    $ sudo apt install golang-go
+    ```
+    - Install git with the following command:
+    ```
+    sudo apt install git
+    ```
+    - Install make:
+    ```
+    sudo apt-get install make
+    ```
+    ---
+
+=== "Arch Linux"
+    - Install GO with the following command:
+    ```
+    $ sudo pacman -S go
+    ```
+    - Install git with the following command:
+    ```
+    sudo pacman -S git
+    ```
+    - Install make:
+    ```
+    sudo pacman -S make
+    ```
+    ---
+
 ## Clone
 ```
 $ git clone https://github.com/skycoin/skywire.git
@@ -8,29 +38,19 @@ $ cd skywire
 
 ## Build and Install
 ```
+# Make install will install binaries to GOBIN. Hence it requires path to be set correctly.
 $ make build; make install
 ```
 
-Skywire can be statically built. For instructions check [the docs.](https://github.com/skycoin/skywire/blob/develop/docs/static-builds.md)
-
-# **Configure Skywire**
-## Expose hypervisorUI
-In order to expose the hypervisor UI, generate a config file with `--is-hypervisor` flag:
+# **Configure Skywire**  
+User can generate default config file with:
 ```
 $ ./skywire-cli visor gen-config --is-hypervisor
 ```
+And then run it with:
+```
+$ ./skywire-visor -c skywire-config.json
+```
+For more details check out the [configuration]() section.
 
-After starting up the visor, the UI will be exposed by default on `localhost:8000`.
 
-## Add remote hypervisor
-Every visor can be controlled by one or more hypervisors. To allow a hypervisor to access a visor, the PubKey of the hypervisor needs to be specified in the configuration file. You can add a remote hypervisor to the config with:
-```
-$ ./skywire-cli visor update-config --hypervisor-pks <public-key>
-```
-
-# **Run skywire-visor**
-skywire-visor hosts apps and is an applications gateway to the Skywire network.
-skywire-visor requires a valid configuration to be provided. If you want to run a VPN client locally, run the visor as sudo.
-```
-$ sudo ./skywire-visor -c skywire-config.json
-```

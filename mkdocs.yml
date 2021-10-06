@@ -21,21 +21,26 @@ nav:
 
         - Skywire:
           - Overview:                 software/skywire/index.md        
-          - About:                    software/skywire/about.md
           - Setup: 
-              - Overview:             software/skywire/setup/overview.md
-              - Windows:              software/skywire/setup/windows.md
               - macOS:                software/skywire/setup/macos.md
+              - Windows:              software/skywire/setup/windows.md
               - Linux:                software/skywire/setup/linux.md
-              - Raspberry Pi & SBCs:  software/skywire/setup/raspberrypi.md
               - Docker:               software/skywire/setup/docker.md
+              - Static Build:         software/skywire/setup/static-build.md
+          
+          - Configuration:
+              - Hypervisor Mode:      software/skywire/configuration/hypervisor-mode.md
+              - Visor Mode:           software/skywire/configuration/visor-mode.md
+              - Network Configuration: software/skywire/configuration/network-config.md
+              - VPN Configuration:    
+                  - VPN Client:       software/skywire/configuration/vpn config/vpn-client.md
+                  - VPN Server:       software/skywire/configuration/vpn config/vpn-server.md
+
                   
           - Dev Docs:
-              - Overview:             software/skywire/devdocs/overview.md
               - Architecture:         software/skywire/devdocs/architecture.md 
-              - Transports:           software/skywire/devdocs/transports.md
-          - Social:                   software/skywire/social.md
-          - Discovery & Uptime:       software/skywire/discovery.md
+              - Terminology:           software/skywire/devdocs/terminology.md
+          
 
         - CX:
           - Overview:                 software/cx/index.md
