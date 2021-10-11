@@ -1,8 +1,14 @@
+!!! Note
+    To execute the commands below requires docker to be installed and setup. The instructions for same are beyond the scope of this article.
+
 # **Run**
+
 To run the visor from docker image without custom config file:
 ```
 $ docker run --rm -p 8000:8000 --name=skywire skycoin/skywire:latest skywire-visor
 ```
+!!! Note
+    Using `latest` tag will pull and built an image from `master` branch, while using `test` tag will pull and built an image from `develop` branch.
 
 # **Configure Visor**
 ## Generate Config
@@ -28,44 +34,3 @@ To start visor from docker image with custom config file, run:
 ```
 $ docker run --rm -p 8000:8000 -v <YOUR_CONFIG_DIR>:/opt/skywire --name=skywire skycoin/skywire:latest skywire-visor
 ```
-    
-    
-   <!-- # **Build**
-## Clone
-```
-$ git clone https://github.com/skycoin/skywire.git
-$ cd skywire
-```
-   
-## Build docker image
-```
-$ ./ci_scripts/docker-push.sh -t $(git rev-parse --abbrev HEAD) -b
-```   --> 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<!-- Write the section on how to run visor in Docker. Explain how to generate the config for the dockerized visor.
-    Explain how to configure visor. For that we need to go over
-
-    how to generate config so visor exposes hypervisorUI
-
-    what can be configured about the UI
-
-    how to run in visor mode (without UI)
-
-    how to add hypervisor PK to the list of hypervisors
-
-    explain networking configuration options for the visor
- -->
