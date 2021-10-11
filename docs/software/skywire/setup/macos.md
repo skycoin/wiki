@@ -16,9 +16,10 @@ $ cd skywire
 ```
 
 ## Build and Install
-make install will install binaries to `GOBIN`. Hence it requires path to be set correctly.
+make install will install binaries to `GOBIN`. Hence it requires `PATH` to be set correctly.  
+Follow the GO installation guide [here](https://golang.org/doc/install).
 ```
-$ make build; make install
+$ make build && make install
 ```
 
 # **Configure Skywire**  
@@ -30,4 +31,4 @@ Start the visor with:
 ```
 $ ./skywire-visor -c skywire-config.json
 ```
-For more details check out the [configuration]() section.
+For more details check out the [configuration](../../configuration/hypervisor-mode/) section.
