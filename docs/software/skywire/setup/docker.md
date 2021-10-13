@@ -1,5 +1,5 @@
 !!! Note
-    To execute the commands below requires docker to be installed and setup. The instructions for same are beyond the scope of this article.
+    The docker setup instructions are beyond the scope of this article. Please refer to Docker documentation for installing it on your system.
 
 # **Run**
 
