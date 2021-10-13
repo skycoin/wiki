@@ -13,6 +13,9 @@ To add the public keys edit the `"persistent_transports"` in the `skywire-config
 Save the changes and [Start](/software/skywire/configuration/network-config/#start) the visor.
 
 ## Make visor public
+!!! Note
+    A visor that is made public will be broadcasting data to other visors and may be eligible for extra rewards.
+    
 If the visor is deployed on public IP, it can be made public to other visors, to connect automatically via stcpr transport. 
    
 To make the visor public, change `"is_public": false` to `"is_public": true` in the `skywire-config.json` file.
@@ -22,7 +25,7 @@ To make the visor public, change `"is_public": false` to `"is_public": true` in 
 Save the changes and [Start](/software/skywire/configuration/network-config/#start) the visor.
 
 ## Public Autoconnect
-If public autoconnect is enabled it will search for public visors (those with `"is_public": true`) and connect them on startup via `stcpr`.  
+It is a network configuration option, when enabled it will search for public visors (those with `"is_public": true`) and connect them on startup via `stcpr`. By default, it is disabled in the config file.  
   
 To enable public autoconnect, make the following changes in `skywire-config.json`:
 ```
