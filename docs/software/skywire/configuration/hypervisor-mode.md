@@ -1,4 +1,7 @@
 # Configuration for HypervisorUI
+
+The hypervisorUI allows user to manage and monitor the skywire-visor nodes. These skywire-visor nodes run the Skywire protocol and also host the applications that user can use over the Skywire network. The hypervisorUI facilitates and aggregates the management of the nodes into one user interface.  
+
 To generate config file manually for visor and expose hypervisorUI, run:
 ```
 ./skywire-cli visor gen-config --is-hypervisor
@@ -10,6 +13,8 @@ $ docker run --rm -v <YOUR_CONFIG_DIR>:/opt/skywire \
 ```
 
 ### **TLS**
+TLS (Transport Layer Security) is a security protocol, which encrypts the communication between web applications and the server. It ensures that the data transmitted over the internet is safe from hackers and eavesdroppers.  
+
 To enable `TLS` it is necessary to create required certificate/key file.
 To create the certificate/key file, run:
 ```
@@ -41,6 +46,9 @@ Assign the path of files generated to `"tls_cert_file":` and `"tls_key_file":`
 Save the changes and [Start](/software/skywire/configuration/hypervisor-mode/#start) the visor.
 
 ### **Auth**
+
+Authentication helps to prove the identity of the user accessing the HypervisorUI. It can be used to prevent unauthorized users from accessing the HypervisorUI.
+
 To change authentication settings in HypervisorUI, edit the hypervisor section in config file generated:
 ```
 "hypervisor": {
