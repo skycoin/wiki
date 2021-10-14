@@ -14,8 +14,8 @@ Save the changes and [Start](/software/skywire/configuration/network-config/#sta
 
 ## Make visor public
 !!! Note
-    A visor that is made public will be broadcasting data to other visors and may be eligible for extra rewards.
-    
+    A visor that is made public will be relaying data to other visors and may be eligible for extra rewards.
+
 If the visor is deployed on public IP, it can be made public to other visors, to connect automatically via stcpr transport. 
    
 To make the visor public, change `"is_public": false` to `"is_public": true` in the `skywire-config.json` file.
