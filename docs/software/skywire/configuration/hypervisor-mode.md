@@ -1,6 +1,6 @@
 # Configuration for HypervisorUI
 
-The hypervisorUI allows user to manage and monitor the skywire-visor nodes. These skywire-visor nodes run the Skywire protocol and also host the applications that user can use over the Skywire network. The hypervisorUI facilitates and aggregates the management of the nodes into one user interface.  
+The hypervisorUI allows user to monitor skywire visors. These visors run the Skywire protocol and applications that users can run on top of the Skywire network. The hypervisorUI facilitates and aggregates the management of the nodes into one user interface.  
 
 To generate config file manually for visor and expose hypervisorUI, run:
 ```
