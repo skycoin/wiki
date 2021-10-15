@@ -38,8 +38,9 @@ nav:
 
                   
           - Dev Docs:
+              - Terminology:          software/skywire/devdocs/terminology.md
               - Architecture:         software/skywire/devdocs/architecture.md 
-              - Terminology:           software/skywire/devdocs/terminology.md
+              
           
 
         - CX:
