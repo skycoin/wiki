@@ -1,18 +1,12 @@
 # **Build**
 Skywire requires a Golang version of 1.16 or higher.
+
 === "macOS"
-    - Install GO with the following command:
-    ```
-    $ brew install go
-    ```
-    - Install git with the following command:
-    ```
-    $ brew install git  
-    ```
-    - Install make:
-    ```
-    brew install make
-    ```
+    !!! Install
+        To install the required dependencies if they were not installed before, run:
+        ```
+        $ brew install go git make
+        ```
     ---
 
 ## Clone
@@ -22,18 +16,19 @@ $ cd skywire
 ```
 
 ## Build and Install
+make install will install binaries to `GOBIN`. Hence it requires `PATH` to be set correctly.  
+Follow the GO installation guide [here](https://golang.org/doc/install).
 ```
-# Make install will install binaries to GOBIN. Hence it requires path to be set correctly.
-$ make build; make install
+$ make build && make install
 ```
 
 # **Configure Skywire**  
-User can generate default config file with:
+To generate a default config file, run:
 ```
 $ ./skywire-cli visor gen-config --is-hypervisor
 ```
-And then run it with:
+Start the visor with:
 ```
 $ ./skywire-visor -c skywire-config.json
 ```
-For more details check out the [configuration]() section.
+For more details check out the [configuration](../../configuration/hypervisor-mode/) section.

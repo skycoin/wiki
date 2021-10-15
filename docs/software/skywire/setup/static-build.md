@@ -1,17 +1,25 @@
 # Static Build
 
-You can statically compile all Skywire binaries. Install musl-tools with a package manager of your choice.  
+A statically built binary has all the required library code built in and it runs on about any system having same OS specifications as it was compiled on. Static binaries eliminate the dependency on external libraries.  
+You can build static binaries on Linux
+=== "Debian"
+    !!! Install
+        To install musl, run:
+        ```
+        $ apt-get install musl
+        ```
+        ---
+=== "Arch Linux"
+    !!! Install
+        To install musl, run:
+        ```
+        $ sudo pacman -S musl
+        ```
+        --- 
 
-musl ports for Mac are not supported.  
 
 To compile and install the binaries run:
 
 ```
-# Installs all dependencies, build binaries and skywire apps
-$ make build-static 
-```
-
-```
-# Install statically compiled skywire-visor, skywire-cli and app CLI execs.
-$ make install-static
+$ make build-static && make install-static
 ```
