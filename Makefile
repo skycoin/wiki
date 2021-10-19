@@ -1,12 +1,11 @@
-# make help as goal target
 .DEFAULT_GOAL := help
 
-deploy: ##Deploys the project to the github pages.
+deploy: ## Deploys the project to the github pages.
 	git switch main
 	git pull
 	mkdocs gh-deploy
 
-serve: ##Builds the document.
+serve: ## Builds the document.
 	mkdocs serve
 
 help:
