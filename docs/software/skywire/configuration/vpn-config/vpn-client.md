@@ -8,11 +8,11 @@ This guide explains the setup procedure and includes operating instructions of t
 
 !!! Note
     To use Skywire VPN, it is necessary to install Skywire on your computer.  
-To install skywire follow the guide:  
-- [macOS](../../../setup/macos)  
-- [Linux](../../../setup/linux)  
+    To install skywire follow the guide:  
+    - [macOS](../../../setup/macos)  
+    - [Linux](../../../setup/linux)  
 
-The rest of this guide assumes that you have installed the Skywire Visor and generated configuration file.
+    The rest of this guide assumes that you have installed the Skywire Visor and generated configuration file.
 
 ## Setup
 
@@ -39,33 +39,33 @@ sudo ./skywire-visor skywire-config.json
 ```
 Enter the password if prompted.  
 
-To run Skywire VPN Client without root privileges.
-=== "Linux"
-    To set capabilities, run:
-    ```
-    sudo setcap 'cap_net_admin+p' ./apps/vpn-client
-    ```
-    Start the visor:
-    ```
-    ./skywire-visor ./skywire-config.json
-    ```
-    ---
-=== "macOS"
-    !!! Note
-        Binary has to be owned by root and have permissions like 4755
-    To change owner of binary to root, run:
-    ```
-    sudo chown root ./apps/vpn-client
-    ```
-    To provide permissions, run:
-    ```
-    sudo chmod 4755 ./apps/vpn-client
-    ```
-    Start the visor:
-    ```
-    ./skywire-visor ./skywire-config.json
-    ```
-    ---
+!!! info "Run Skywire VPN Client without root"
+    === "Linux"
+        To set capabilities, run:
+        ```
+        sudo setcap 'cap_net_admin+p' ./apps/vpn-client
+        ```
+        Start the visor:
+        ```
+        ./skywire-visor ./skywire-config.json
+        ```
+        ---
+    === "macOS"
+        !!! Note
+            Binary has to be owned by root and have permissions like 4755
+        To change owner of binary to root, run:
+        ```
+        sudo chown root ./apps/vpn-client
+        ```
+        To provide permissions, run:
+        ```
+        sudo chmod 4755 ./apps/vpn-client
+        ```
+        Start the visor:
+        ```
+        ./skywire-visor ./skywire-config.json
+        ```
+        ---
 
 To establish a transport to the VPN server, replace the values below with the remote public key you selected:
 ```
