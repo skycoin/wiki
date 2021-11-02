@@ -86,6 +86,11 @@ nav:
           - DMSGPTY:                   software/dmsg/dmsgpty.md
           - DMSGGET:                   software/dmsg/dmsgget.md
 
+        - System Admin:
+          - Dmsg Server:               software/sys-admin/dmsg-server.md
+          - Public Visor:              software/sys-admin/public-visor.md 
+          - VPN Server:                software/sys-admin/vpn-server.md
+
       - Hardware:
         - Overview:                             hardware/index.md
         - Skyminer:
