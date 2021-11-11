@@ -1,13 +1,11 @@
 # Skywire VPN Server
 
 !!! Note 
-    The Skywire VPN server currently only runs on Linux machines.  
-
     For ease of setting up a connection to your VPN server, it is recommended to deploy the VPN server on a machine with a public IP. This will allow clients to establish `stcpr` transports which use a simple TCP connection instead of relayed connections over `dmsg`.
 
 ## Introduction
 
-This guide explains the setup procedure and includes operating instructions of the Skywire VPN Server. Please refer to the [Skywire VPN Client](vpn-client.md) guide in case you want to use Skywire VPN as a client by using the Skywire VPN Client.
+This guide explains the setup procedure and includes operating instructions of the Skywire VPN Server. Please refer to the [Skywire VPN Client](vpn-client.md) guide in case you want to use Skywire VPN as a client.
 
 !!! Note
     The configuration & starting/stopping of the Skywire VPN Server can also be performed using the Skywire HypervisorUI via the Apps page of the respective Visor.
@@ -16,7 +14,7 @@ This guide explains the setup procedure and includes operating instructions of t
 
 ### **Dependencies**
 
-Skywire VPN Server requires Golang v1.16 or higher  
+Skywire VPN Server requires Golang v1.16 or higher.  
 
 === "Debian"
     !!! Install

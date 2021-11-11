@@ -33,8 +33,8 @@ nav:
               - Visor Mode:           software/skywire/configuration/visor-mode.md
               - Network Configuration: software/skywire/configuration/network-config.md
               - VPN Configuration:    
-                  - VPN Client:       software/skywire/configuration/vpn config/vpn-client.md
-                  - VPN Server:       software/skywire/configuration/vpn config/vpn-server.md
+                  - VPN Client:       software/skywire/configuration/vpn-config/vpn-client.md
+                  - VPN Server:       software/skywire/configuration/vpn-config/vpn-server.md
 
                   
           - Dev Docs:
