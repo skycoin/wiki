@@ -8,11 +8,6 @@ To build `dmsg-server` and `dmsg-discovery` images, run:
 $ ./docker/scripts/docker-push.sh -t develop -b
 ```
 
-To create a new docker network, run:
-```
-$ docker network create -d bridge br-dmsg0
-```
-
 ## Run
 
 Run redis

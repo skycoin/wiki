@@ -1,79 +1,29 @@
-# Dmsgpty
-`dmsgpty` is a remote shell utility over `dmsg` (similar concept to SSH) to connect to the servers hosted over the `dmsg` network.
+# dmsgpty
+`dmsgpty` is a remote shell utility over `dmsg` (similar concept to SSH) to connect to the `dmsgpty-server`.
 
 Build `dmsg` binaries 
 ```
 $ make build
 ```
 
+`dmsgpty-host` runs a standalone dmsgpty-host instance  
 To know more about `dmsgpty-host` commands and flags, run:
 ```
 $ ./bin/dmsgpty-host --help
 ```
 
+`dmsgpty-cli` runs commands over dmsg  
 To know more about `dmsgpty-cli` commands and flags, run:
 
 ```
 $ ./bin/dmsgpty-cli --help
 ```
    
-
 ## Example usage
 In this example, we will use the `dmsg` network where the `dmsg.Discovery` address is `http://dmsgd.skywire.skycoin.com`. However, any `dmsg.Discovery` would work.
 
 ### Example 1
-Setting up remote command execution over dmsg.
-
-To generate a config file for the dmsgpty-host, run:
-```
-$ ./bin/dmsgpty-host confgen
-```
-
-`config.json` file will be generated.
-```JSON
-{
-    "dmsgdisc": "http://dmsgd.skywire.skycoin.com",
-    "dmsgsessions": 1,
-    "dmsgport": 22,
-    "clinet": "unix",
-    "cliaddr": "/tmp/dmsgpty.sock",
-    "sk": "8770be1ae64aa22a6d442086dc5870339a4d402c10e30499fa8a53d34413d412",
-    "pk": "03d3d3744f7d6a943b3d467fce8477ccc580b7568160346b8d8bbd95e343ad6be4",
-    "wl": null
-}
-```
-To start the `dmsgpty-host`, run:
-```
-$ ./bin/dmsgpty-host
-```
-!!! Note
-    `dmsgpty-cli` can be used to interact with the host as well as to view, add or remove whitelist.
-
-To view the whitelist run the following in a new terminal.
-```
-$ ./bin/dmsgpty-cli whitelist
-```
-
-To add a whitelist use the following command with a Public key of a node you want to whitelist.
-```
-$ ./bin/dmsgpty-cli whitelist-add <pk-of-a-node>
-```
-
-To remove a whitelist use the following command with a Public key of a node you want to remove.
-```
-$ ./bin/dmsgpty-cli whitelist-remove <pk-of-a-node>
-```
-
-To start the `dmsgpty-ui`, run:
-
-```
-$ ./bin/dmsgpty-ui
-```
-
-And open the browser at [http://127.0.0.1:8080/](http://127.0.0.1:8080/)
-
-### Example 2
-Connect two remote machines with each other via DMSGPTY
+Connect two remote machines with each other via dmsgpty
 
 #### Step 1: Config Generation
 To generate a config file for the `dmsgpty-host` on both machines if its not already generated, run following command on `host-1` & `host-2`:
@@ -123,7 +73,7 @@ To start the `dmsgpty-host` on both machines, run following command on `host-1` 
 !!! Note
     `dmsgpty-cli` can be used to interact with the host as well as to view, add or remove whitelist.  
 
-Now whitelist the Public key of `dmsgpty-host-1` on `dmsgpty-host-2`.  
+Now whitelist the Public Key of `dmsgpty-host-1` on `dmsgpty-host-2`.  
 So that `dmsgpty-host-2` will accept connection request from `dmsgpty-host-1`.  
 
 Run following command on `host-2`
@@ -180,11 +130,11 @@ $ exit
     To interact with the hosts, use `dmsgpty-cli` in a new terminal.<br>
     `dmsgpty-cli` can be used to view, add or remove whitelist.
 
-    Whitelist the Public key of `dmsgpty-host-1` in `dmsgpty-host-2`.<br>
+    Whitelist the Public Key of `dmsgpty-host-1` in `dmsgpty-host-2`.<br>
     So that `dmsgpty-host-2` will accept connection request from `dmsgpty-host-1`
     
     #### Step 3: Start whitelist with `dmsgpty-cli`
-    To whitelist public key of `dmsgpty-host-1`, run following on `host-2`:
+    To whitelist Public Key of `dmsgpty-host-1`, run following on `host-2`:
     ```
     $ ./bin/dmsgpty-cli whitelist-add <pk-of-host-1> --cliaddr /tmp/dmsgpty2.sock
     ```
