@@ -1,11 +1,20 @@
-# DMSG
+# dmsg
 
 !!! Note
     `dmsg-server` needs to be run on a `public IP`.  
 
 ## Hardware Requirements
-- It is recommended for server to have minimum RAM of 2GB, if the connections go above 2500, RAM should be increased appropriately.  
-- `fs.inotify.max_user_watches` needs to be set relatively high.
+- It is recommended for server to have minimum RAM of 2GB, if the connections go above 2500, RAM should be increased appropriately.   
+- `fs.inotify.max_user_watches` needs to be set relatively high.  
+
+To check `fs.inotify.max_user_watches` value, run:
+```
+cat /proc/sys/fs/inotify/max_user_watches
+```
+To set `fs.inotify.max_user_watches` value, run:
+```
+sudo sysctl -w fs.inotify.max_user_watches=<value>
+```
 
 ## Clone
 ```
@@ -16,17 +25,18 @@ $ cd dmsg
 ```
 
 ## Install
-!!! note "Install redis"
+!!! note "Install redis and GO" 
     === "Debian"
         To install redis:
         ```
         $ sudo apt install redis-server
         ```
+        To install GO, follow the installation guide [here](https://www.cloudbooklet.com/how-to-install-go-on-debian-10/)
         ---
     === "Arch Linux"
         To install redis:
         ```
-        $ sudo pacman -S redis
+        $ sudo pacman -S redis go
         ```
         ---
 
@@ -46,15 +56,15 @@ To start `dmsg-discovery`, run:
 $ ./bin/dmsg-discovery
 ```
 
-Edit config file (integration/configs/dmsgserver1.json) to add `public IP`:
+Edit config file (integration/configs/dmsgserver1.json) to add public ip 
 
 ```JSON
 {
-  "public_key": "035915c609f71d0c7df27df85ec698ceca0cb262590a54f732e3bbd0cc68d89282",
-  "secret_key": "6eddf9399b14f29a60e6a652b321d082f9ed2f0172e02c9d9c1a2a22acf4bee3",
-  "discovery": "http://localhost:9090",
-  "public_address": "<public-IP>:8081",
-  "local_address": ":8081",
+  "public_key": "<public-key>",
+  "secret_key": "<secret-key>",
+  "discovery": "<discovery-address>",
+  "public_address": "<public-IP>:<port>",
+  "local_address": ":<port>",
   "log_level": "info",
   "max_sessions": 10
 }

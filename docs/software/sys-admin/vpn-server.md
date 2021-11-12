@@ -57,7 +57,7 @@ The `"-secure"` flag prevents VPN client users from SSH'ing into the VPN-server'
 
 ## Operating Skywire VPN Server
 
-*The following assumes that you either use multiple terminals or take care of detaching processes from the terminal yourself.*
+*The following assumes that you take care of detaching processes from the terminal yourself.*
 
 In order to run the Skywire VPN server, first run the Visor:
 ```
