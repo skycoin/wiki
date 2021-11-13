@@ -2,9 +2,6 @@ site_name: Skycoin Wiki
 site_description: >-
   Welcome to our wiki! Navigate with the buttons below or search for a keyword.
 
-header_news: >-
-  !!! This wiki is in <span style="color:MediumSeaGreen;"><b>ALPHA</b></span> state. There may be outdated data. If you find errors please use the <span style="color:Tomato;">issue / edit feature</span> on the right upper corner of each site   !!!
-
 nav:
       - Home: index.md
       - Software:
@@ -82,6 +79,17 @@ nav:
           - Overview:                 software/cxfx/index.md
           - About:                    software/cxfx/about.md
           - Roadmap:                  software/cxfx/roadmap.md
+        
+        - DMSG:                       
+          - DMSG Build:                software/dmsg/dmsg.md
+          - Docker:                    software/dmsg/docker.md
+          - DMSGPTY:                   software/dmsg/dmsgpty.md
+          - DMSGGET:                   software/dmsg/dmsgget.md
+
+        - System Admin:
+          - Dmsg Server:               software/sys-admin/dmsg-server.md
+          - Public Visor:              software/sys-admin/public-visor.md 
+          - VPN Server:                software/sys-admin/vpn-server.md
 
       - Hardware:
         - Overview:                             hardware/index.md
@@ -98,18 +106,7 @@ nav:
           
         - Skywallet HDK:                         hardware/skywalletdk/index.md
 
-      - More:
-        - Exchanges:            exchanges.md
-        - Use SKY/SCH:          buywithsky.md
-        - Brand:                brand.md     
-
-      - News:         news.md
-      - Meetups:      meetups.md
-      - Media:        videos.md
-      - Partnerships: partnerships.md
       - Contribute:   contribute.md
-      - Roadmap:      roadmap.md
-      - Timeline:     timeline.md
       - About:        about.md
 
 theme: 
