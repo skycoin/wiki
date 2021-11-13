@@ -1,4 +1,4 @@
-# DMSG
+# dmsg
 
 !!! Note
     `dmsg-server` needs to be run on a `public IP`.  

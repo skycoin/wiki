@@ -1,6 +1,6 @@
 # Dmsgget
 
-`dmsgget` is a utility exec which can download from HTTP servers hosted over the `dmsg` network (similar to a simplified `wget` over `dmsg`).
+`dmsgget` is a utility which can download from HTTP servers hosted over the `dmsg` network (similar to a simplified `wget` over `dmsg`).
 
 Build `dmsg` binaries 
 ```
