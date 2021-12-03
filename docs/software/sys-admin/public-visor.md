@@ -7,7 +7,7 @@
 
 ## Install Skywire
 
-Skywire requires a Golang version of 1.16 or higher.
+Skywire requires a Golang version of 1.17 or higher.
 
 === "Debian"
     !!! Install

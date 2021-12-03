@@ -11,7 +11,7 @@
         mingw-get install mingw32-make gcc
         ```
         Requires `mingw-get` to be installed. Follow the guide [here](http://www.codebind.com/cprogramming/install-mingw-windows-10-gcc/).
-- Skywire requires a Golang version of 1.16 or higher. Follow the GO installation guide [here](https://golang.org/doc/install).  
+- Skywire requires a Golang version of 1.17 or higher. Follow the GO installation guide [here](https://golang.org/doc/install).  
 - Download and install git from [here](https://git-scm.com/downloads).  
 
 ## Clone
