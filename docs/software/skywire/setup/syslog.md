@@ -18,10 +18,6 @@
 
 ## Build
 
-In skywire uncomment `replace github.com/skycoin/dmsg => ../dmsg` in go.mod and run
-```
-$ make dep
-```
 Run
 ```
 $ make build
@@ -35,6 +31,9 @@ In a new terminal, run
 ```
 $ ./skywire-visor -c skywire-config.json --syslog localhost:514
 ```
+!!! Note
+    If the above command does not work, host may need to be changed to the correct interface.
+
 Check the logs in a new terminal via
 ```
 $ sudo cat /var/log/skywire
