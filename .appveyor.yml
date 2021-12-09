@@ -6,19 +6,36 @@ environment:
   - job_name: Linux
     appveyor_build_worker_image: ubuntu1804
     GOARCH: amd64
-  - job_name: MacOS
-    appveyor_build_worker_image: macos-bigsur
-    GOARCH: amd64
-  - job_name: Windows
-    appveyor_build_worker_image: Visual Studio 2019
-    GOARCH: amd64
+  # - job_name: MacOS
+  #   appveyor_build_worker_image: macos-bigsur
+  #   GOARCH: amd64
+  # - job_name: Windows
+  #   appveyor_build_worker_image: Visual Studio 2019
+  #   GOARCH: amd64
 
 for:
-  - # Windows
+  # - # Windows
+  #     build: off
+  #     matrix:
+  #       only:
+  #         - job_name: Windows
+  #     branches:
+  #       only:
+  #         - master
+  #     install:
+  #       - choco install make
+  #     deploy:
+  #       - provider: script
+  #         on:
+  #           branch: master
+  #     build_script:
+  #       - make deploy 
+  
+  - # Linux
       build: off
       matrix:
         only:
-          - job_name: Windows
+          - job_name: Linux
       branches:
         only:
           - master
@@ -26,12 +43,20 @@ for:
         - provider: script
           on:
             branch: master
-      before_deploy:
-      - git config user.name "jdknives";
-      - git config user.email "rudi@skycoin.com";
-      - git remote add gh-token "https://${GITHUB_TOKEN}@github.com/skycoin/wiki.git";
-      - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
-      - pip install mkdocs-material;
-      - mkdocs gh-deploy -v --clean --remote-name gh-token;
-      deploy_script:
-        - echo "Complete!" 
+      build_script:
+        - make deploy
+  
+  # - # MacOS
+  #     build: off
+  #     matrix:
+  #       only:
+  #         - job_name: MacOS
+  #     branches:
+  #       only:
+  #         - master
+  #     deploy:
+  #       - provider: script
+  #         on:
+  #           branch: master
+  #     build_script:
+  #       - make deploy
