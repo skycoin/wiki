@@ -1,38 +1,17 @@
 version: "{build}"
 
+stack: python 3.10.0
+
 environment:
   matrix:
   # For regular jobs, such as push, pr and etc.
   - job_name: Linux
     appveyor_build_worker_image: ubuntu1804
     GOARCH: amd64
-  # - job_name: MacOS
-  #   appveyor_build_worker_image: macos-bigsur
-  #   GOARCH: amd64
-  # - job_name: Windows
-  #   appveyor_build_worker_image: Visual Studio 2019
-  #   GOARCH: amd64
 
-for:
-  # - # Windows
-  #     build: off
-  #     matrix:
-  #       only:
-  #         - job_name: Windows
-  #     branches:
-  #       only:
-  #         - master
-  #     install:
-  #       - choco install make
-  #     deploy:
-  #       - provider: script
-  #         on:
-  #           branch: master
-  #     build_script:
-  #       - make deploy 
-  
+for: 
   - # Linux
-      build: off
+    build: off
       matrix:
         only:
           - job_name: Linux
@@ -43,20 +22,7 @@ for:
         - provider: script
           on:
             branch: master
-      build_script:
+      before_deploy:
         - make deploy
-  
-  # - # MacOS
-  #     build: off
-  #     matrix:
-  #       only:
-  #         - job_name: MacOS
-  #     branches:
-  #       only:
-  #         - master
-  #     deploy:
-  #       - provider: script
-  #         on:
-  #           branch: master
-  #     build_script:
-  #       - make deploy
+      deploy_script:
+        - echo "Completed!"
