@@ -12,17 +12,17 @@ environment:
 for: 
   - # Linux
     build: off
-      matrix:
-        only:
-          - job_name: Linux
-      branches:
-        only:
-          - master
-      deploy:
-        - provider: script
-          on:
-            branch: master
-      before_deploy:
-        - make deploy
-      deploy_script:
-        - echo "Completed!"
+    matrix:
+      only:
+        - job_name: Linux
+    branches:
+      only:
+        - master
+    deploy:
+      - provider: script
+        on:
+          branch: master
+    before_deploy:
+      - make deploy
+    deploy_script:
+      - echo "Completed!"
