@@ -17,11 +17,11 @@ for:
         - job_name: Linux
     branches:
       only:
-        - master
+        - main
     deploy:
       - provider: script
         on:
-          branch: master
+          branch: main
     before_deploy:
       - make deploy
     deploy_script:
