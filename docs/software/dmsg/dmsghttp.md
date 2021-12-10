@@ -1,12 +1,5 @@
-!!! Note
-    `public visor` needs to be run on a `public IP`.  
 
-## Hardware Requirements
-- It is recommended for server to have minimum RAM of 2GB, if the connections go above 2500, RAM should be increased appropriately.
-- `fs.inotify.max_user_watches` needs to be set relatively high.
-
-## Install Skywire
-
+# **Build**
 Skywire requires a Golang version of 1.17 or higher.
 
 === "Debian"
@@ -39,19 +32,13 @@ Follow the GO installation guide [here](https://golang.org/doc/install).
 $ make build && make install
 ```
 
-## Configure Skywire  
-To generate a default config file, run:
+# **Configure Skywire**
+To generate a config file with services over dmsghttp, run:
 ```
-$ ./skywire-cli visor gen-config --is-hypervisor
+$ ./skywire-cli config gen -di
 ```
-
-## Make visor public
-To make the visor public, change `"is_public": false` to `"is_public": true` in the `skywire-config.json` file.
-```
-"is_public": true
-```
-Save the changes.  
 Start the visor with:
 ```
 $ ./skywire-visor -c skywire-config.json
 ```
+

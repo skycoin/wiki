@@ -1,5 +1,5 @@
 # **Build**
-Skywire requires a Golang version of 1.16 or higher.
+Skywire requires a Golang version of 1.17 or higher.
 
 === "macOS"
     !!! Install
@@ -25,10 +25,11 @@ $ make build && make install
 # **Configure Skywire**  
 To generate a default config file, run:
 ```
-$ ./skywire-cli visor gen-config --is-hypervisor
+$ ./skywire-cli config gen
 ```
 Start the visor with:
 ```
 $ ./skywire-visor -c skywire-config.json
 ```
+Use `-f` flag to run visor with hypervisor UI config.  
 For more details check out the [configuration](../../configuration/hypervisor-mode/) section.

@@ -24,6 +24,8 @@ nav:
               - Linux:                software/skywire/setup/linux.md
               - Docker:               software/skywire/setup/docker.md
               - Static Build:         software/skywire/setup/static-build.md
+              - Syslog Setup:         software/skywire/setup/syslog.md
+              - Autocomplete:         software/skywire/setup/autocomplete.md
           
           - Configuration:
               - Hypervisor Mode:      software/skywire/configuration/hypervisor-mode.md
@@ -85,6 +87,7 @@ nav:
           - Docker:                    software/dmsg/docker.md
           - DMSGPTY:                   software/dmsg/dmsgpty.md
           - DMSGGET:                   software/dmsg/dmsgget.md
+          - DMSGHTTP:                  software/dmsg/dmsghttp.md
 
         - System Admin:
           - Dmsg Server:               software/sys-admin/dmsg-server.md
