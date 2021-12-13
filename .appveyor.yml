@@ -18,7 +18,7 @@ for:
 
     install:
       - sudo apt update
-      - sudo apt install mkdocs
+      - sudo apt install -y mkdocs
     branches:
       only:
         - main
