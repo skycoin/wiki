@@ -18,7 +18,11 @@ for:
 
     install:
       - sudo apt update
-      - sudo apt install -y mkdocs
+      - sudo apt-get install python3-pip
+      - sudo pip3 install mkdocs
+      - sudo pip3 install mkdocs-material
+      - sudo pip3 install mkdocs-git-revision-date-plugin
+      - sudo pip3 install mkdocs-macros-plugin
     branches:
       only:
         - main
