@@ -704,6 +704,34 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syslog/" class="md-nav__link">
+        Syslog Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../autocomplete/" class="md-nav__link">
+        Autocomplete
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1653,6 +1681,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../dmsg/dmsghttp/" class="md-nav__link">
+        DMSGHTTP
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2074,7 +2116,7 @@ as the main headline.
 
 <!-- Content -->
 <h1 id="build"><strong>Build</strong></h1>
-<p>Skywire requires a Golang version of 1.16 or higher.</p>
+<p>Skywire requires a Golang version of 1.17 or higher.</p>
 <div class="tabbed-set" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">macOS</label><div class="tabbed-content">
 <div class="admonition install">
 <p class="admonition-title">Install</p>
@@ -2096,11 +2138,12 @@ Follow the GO installation guide <a href="https://golang.org/doc/install">here</
 </code></pre></div></p>
 <h1 id="configure-skywire"><strong>Configure Skywire</strong></h1>
 <p>To generate a default config file, run:
-<div class="highlight"><pre><span></span><code>$ ./skywire-cli visor gen-config --is-hypervisor
+<div class="highlight"><pre><span></span><code>$ ./skywire-cli config gen
 </code></pre></div>
 Start the visor with:
 <div class="highlight"><pre><span></span><code>$ ./skywire-visor -c skywire-config.json
 </code></pre></div>
+Use <code>-f</code> flag to run visor with hypervisor UI config.<br />
 For more details check out the <a href="../../configuration/hypervisor-mode/">configuration</a> section.</p>
 
 <!-- Last update of source file -->
@@ -2112,7 +2155,7 @@ For more details check out the <a href="../../configuration/hypervisor-mode/">co
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-10-11
+      Last update: 2021-12-03
     
   </small>
 </div>
