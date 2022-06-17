@@ -1,6 +1,6 @@
 version: "{build}"
 
-stack: python 3.10.0
+stack: python 3.10
 
 environment:
   matrix:
