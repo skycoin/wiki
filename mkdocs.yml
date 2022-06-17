@@ -31,6 +31,7 @@ nav:
               - Hypervisor Mode:      software/skywire/configuration/hypervisor-mode.md
               - Visor Mode:           software/skywire/configuration/visor-mode.md
               - Network Configuration: software/skywire/configuration/network-config.md
+              - Logging:              software/skywire/configuration/logging.md
               - VPN Configuration:    
                   - VPN Client:       software/skywire/configuration/vpn-config/vpn-client.md
                   - VPN Server:       software/skywire/configuration/vpn-config/vpn-server.md
