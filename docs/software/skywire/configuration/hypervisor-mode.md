@@ -4,12 +4,12 @@ The hypervisorUI allows user to monitor skywire visors. These visors run the Sky
 
 To generate config file manually for visor and expose hypervisorUI, run:
 ```
-./skywire-cli visor gen-config --is-hypervisor
+./skywire-cli config gen --ishv
 ```
 To generate config file manually for visor and expose hypervisorUI with docker, run:
 ```
 $ docker run --rm -v <YOUR_CONFIG_DIR>:/opt/skywire \
-  skycoin/skywire:latest skywire-cli visor gen-config --is-hypervisor
+  skycoin/skywire:latest skywire-cli config gen --ishv
 ```
 
 ### **TLS**
