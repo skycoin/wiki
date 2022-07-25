@@ -1,6 +1,6 @@
 ## Official
 
-*   [Visor Uptime Tracker](https://uptime-tracker.skywire.skycoin.com/uptimes)
+*   [Visor Uptime Tracker](https://ut.skywire.skycoin.com/uptimes)
 *   [Whitelisting](https://whitelist.skycoin.com/)
 
 ## Skyfleet

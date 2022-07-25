@@ -7,11 +7,11 @@ Skywire requires a Golang version of 1.17 or higher.
         ```
         $ sudo apt install git make
         ```
-        To install GO, follow the installation guide [here](https://www.cloudbooklet.com/how-to-install-go-on-debian-10/) 
+        To install GO, follow the installation guide [here](https://www.cloudbooklet.com/how-to-install-go-on-debian-10/)
     ---
 
 === "Arch Linux"
-    !!! Install 
+    !!! Install
         To install the required dependencies if they were not installed before, run:
         ```
         $ sudo pacman -S go git make
@@ -42,5 +42,3 @@ $ ./skywire-visor -c skywire-config.json
 ```
 Use `-f` flag to run visor with hypervisor UI config.  
 For more details check out the [configuration](../../configuration/hypervisor-mode/) section.
-
-

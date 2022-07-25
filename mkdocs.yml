@@ -6,42 +6,44 @@ nav:
       - Home: index.md
       - Software:
         - Overview:                   software/index.md
-        - Skycoin: 
+        - Skycoin:
           - Overview:                 software/skycoin/index.md
           - About:                    software/skycoin/about.md
           - Social:                   software/skycoin/social.md
-          - Explorer:                 https://explorer.skycoin.com/app/blocks/1       
+          - Explorer:                 https://explorer.skycoin.com/app/blocks/1
 
-        - Fiber:                        
+        - Fiber:
           - Overview:                 software/fiber/index.md
           - Fiber-Projects:           software/fiber/fiber-coins.md
 
         - Skywire:
-          - Overview:                 software/skywire/index.md        
-          - Setup: 
+          - Overview:                 software/skywire/index.md
+          - Setup:
               - macOS:                software/skywire/setup/macos.md
               - Windows:              software/skywire/setup/windows.md
               - Linux:                software/skywire/setup/linux.md
+              - Packages:             software/skywire/setup/packages.md
+              - Skybian:              software/skywire/setup/skybian.md
               - Docker:               software/skywire/setup/docker.md
               - Static Build:         software/skywire/setup/static-build.md
               - Syslog Setup:         software/skywire/setup/syslog.md
               - Autocomplete:         software/skywire/setup/autocomplete.md
-          
+
           - Configuration:
               - Hypervisor Mode:      software/skywire/configuration/hypervisor-mode.md
               - Visor Mode:           software/skywire/configuration/visor-mode.md
               - Network Configuration: software/skywire/configuration/network-config.md
               - Logging:              software/skywire/configuration/logging.md
-              - VPN Configuration:    
+              - VPN Configuration:
                   - VPN Client:       software/skywire/configuration/vpn-config/vpn-client.md
                   - VPN Server:       software/skywire/configuration/vpn-config/vpn-server.md
 
-                  
+
           - Dev Docs:
               - Terminology:          software/skywire/devdocs/terminology.md
-              - Architecture:         software/skywire/devdocs/architecture.md 
-              
-          
+              - Architecture:         software/skywire/devdocs/architecture.md
+
+
 
         - CX:
           - Overview:                 software/cx/index.md
@@ -69,21 +71,21 @@ nav:
                 - gl:                 software/cx/userdocs/package-gl.md
                 - glfw:               software/cx/userdocs/package-glfw.md
                 - gltext:             software/cx/userdocs/package-gltext.md
-          
+
           - Social:                   software/cx/social.md
           - CX Tracker:               https://cx-tracker.skycoin.com/
 
-        - CXO: 
-          - Overview:                 software/cxo/index.md        
+        - CXO:
+          - Overview:                 software/cxo/index.md
           - About:                    software/cxo/about.md
           - CXO Tracker:              https://cxo.skycoin.com/
 
-        - CXFX:                        
+        - CXFX:
           - Overview:                 software/cxfx/index.md
           - About:                    software/cxfx/about.md
           - Roadmap:                  software/cxfx/roadmap.md
-        
-        - DMSG:                       
+
+        - DMSG:
           - DMSG Build:                software/dmsg/dmsg.md
           - Docker:                    software/dmsg/docker.md
           - DMSGPTY:                   software/dmsg/dmsgpty.md
@@ -92,28 +94,28 @@ nav:
 
         - System Admin:
           - Dmsg Server:               software/sys-admin/dmsg-server.md
-          - Public Visor:              software/sys-admin/public-visor.md 
+          - Public Visor:              software/sys-admin/public-visor.md
           - VPN Server:                software/sys-admin/vpn-server.md
 
       - Hardware:
         - Overview:                             hardware/index.md
         - Skyminer:
           - Overview:                           hardware/skyminer/index.md
-          - About:                              hardware/skyminer/about.md                              
+          - About:                              hardware/skyminer/about.md
           - Setup:                              hardware/skyminer/setup.md
           - Software:                           hardware/skyminer/setup_software.md
-          - Networking:                         hardware/skyminer/networking.md    
-        
+          - Networking:                         hardware/skyminer/networking.md
+
         - Skywallet:
           - Overview:                           hardware/skywallet/index.md
           - About:                              hardware/skywallet/about.md
-          
+
         - Skywallet HDK:                         hardware/skywalletdk/index.md
 
       - Contribute:   contribute.md
       - About:        about.md
 
-theme: 
+theme:
   name:       material
   custom_dir: overrides
   logo:       img/Skycoin-Cloud-White.png
@@ -127,8 +129,8 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-plugins:  
-  - git-revision-date
+plugins:
+  - git-revision-date-localized
   - search
   - macros
 
@@ -173,7 +175,7 @@ extra:
       link: https://www.youtube.com/channel/UC_rRSG_Db1D-rnmU20b_kRg
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/SkycoinOfficial/
-      
+
   issue_url: https://github.com/skycoin/wiki/issues
 
 repo_url:   https://github.com/skycoin
